@@ -103,6 +103,7 @@ def main() -> None:
     missing, unexpected = model.load_state_dict(state, strict=False)
     # position_ids buffers differ between transformers versions; anything else is a real problem
     real_missing = [k for k in missing if not k.endswith("position_ids")]
+    unexpected = [k for k in unexpected if not k.endswith("position_ids")]
     if real_missing or unexpected:
         raise RuntimeError(f"Checkpoint mismatch. missing={real_missing[:10]} unexpected={unexpected[:10]}")
     model.eval()

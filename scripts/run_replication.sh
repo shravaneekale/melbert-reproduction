@@ -21,6 +21,7 @@ python main.py \
   --learning_rate 3e-5 \
   --warmup_epoch 2 \
   --num_train_epoch 3 \
+  --eval_batch_size 64 \
   --seed "$SEED" 2>&1 | tee "../../results/train_vua18_seed${SEED}.log"
 
 echo "Checkpoint saved under external/MelBERT/saves/roberta-base/ (newest folder)."
