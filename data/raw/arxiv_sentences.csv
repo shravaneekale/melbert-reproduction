@@ -1,0 +1,76 @@
+sent_id,domain,source_doc_id,subdomain,sentence
+arx0000,arxiv,0709.3089,physics,"We selected PNe with reliable abundances from spectral analysis, and whose morphology is known, and compared the abundances of the element at variance with stellar evolution with the final yields of Asymptotic Giant Branch (AGB) stellar models."
+arx0001,arxiv,0712.3056,stat,Our theoretical results are illustrated with an application to data on the cost of health plans issued by health maintenance organizations.
+arx0002,arxiv,0705.3266,physics,"Finally, we show that this parameter is related to the resonant excitation of the surface plasma waves."
+arx0003,arxiv,0802.0092,physics,For the first time the magnetized volume qualified for electron cyclotron resonance at 2.45 GHz and 87.5 mT has been analyzed in highly detailed 3D simulations with unprecedented resolution.
+arx0004,arxiv,0712.2250,physics,Studies of magnon condensation in a growing number of magnetic materials provide a unique window into an exciting world of quantum phase transitions (QPT) and exotic quantum states.
+arx0005,arxiv,0710.4159,physics,In the framework of developed theory we obtain good agreement with available experimental data.
+arx0006,arxiv,0707.3839,physics,"Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined."
+arx0007,arxiv,0712.4174,cs,Our scheme is efficient enough to resist the known attacks that could be launched against remote user authentication process.
+arx0008,arxiv,0709.3733,physics,"Here, apgesan important role is played by the boundary potential, whose precise physical meaning remains to be fully understood."
+arx0009,arxiv,0712.3270,physics,Previous ground-based observations already showed enhancements in Ca II K in phase with the planetary orbit.
+arx0010,arxiv,0706.1961,math,"We show that every finitely-generated free subgroup of a right-angled, co-compact Kleinian reflection group is contained in a surface subgroup."
+arx0011,arxiv,0709.2512,cs,"In the companion paper, we measured homology classes and computed the optimal homology basis."
+arx0012,arxiv,0709.4047,physics,We discover six new HH objects in B335.
+arx0013,arxiv,0710.0616,physics,These results may provide a theoretical foundation for fabricating nanofilters in optical lumped nanocircuit devices.
+arx0014,arxiv,0710.3101,physics,We have initiated a program to calculate form factors describing the rare decay B to K* gamma.
+arx0015,arxiv,0801.2856,physics,"A new `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to loop order 8."
+arx0016,arxiv,0711.2523,physics,Understanding the interface between graphene and the SiC substrate will be important for future applications.
+arx0017,arxiv,0712.1204,physics,Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions.
+arx0018,arxiv,0704.1947,math,We also classify orderable quadratic rime associative algebras.
+arx0019,arxiv,0707.1073,physics,Transport and mixing properties of passive particles advected by an array of vortices are investigated.
+arx0020,arxiv,0711.3330,cs,The results are compared with 3D coupled-field FEM simulation.
+arx0021,arxiv,0711.0565,math,The article has been withdrawn by the author due to the existence of counterexamples.
+arx0022,arxiv,0705.2932,math,The aim of this note is to introduce a compound basis for the space of symmetric functions.
+arx0023,arxiv,0704.3393,math,In this paper we present an upper bound for the decay of correlation for the stationary stochastic process associated with the Entropy Penalized Method.
+arx0024,arxiv,0712.2440,math,"These constructions work also, to some extent, for real analytic map-germs, and give us a clear picture of the differences, concerning Milnor fibrations, between real and complex analytic singularities."
+arx0025,arxiv,0711.4508,cs,"As a result, the measure is defined relative to a set of maps that characterize the structures."
+arx0026,arxiv,0711.4254,math,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0
+arx0027,arxiv,0711.3329,cs,This method provides a simple fabrication process and low material cost.
+arx0028,arxiv,0710.3296,math,The aim of this paper is to provide a new and simple proof of this fact.
+arx0029,arxiv,0802.1388,math,A second CLT and the corresponding estimation of the MISE are provided.
+arx0030,arxiv,0707.1618,cs,These results provide an empirical foundation for the hypothesis that space time cube representation benefits users when analyzing complex spatiotemporal patterns.
+arx0031,arxiv,0705.1253,math,"Let R be a commutative, noetherian, local ring."
+arx0032,arxiv,0709.0561,q-bio,We also illustrate bottlenecks that can hinder the approach and exemplify and discuss possible strategies for overcoming them.
+arx0033,arxiv,0708.4381,math,The automorphism group of the Galois covering induced by a pluri-canonical generic covering of a projective space is investigated.
+arx0034,arxiv,0710.4821,cs,We introduce some basic concepts of multimedia algorithms and the larger set of functions that multimedia systems-on-chips must implement.
+arx0035,arxiv,0704.1286,math,We prove the stability and convergence of this scheme and give some error estimates.
+arx0036,arxiv,0711.3325,cs,"Combing with anodic bonding technique to adhere glass, silicon structure and optical fiber for a fluorescence excitation platform was completed."
+arx0037,arxiv,0704.1951,math,As an application we obtain a direct computation of the cryptographic exponent of the Jacobians of these curves.
+arx0038,arxiv,0706.1066,cs,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments."
+arx0039,arxiv,0708.0703,q-bio,"At the network level, the detection ability of networks can be optimized for the number of neurons comprising the network."
+arx0040,arxiv,0704.0283,math,"As applications, we show how to use the trace to show that the diagram representation is faithful, and to compute leading coefficients of certain Kazhdan--Lusztig polynomials."
+arx0041,arxiv,0712.1500,math,The main application is a bound on the genus of these surfaces depending solely on the geometry of the boundary curve.
+arx0042,arxiv,0708.2336,cs,"Finally, we prove that, surprisingly, linear k-CNF formulas do not allow for a larger fraction of clauses to be satisfied than general k-CNF formulas."
+arx0043,arxiv,0802.1517,stat,"With fixed design, we show that the whole family of estimators are both estimation consistent and variable selection consistent under different conditions."
+arx0044,arxiv,0802.1244,cs,This result demonstrates a nice property in the high-dimensional feature space: one can trade off the number of features that are required with the size of the sample to accomplish certain tasks like clustering.
+arx0045,arxiv,0707.1558,cs,A software agent autonomous with regard to the mobility illustrates a possible implementation of this model.
+arx0046,arxiv,0710.4911,cs,"Under the first heading, I discuss some difficulties with the usual, adaptationist explanations of cultural phenomena, alternative explanations involving network diffusion effects, and some ways these could be tested using social-media data."
+arx0047,arxiv,0708.2038,q-bio,"We introduce the concept of a `genome landscape,' which helps reveal non-trivial, long-range patterns in codon usage across a genome."
+arx0048,arxiv,0711.3857,stat,"The proposed recursions may have potential computational advantages over the Kalman Filter and, in particular, the periodic Riccati difference equation."
+arx0049,arxiv,0705.2009,cs,This paper addresses the performance of bit-interleaved coded multiple beamforming (BICMB)
+arx0050,arxiv,0706.2809,cs,"Numerical results show that the derived metric provides significant gains, in terms of achievable information rates and bit error rate (BER), in a bit interleaved coded modulation (BICM) framework, without introducing any additional decoding complexity."
+arx0051,arxiv,0705.1548,q-bio,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli."
+arx0052,arxiv,0710.1570,q-bio,"Interestingly, we observe numerous small scale rearrangement events, such as local inversions, duplications and translocations, which are not observable in the whole genome alignments currently available."
+arx0053,arxiv,0706.1991,q-bio,"Moreover, one of the MCR peptides coined MCR-10 was shown to be capable of interfering with the complex formation between insulin and RB in HepG2 human hepatoma cells, as monitored by immunofluorescence."
+arx0054,arxiv,0708.1794,q-bio,"Points (i) and (ii) are the starting assumptions for our theoretical model, whose dynamical patterns are qualitatively insensitive to the details of the CPG design if stretch receptor feedback is sufficiently strong and slow."
+arx0055,arxiv,0802.0048,q-bio,"The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues."
+arx0056,arxiv,0802.0191,stat,"It is empirically found that, for a range of simulated time series, the proposed covariance estimator has good performance converging to the true values of the unknown observation covariance matrix."
+arx0057,arxiv,0712.2097,q-bio,"We also show various regimes of other neural activities (subthreshold oscillations, phasic spiking etc.) derived from the proposed model."
+arx0058,arxiv,0704.0034,q-bio,"This is a supplement to the paper arXiv:q-bio/0701050, containing the text of correspondence sent to Nature in 1990."
+arx0059,arxiv,0709.4206,q-bio,The identification of genes essential for survival is important for the understanding of the minimal requirements for cellular life and for drug design.
+arx0060,arxiv,0801.0365,q-bio,"These relationships are confirmed in 182 representatives from each family of the SCOP database by examining inner products between the principal eigenvector of the C-matrix, that of the E-matrix evaluated with a statistical contact potential, and a contact number vector."
+arx0061,arxiv,0712.1099,stat,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership."
+arx0062,arxiv,0706.1102,q-bio,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds."
+arx0063,arxiv,0707.1741,q-bio,"If the aggressive parasites survive the difficult initial times where they have to adjust genetically to the proper host age, all three species may survive, though the host number may be diminished by increasing parasite aggressivity."
+arx0064,arxiv,0802.3447,q-bio,We find that many of the FFL properties are enhanced within this setup.
+arx0065,arxiv,0802.0218,stat,Two examples of London metal exchange data and of production time series data illustrate the capabilities of the new control chart.
+arx0066,arxiv,0710.5005,stat,"This work is currently open-ended, and we conclude with thoughts on how research could proceed to solve these problems."
+arx0067,arxiv,0708.2377,stat,The performance for learning drifting concepts of one of the presented algorithms is analysed and compared with the Baldi-Chauvin algorithm in the same situations.
+arx0068,arxiv,0802.1103,stat,"In this paper, we review procedures that can be used for testing polynomial covariate effects in these popular models."
+arx0069,arxiv,0708.0285,stat,Comment: Expert Elicitation for Reliable System Design [arXiv:0708.0279]
+arx0070,arxiv,0802.2087,stat,"This phenomenon was discovered more than sixty years ago, but is not as widely known as one might expect."
+arx0071,arxiv,0709.1721,stat,This is accomplished through exchanges between the full chain and the auxiliary coarse chains.
+arx0072,arxiv,0802.0638,stat,We find the asymptotic distribution of the domination number and use it for testing spatial point patterns of segregation and association.
+arx0073,arxiv,0802.0509,stat,How would the counter-factual mortality of these 18 year olds have compared to their actual observed mortality through 2007?
+arx0074,arxiv,0705.4230,stat,Many statistical techniques based on M-estimates have been proposed for estimating the mixing matrix.

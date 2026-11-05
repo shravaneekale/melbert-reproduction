@@ -48,8 +48,10 @@ ARXIV_AREAS = {
 }
 
 
-def area_of(categories: str) -> str:
-    first = (categories or "").split()[0] if categories else ""
+def area_of(categories) -> str:
+    if isinstance(categories, (list, tuple)):
+        categories = " ".join(str(c) for c in categories)
+    first = categories.split()[0] if categories else ""
     return ARXIV_AREAS.get(first.split(".")[0], "other")
 
 
