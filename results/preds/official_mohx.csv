@@ -1,0 +1,641 @@
+guid,index,w_index,word,POS,gold,pred,p_metaphor,sentence
+test-0 2,0,2,spread,VERB,1,1,0.98955,The invaders spread their language all over the country.
+test-1 2,1,2,climbing,VERB,1,1,0.98948,Sales were climbing after prices were lowered.
+test-2 2,2,2,glared,VERB,1,1,0.91496,The moon glared back at itself from the lake's surface.
+test-3 4,3,4,attacking,VERB,1,1,0.96559,The cancer cells are attacking his liver.
+test-4 2,4,2,ruined,VERB,0,0,0.03315,You have ruined my car by pouring sugar in the tank!
+test-5 7,5,7,attacked,VERB,1,1,0.99096,The editors of the left- leaning paper attacked the new House Speaker.
+test-6 0,6,0,tack,VERB,0,1,0.98989,tack the notice on the board.
+test-7 12,7,12,crawl.,VERB,0,0,0.01710,European children learn the breast stroke; they often don't know how to crawl.
+test-8 1,8,1,guard,VERB,0,0,0.08220,Please guard my possessions while I'm away.
+test-9 2,9,2,spread.,VERB,0,1,0.86476,the infection spread.
+test-10 2,10,2,volleyed,VERB,0,0,0.08331,Gun shots volleyed at the attackers.
+test-11 1,11,1,exploded,VERB,0,0,0.00925,We exploded the nuclear bomb.
+test-12 1,12,1,rotate,VERB,1,0,0.00696,We rotate the crops so as to maximize the use of the soil.
+test-13 1,13,1,injected,VERB,1,1,0.98741,He injected new life into the performance.
+test-14 1,14,1,showered,VERB,0,0,0.00156,Meteors showered down over half of Australia.
+test-15 2,15,2,gravitated,VERB,1,1,0.99703,The conversation gravitated towards politics.
+test-16 2,16,2,scanned,VERB,1,1,0.94778,The beams scanned the night sky.
+test-17 0,17,0,poison,VERB,1,1,0.64757,poison someone's mind.
+test-18 1,18,1,abuse,VERB,1,1,0.89723,Don't abuse the system.
+test-19 2,19,2,clouded,VERB,1,1,0.73281,The chemical clouded the liquid to which it was added.
+test-20 2,20,2,swims,VERB,0,0,0.00688,this snake swims through the soil where it lives.
+test-21 1,21,1,nags,VERB,0,0,0.24135,She nags her husband all day long.
+test-22 3,22,3,hurt,VERB,1,1,0.98188,Our business was hurt by the new competition.
+test-23 4,23,4,lies,VERB,1,1,0.99055,The fate of Bosnia lies in the hands of the West.
+test-24 1,24,1,poses,VERB,1,1,0.98604,This poses an interesting question.
+test-25 1,25,1,inherited,VERB,0,0,0.00505,I inherited a castle from my French grandparents.
+test-26 3,26,3,drifting,VERB,1,1,0.98527,stock prices are drifting higher.
+test-27 1,27,1,attacked,VERB,1,1,0.98660,I attacked the problem as soon as I got out of bed.
+test-28 2,28,2,scorched,VERB,0,0,0.04372,The wildfire scorched the forest and several homes.
+test-29 1,29,1,locked,VERB,0,0,0.06508,She locked her jewels in the safe.
+test-30 2,30,2,pierced,VERB,1,1,0.98462,The cold pierced her bones.
+test-31 2,31,2,flowed,VERB,1,0,0.30391,The champagne flowed at the wedding.
+test-32 4,32,4,revive,VERB,1,1,0.98175,A hot soup will revive me.
+test-33 4,33,4,drained,VERB,1,1,0.98916,Life in the camp drained him.
+test-34 3,34,3,accommodate,VERB,0,0,0.02329,This hotel can accommodate 250 guests.
+test-35 3,35,3,rotate,VERB,1,1,0.91271,Interns have to rotate for a few months.
+test-36 1,36,1,gravitate,VERB,1,1,0.92541,Boys gravitate towards girls at that age.
+test-37 2,37,2,besieged,VERB,1,1,0.98500,She was besieged by so many problems that she got discouraged.
+test-38 2,38,2,reflected,VERB,0,1,0.98119,Sound is reflected well in this auditorium.
+test-39 2,39,2,leaked,VERB,0,0,0.05538,The container leaked gasoline.
+test-40 2,40,2,climbing,VERB,1,1,0.98948,Sales were climbing after prices were lowered.
+test-41 1,41,1,salute,VERB,1,1,0.96949,I salute your courage!
+test-42 2,42,2,vests,VERB,0,0,0.09194,The property vests in the trustees.
+test-43 3,43,3,volley,VERB,0,0,0.06376,They began to volley the tennis ball.
+test-44 1,44,1,attacked,VERB,0,0,0.09808,"Hitler attacked Poland on September 1, 1939 and started World War II."
+test-45 2,45,2,plunged,VERB,1,1,0.99133,The professor plunged his students into the study of the Italian text.
+test-46 2,46,2,fermenting,VERB,1,1,0.99981,Islam is fermenting Africa.
+test-47 0,47,0,preserve,VERB,0,0,0.00145,preserve the forest and the lakes.
+test-48 5,48,5,convulsed.,VERB,0,1,0.54871,The muscles in her face convulsed.
+test-49 2,49,2,flooded,VERB,0,0,0.00898,Our basement flooded during the heavy rains.
+test-50 2,50,2,lined,VERB,1,1,0.97993,sorrow had lined his face.
+test-51 2,51,2,dulled,VERB,1,1,0.99864,Middle age dulled her appetite for travel.
+test-52 2,52,2,pinged,VERB,0,1,0.61018,The bugs pinged the lamp shade.
+test-53 3,53,3,swimming,VERB,1,1,0.97908,the meat was swimming in a fatty gravy.
+test-54 5,54,5,steamroller.,VERB,1,0,0.00023,The new teacher tends to steamroller.
+test-55 2,55,2,buy,VERB,1,0,0.00321,I can't buy this story.
+test-56 3,56,3,drains,VERB,1,1,0.98375,The exercise class drains me of energy.
+test-57 7,57,7,reflects,VERB,1,1,0.98730,His lack of interest in the project reflects badly on him.
+test-58 2,58,2,hunted,VERB,0,0,0.07319,Goering often hunted wild boars in Poland.
+test-59 1,59,1,interrupted,VERB,1,0,0.09917,She interrupted her pregnancy.
+test-60 0,60,0,square,VERB,0,0,0.02255,square the wood with a file.
+test-61 2,61,2,poisoned,VERB,0,0,0.03090,Her husband poisoned her drink in order to kill her.
+test-62 2,62,2,building,VERB,1,1,0.97561,Suspense was building right from the beginning of the opera.
+test-63 1,63,1,vested,VERB,0,1,0.91882,She vested her vast fortune in her two sons.
+test-64 2,64,2,flapped,VERB,0,0,0.03581,The bird flapped its wings.
+test-65 3,65,3,clouded,VERB,1,1,0.99834,Their faces were clouded with sadness.
+test-66 1,66,1,traced,VERB,1,1,0.98938,She traced the circumstances of her birth.
+test-67 2,67,2,melted,VERB,0,0,0.01236,The wax melted in the sun.
+test-68 0,68,0,inject,VERB,0,0,0.38643,inject hydrogen into the balloon.
+test-69 2,69,2,tugged,VERB,0,0,0.00533,The prisoner tugged at the chains.
+test-70 2,70,2,looped,VERB,1,0,0.10608,The bicycle looped around the tree.
+test-71 2,71,2,pricked,VERB,0,0,0.00257,The nurse pricked my finger to get a small blood sample.
+test-72 2,72,2,blazed,VERB,1,0,0.38454,The spaceship blazed out into space.
+test-73 1,73,1,lightened,VERB,0,1,0.99348,she lightened the load on the tired donkey.
+test-74 0,74,0,relax,VERB,0,1,0.95392,relax the tension on the rope.
+test-75 0,75,0,flush,VERB,1,0,0.02555,flush the wound with antibiotics.
+test-76 1,76,1,scraped,VERB,0,0,0.09368,They scraped a letter into the stone.
+test-77 1,77,1,whistled,VERB,0,0,0.00049,She whistled for her maid.
+test-78 7,78,7,swelling.,VERB,0,0,0.48548,The bellies of the starving children are swelling.
+test-79 3,79,3,relaxed,VERB,0,0,0.26492,our new colleague relaxed when he saw that we were a friendly group.
+test-80 0,80,0,trace,VERB,0,0,0.32077,trace the outline of a figure in the sand.
+test-81 2,81,2,pinged,VERB,0,1,0.80514,the bullet pinged when they struck the car.
+test-82 0,82,0,stamp,VERB,1,0,0.03359,stamp fruit extract the juice.
+test-83 1,83,1,leaned,VERB,0,0,0.00883,She leaned over the banister.
+test-84 7,84,7,steamed,VERB,1,1,0.96373,her indifference to his amorous advances really steamed the young man.
+test-85 2,85,2,levelled,VERB,0,1,0.57205,The ground levelled off.
+test-86 3,86,3,flashing.,VERB,0,0,0.01754,The lights were flashing.
+test-87 1,87,1,convulsed,VERB,1,0,0.02430,earthquakes convulsed the countryside.
+test-88 3,88,3,digest,VERB,1,1,0.93717,I can not digest all this information.
+test-89 1,89,1,poured,VERB,1,1,0.98001,We poured money into the education of our children.
+test-90 3,90,3,topped,VERB,0,0,0.03214,The towers were topped with conical roofs.
+test-91 2,91,2,sifted,VERB,1,1,0.65655,The soldiers sifted through the woods.
+test-92 4,92,4,flashed,VERB,1,1,0.96892,The latest intelligence is flashed to all command posts.
+test-93 0,93,0,tread,VERB,0,0,0.04222,tread grapes to make wine.
+test-94 0,94,0,lay,VERB,1,1,0.98797,lay a responsibility on someone.
+test-95 3,95,3,glowing,VERB,0,0,0.07230,The fireflies were glowing and flying about in the garden.
+test-96 2,96,2,clouded,VERB,1,1,0.99947,The stroke clouded memories of her youth.
+test-97 0,97,0,condense,VERB,1,1,0.76142,condense the contents of a book into a summary.
+test-98 4,98,4,relaxes,VERB,0,1,0.99285,A hot bath always relaxes me.
+test-99 0,99,0,wear,VERB,0,0,0.02648,wear one's hair in a certain way.
+test-100 1,100,1,poured,VERB,0,0,0.00835,They poured water over the floor.
+test-101 3,101,3,infected,VERB,0,1,0.85867,Your children have infected you with this head cold.
+test-102 2,102,2,breathe,VERB,0,0,0.00443,I can breathe better when the air is clean.
+test-103 2,103,2,floated,VERB,1,1,0.99033,The government floated the ruble for a few months.
+test-104 2,104,2,precipitated,VERB,1,1,0.91036,The crisis precipitated by Russia's revolution.
+test-105 1,105,1,erased,VERB,0,0,0.00190,Who erased the files form my hard disk?
+test-106 1,106,1,radiates,VERB,1,1,0.97619,She radiates happiness.
+test-107 3,107,3,looped,VERB,0,0,0.07446,The stunt pilot looped his plane.
+test-108 1,108,1,taxed,VERB,1,0,0.05597,They taxed him failure to appear in court.
+test-109 2,109,2,palpitated.,VERB,1,0,0.00414,His heart palpitated.
+test-110 1,110,1,bind,VERB,0,0,0.11457,They bind their books in leather.
+test-111 4,111,4,immigrate,VERB,1,0,0.12135,only few plants can immigrate to the island.
+test-112 1,112,1,sifted,VERB,1,1,0.96512,They sifted through the job candidates.
+test-113 3,113,3,sits,VERB,1,1,0.96597,The White House sits on Pennsylvania Avenue.
+test-114 3,114,3,emerged,VERB,0,0,0.01835,"Suddenly, the proprietor emerged from his office."
+test-115 1,115,1,ping,VERB,1,0,0.13812,I'll ping my accountant -- April 15 is nearing.
+test-116 2,116,2,molded,VERB,0,0,0.02921,The furniture molded in the old house.
+test-117 2,117,2,drowned,VERB,0,0,0.00525,The child drowned in the lake.
+test-118 4,118,4,twisted.,VERB,0,0,0.02869,The cord is all twisted.
+test-119 1,119,1,sailed,VERB,0,0,0.01212,We sailed the Atlantic.
+test-120 2,120,2,build,VERB,0,1,0.68995,These architects build in interesting and new styles.
+test-121 3,121,3,recapture,VERB,1,1,0.99833,She could not recapture that feeling of happiness.
+test-122 0,122,0,build,VERB,1,1,0.98335,build a modern nation.
+test-123 2,123,2,swelled,VERB,1,1,0.99987,The music swelled to a crescendo.
+test-124 2,124,2,negociated,VERB,1,0,0.05335,The hiker negociated the high mountain pass.
+test-125 1,125,1,erupted,VERB,1,1,0.98791,Unrest erupted in the country.
+test-126 3,126,3,raided,VERB,0,0,0.46865,T. Boone Pickens raided many large companies.
+test-127 0,127,0,communicate,VERB,1,0,0.19079,communicate a disease.
+test-128 5,128,5,communicated,VERB,0,0,0.00364,He and his sons haven't communicated for years.
+test-129 2,129,2,ignited,VERB,0,0,0.01428,Marsh gases ignited suddenly.
+test-130 1,130,1,shed,VERB,0,1,0.98968,She shed a lot of tears when this happened.
+test-131 2,131,2,puffed,VERB,1,1,0.99968,The critics puffed up this Broadway production.
+test-132 0,132,0,crush,VERB,0,0,0.00479,crush an aluminum can.
+test-133 2,133,2,kited,VERB,1,1,0.77573,The businessman kited millions of dollars.
+test-134 5,134,5,pricked,VERB,1,1,0.99850,The thought of her unhappiness pricked his conscience.
+test-135 4,135,4,nodding,VERB,0,0,0.00457,The old man was nodding in his chair.
+test-136 1,136,1,fastened,VERB,1,1,0.99961,They fastened various nicknames to each other.
+test-137 0,137,0,heap,VERB,0,0,0.00153,heap firewood around the fireplace.
+test-138 1,138,1,spelled,VERB,1,0,0.00322,She spelled her husband at the wheel.
+test-139 4,139,4,absorbs,VERB,1,1,0.98822,Her interest in butterflies absorbs her completely.
+test-140 1,140,1,drifting,VERB,0,0,0.38499,snow drifting several feet high.
+test-141 1,141,1,tasted,VERB,0,0,0.00784,We tasted wines last night.
+test-142 1,142,1,hunted,VERB,1,0,0.36832,They hunted the unwanted immigrants out of the neighborhood.
+test-143 3,143,3,building,VERB,0,0,0.02074,The government is building new schools in this state.
+test-144 0,144,0,form,VERB,1,1,0.98164,form the young child's character.
+test-145 2,145,2,topped,VERB,1,0,0.04085,The hikers topped the mountain just before noon.
+test-146 1,146,1,clawed,VERB,1,0,0.17491,She clawed the doorknob.
+test-147 2,147,2,digested,VERB,1,1,0.99967,the government digested the entire law into a code.
+test-148 2,148,2,infects,VERB,1,1,0.99861,His laughter infects everyone who is in the same room.
+test-149 1,149,1,invaded,VERB,0,0,0.03086,"Hitler invaded Poland on September 1, 1939."
+test-150 1,150,1,leaked,VERB,0,0,0.10689,Water leaked out of the can into the backpack.
+test-151 3,151,3,down,VERB,1,1,0.99047,Some people can down a pound of meat in the course of one meal.
+test-152 2,152,2,erupted,VERB,1,0,0.04393,The tooth erupted and had to be extracted.
+test-153 0,153,0,pin,VERB,0,0,0.16858,pin the needle to the shirt.
+test-154 5,154,5,adhered,VERB,1,1,0.76353,The residents of this village adhered to Catholicism.
+test-155 1,155,1,buzzed,VERB,1,0,0.01670,he buzzed the servant.
+test-156 2,156,2,crawled,VERB,1,1,0.95053,My skin crawled -- I was terrified.
+test-157 1,157,1,pushed,VERB,0,0,0.01283,He pushed the table into a corner.
+test-158 6,158,6,answers,VERB,1,1,0.98481,The steering of my new car answers to the slightest touch.
+test-159 3,159,3,abuses,VERB,1,0,0.37977,Her husband often abuses alcohol.
+test-160 2,160,2,wallowing,VERB,0,1,0.70693,pigs were wallowing in the mud.
+test-161 4,161,4,stamped?,VERB,0,0,0.02623,Are the letters properly stamped?
+test-162 0,162,0,inflate,VERB,1,0,0.00404,inflate the currency.
+test-163 2,163,2,swells,VERB,0,1,0.81087,The water swells the wood.
+test-164 2,164,2,ascended,VERB,0,0,0.12121,The path ascended to the top of the hill.
+test-165 3,165,3,exploded.,VERB,0,0,0.00217,The champagne bottle exploded.
+test-166 2,166,2,sell,VERB,0,0,0.22036,These books sell like hot cakes.
+test-167 1,167,1,inclined,VERB,0,0,0.14162,She inclined her head to the student.
+test-168 1,168,1,sowed,VERB,0,0,0.00020,She sowed sunflower seeds.
+test-169 2,169,2,relaxed,VERB,1,1,0.98342,The rules relaxed after the new director arrived.
+test-170 1,170,1,sprayed,VERB,0,0,0.01294,Water sprayed all over the floor.
+test-171 2,171,2,convulses,VERB,0,1,0.95955,The spasm convulses her facial muscles.
+test-172 0,172,0,sow,VERB,1,1,0.97699,sow suspicion or beliefs.
+test-173 2,173,2,immigrated,VERB,0,0,0.00017,Many people immigrated at the beginning of the 20th century.
+test-174 1,174,1,poured,VERB,0,0,0.00835,They poured water over the floor.
+test-175 4,175,4,guarding,VERB,0,0,0.05973,There will be men guarding the horses.
+test-176 3,176,3,ascend,VERB,1,1,0.98731,Inheritance may not ascend linearly.
+test-177 2,177,2,juggled,VERB,0,0,0.00218,the player juggled the ball.
+test-178 2,178,2,seized,VERB,0,0,0.13902,the invaders seized the land and property of the inhabitants.
+test-179 0,179,0,mount,VERB,0,0,0.02237,mount slides for macroscopic analysis.
+test-180 1,180,1,neutralized,VERB,0,0,0.37195,She neutralized the solution.
+test-181 2,181,2,drinks,VERB,1,0,0.00676,The mother drinks in every word of her son on the stage.
+test-182 4,182,4,computerized,VERB,0,0,0.00004,Our office is fully computerized now.
+test-183 1,183,1,designed,VERB,1,1,0.77914,She designed a good excuse for not attending classes that day.
+test-184 1,184,1,drained,VERB,0,0,0.01200,We drained the oil tank.
+test-185 3,185,3,portrayed,VERB,0,0,0.10250,The father is portrayed as a good- looking man in this painting.
+test-186 1,186,1,blazed,VERB,1,1,0.99959,Meteors blazed across the atmosphere.
+test-187 2,187,2,glared,VERB,1,1,0.95089,The sun glared down on us.
+test-188 3,188,3,juggle,VERB,1,1,0.99115,She had to juggle her job and her children.
+test-189 1,189,1,swallowed,VERB,1,0,0.02211,He swallowed his words.
+test-190 0,190,0,grind,VERB,0,0,0.13645,grind the spices in a mortar.
+test-191 1,191,1,floated,VERB,0,0,0.02689,He floated the logs down the river.
+test-192 3,192,3,stampede,VERB,1,1,0.99962,Companies will now stampede to release their latest software.
+test-193 1,193,1,stuffed,VERB,1,0,0.01929,She stuffed herself at the dinner.
+test-194 1,194,1,kited,VERB,1,0,0.38387,He kited many checks.
+test-195 0,195,0,paste,VERB,0,0,0.00287,paste the sign on the wall.
+test-196 6,196,6,bounce,VERB,1,1,0.98840,The ex- boxer's job is to bounce people who want to enter this private club.
+test-197 2,197,2,precipitated,VERB,1,1,0.98113,Our economy precipitated into complete ruin.
+test-198 2,198,2,compare,VERB,0,0,0.18121,We can compare the Han dynasty to the Romans.
+test-199 2,199,2,fills,VERB,0,0,0.09575,The liquid fills the container.
+test-200 3,200,3,adhere,VERB,0,0,0.28267,Will this wallpaper adhere to the wall?
+test-201 2,201,2,spots,VERB,0,1,0.65382,This dress spots quickly.
+test-202 3,202,3,climb,VERB,0,0,0.01611,Did you ever climb up the hill behind your house?
+test-203 2,203,2,swallowed,VERB,1,1,0.98048,The Nazis swallowed the Baltic countries.
+test-204 2,204,2,abused,VERB,0,1,0.91058,The actress abused the policeman who gave her a parking ticket.
+test-205 4,205,4,drifted,VERB,1,1,0.58497,The unknown young man drifted among the invited guests.
+test-206 2,206,2,ripped,VERB,0,0,0.03248,The curtain ripped from top to bottom.
+test-207 2,207,2,transformed,VERB,1,1,0.83911,This experience transformed her completely.
+test-208 2,208,2,floated,VERB,1,0,0.15482,The dancer floated across the stage.
+test-209 3,209,3,curled,VERB,1,1,0.97844,The cigar smoke curled up at the ceiling.
+test-210 1,210,1,scanned,VERB,1,0,0.44271,She scanned the newspaper headlines while waiting for the taxi.
+test-211 3,211,3,ruin,VERB,1,1,0.94968,This behavior will ruin your chances of winning the election.
+test-212 3,212,3,crowns,VERB,1,1,0.60338,A weather vane crowns the building.
+test-213 2,213,2,nodded,VERB,0,0,0.00287,The teacher nodded when the student gave the right answer.
+test-214 2,214,2,fractured,VERB,0,1,0.97166,The pothole fractured a bolt on the axle.
+test-215 2,215,2,transform,VERB,0,1,0.93885,It can transform energy to light.
+test-216 2,216,2,blistered,VERB,1,1,0.98666,The Senator blistered the administration in his speech on Friday.
+test-217 0,217,0,lay,VERB,0,0,0.01654,lay the books on the table.
+test-218 3,218,3,buy,VERB,0,1,0.80885,She wanted to buy his love with her dedication to him and his work.
+test-219 1,219,1,talk,VERB,1,1,0.74999,Actions talk louder than words.
+test-220 1,220,1,pumped,VERB,1,1,0.98150,He pumped bullets into the dummy.
+test-221 2,221,2,talks,VERB,0,0,0.00292,The baby talks already.
+test-222 0,222,0,grind,VERB,0,0,0.27827,grind lenses for glasses and cameras.
+test-223 1,223,1,clawed,VERB,1,1,0.99933,They clawed their way to the top of the mountain.
+test-224 4,224,4,absorbed,VERB,1,1,0.96653,The immigrants were quickly absorbed into society.
+test-225 3,225,3,pushed,VERB,1,1,0.99099,The liberal party pushed for reforms.
+test-226 8,226,8,ignites,VERB,1,1,0.98657,The ostentatious way of living of the rich ignites the hatred of the poor.
+test-227 0,227,0,flood,VERB,1,1,0.88128,flood the market with tennis shoes.
+test-228 2,228,2,raided,VERB,0,0,0.02366,The police raided the crack house.
+test-229 3,229,3,condensed,VERB,0,0,0.48446,The cold air condensed the steam.
+test-230 3,230,3,portray,VERB,0,0,0.02672,"Goya wanted to portray his mistress, the Duchess of Alba."
+test-231 2,231,2,scraped,VERB,0,0,0.02217,The cat scraped at the armchair.
+test-232 1,232,1,inherited,VERB,0,0,0.08896,I inherited my good eyesight from my mother.
+test-233 0,233,0,steamroller,VERB,0,0,0.04618,steamroller the road.
+test-234 2,234,2,locked,VERB,1,1,0.98549,He was locked in a laughing fit.
+test-235 2,235,2,grabbed,VERB,0,0,0.13892,The passenger grabbed for the oxygen mask.
+test-236 2,236,2,glared,VERB,0,0,0.19610,The girl glared at the man who tried to make a pass at her.
+test-237 1,237,1,interrupt,VERB,0,0,0.02284,We interrupt the program for the following messages.
+test-238 3,238,3,digest,VERB,0,0,0.02576,I can not digest milk products.
+test-239 1,239,1,brushed,VERB,0,0,0.02984,Johnson brushed the hairs from his jacket.
+test-240 0,240,0,wallow,VERB,1,0,0.08250,wallow in your success!
+test-241 2,241,2,roots,VERB,1,1,0.99167,The problem roots in her depression.
+test-242 9,242,9,salute.,VERB,0,0,0.12118,"When the officers show up, the soldiers have to salute."
+test-243 0,243,0,smother,VERB,0,0,0.09333,smother the meat in gravy.
+test-244 0,244,0,Lock,VERB,0,0,0.00389,Lock the bike to the fence!
+test-245 2,245,2,hunts,VERB,1,1,0.99008,The oscillator hunts about the correct frequency.
+test-246 0,246,0,heap,VERB,0,0,0.00786,heap the platter with potatoes.
+test-247 4,247,4,seized,VERB,0,0,0.16889,The sales clerk quickly seized the money on the counter.
+test-248 1,248,1,stagnates,VERB,0,0,0.29736,blood stagnates in the capillaries.
+test-249 0,249,0,fuel,VERB,0,0,0.00038,"fuel aircraft, ships, and cars."
+test-250 2,250,2,tread,VERB,0,1,0.98502,male birds tread the females.
+test-251 3,251,3,buzzing,VERB,1,1,0.97985,This office is buzzing with activity.
+test-252 1,252,1,line,VERB,1,0,0.16376,trees line the riverbank.
+test-253 1,253,1,downed,VERB,1,0,0.33860,He downed three martinis before dinner.
+test-254 2,254,2,locked,VERB,1,1,0.96718,They were locked in embrace.
+test-255 2,255,2,smashed,VERB,1,1,0.97759,The police smashed the drug ring after they were tipped off.
+test-256 2,256,2,abuses,VERB,0,0,0.16708,This boss abuses his workers.
+test-257 4,257,4,acknowledged,VERB,0,0,0.03058,The Crown Prince was acknowledged as the true heir to the throne.
+test-258 0,258,0,load,VERB,0,0,0.01367,load the truck with hay.
+test-259 3,259,3,buy,VERB,0,1,0.87199,This sum will buy you a ride on the train.
+test-260 2,260,2,dumped,VERB,1,1,0.98925,The company dumped him after many years of service.
+test-261 2,261,2,fastens,VERB,0,0,0.00062,This dress fastens in the back.
+test-262 1,262,1,molded,VERB,0,0,0.03133,She molded the rice balls carefully.
+test-263 1,263,1,nodded,VERB,0,0,0.00256,He nodded his approval.
+test-264 1,264,1,devoured,VERB,1,0,0.00105,She devoured his novels.
+test-265 3,265,3,splashed,VERB,1,1,0.99290,The mountain was splashed with snow.
+test-266 2,266,2,buzzing,VERB,0,0,0.07825,bees were buzzing around the hive.
+test-267 3,267,3,nodding,VERB,1,1,0.86233,the flowers were nodding in the breeze.
+test-268 1,268,1,painted,VERB,0,0,0.00333,We painted the rooms yellow.
+test-269 2,269,2,puffed,VERB,0,0,0.20070,Her faced puffed up from the drugs.
+test-270 1,270,1,pasted,VERB,1,0,0.25232,He pasted his opponent.
+test-271 3,271,3,guard,VERB,1,1,0.97786,This vaccine will guard you against infection.
+test-272 2,272,2,attacked,VERB,0,0,0.33267,The Serbs attacked the village at night.
+test-273 4,273,4,swallow,VERB,1,1,0.97854,Am I supposed to swallow that story?
+test-274 2,274,2,lend,VERB,0,0,0.00353,I will lend you my car.
+test-275 1,275,1,brushed,VERB,0,0,0.05841,He brushed the wall lightly.
+test-276 0,276,0,engrave,VERB,0,0,0.02135,engrave the pen with the owner's name.
+test-277 3,277,3,crowned,VERB,0,0,0.24644,The prince was crowned in Westminster Abbey.
+test-278 5,278,5,ruffle,VERB,1,1,0.96854,This play is going to ruffle some people.
+test-279 2,279,2,dumped,VERB,0,0,0.01110,The truck dumped the garbage in the street.
+test-280 0,280,0,commit,VERB,0,1,0.54064,commit a random act of kindness.
+test-281 4,281,4,sell,VERB,1,1,0.97153,The French try to sell us their image as great lovers.
+test-282 4,282,4,flare,VERB,1,1,0.98778,Every star seemed to flare with new intensity.
+test-283 3,283,3,uproot,VERB,0,0,0.01823,They plan to uproot the vine that has spread all over the garden.
+test-284 3,284,3,sharpen,VERB,1,1,0.99746,We had to sharpen our arguments.
+test-285 5,285,5,map,VERB,0,0,0.05996,We haven't even begun to map the many galaxies that we know exist.
+test-286 2,286,2,pierced,VERB,0,0,0.21926,The needle pierced her flesh.
+test-287 2,287,2,crushed,VERB,0,0,0.28951,The car crushed the toy.
+test-288 2,288,2,relaxed,VERB,1,1,0.98362,The government relaxed the curfew after most of the rebels were caught.
+test-289 1,289,1,pumped,VERB,1,1,0.99051,She pumped the witnesses for information.
+test-290 1,290,1,splashed,VERB,0,0,0.02239,She splashed the water around her.
+test-291 2,291,2,scanned,VERB,0,0,0.03247,the surgeon scanned the X- ray.
+test-292 6,292,6,reflects,VERB,1,1,0.98065,The mess in his dorm room reflects on the student.
+test-293 3,293,3,spells,VERB,1,1,0.98347,I'm afraid this spells trouble!
+test-294 2,294,2,whistled,VERB,1,1,0.90149,The bullets whistled past him.
+test-295 2,295,2,thundered,VERB,1,0,0.03948,The river thundered below.
+test-296 2,296,2,pounded,VERB,0,0,0.02469,the salesman pounded the door knocker.
+test-297 2,297,2,kicked,VERB,0,0,0.42767,The gun kicked back into my shoulder.
+test-298 3,298,3,mellowed,VERB,1,1,0.98097,Age and experience mellowed him over the years.
+test-299 0,299,0,acknowledge,VERB,0,0,0.00019,acknowledge the deed.
+test-300 3,300,3,salted,VERB,1,0,0.11404,the rebels had salted the fields with mines and traps.
+test-301 3,301,3,shipwrecked.,VERB,0,0,0.00000,The vessel was shipwrecked.
+test-302 3,302,3,revived.,VERB,1,1,0.98624,Interest in ESP revived.
+test-303 3,303,3,snorting,VERB,0,0,0.00256,The addict was snorting cocaine almost every day.
+test-304 2,304,2,revived,VERB,0,0,0.35211,The doctors revived the comatose man.
+test-305 1,305,1,absorbed,VERB,1,1,0.97940,He absorbed the costs for the accident.
+test-306 0,306,0,deflate,VERB,0,0,0.00129,deflate the air mattress.
+test-307 2,307,2,pushing,VERB,1,1,0.98829,She is pushing fifty.
+test-308 4,308,4,land,VERB,0,0,0.00364,the pilot managed to land the airplane safely.
+test-309 3,309,3,filled,VERB,0,0,0.00828,The pool slowly filled with water.
+test-310 2,310,2,dashed,VERB,0,1,0.95569,blue paint dashed with white.
+test-311 2,311,2,radiates,VERB,0,1,0.52657,The sun radiates heat.
+test-312 1,312,1,wrestled,VERB,1,1,0.99853,I wrestled with this decision for years.
+test-313 2,313,2,formed,VERB,0,1,0.95997,the water formed little beads.
+test-314 3,314,3,saluted,VERB,1,1,0.90075,a terrible stench saluted our nostrils.
+test-315 2,315,2,whistled,VERB,1,1,0.99968,Her optimism whistled away these worries.
+test-316 3,316,3,swallowed,VERB,1,1,0.95507,The huge waves swallowed the small boat and it sank shortly thereafter.
+test-317 2,317,2,stampede,VERB,0,1,0.60597,Thunderbolts can stampede animals.
+test-318 2,318,2,pierced,VERB,1,1,0.98900,The scream pierced the night.
+test-319 2,319,2,drifted,VERB,1,1,0.94106,My son drifted around for years in California before going to law school.
+test-320 2,320,2,land,VERB,1,1,0.94276,this may land you in jail.
+test-321 3,321,3,singing.,VERB,0,0,0.01196,The nightingale was singing.
+test-322 1,322,1,shed,VERB,1,1,0.99130,He shed his image as a pushy boss.
+test-323 0,323,0,level,VERB,1,1,0.98913,level criticism or charges at somebody.
+test-324 6,324,6,lightened,VERB,1,1,0.94256,"after a glass of wine, he lightened up a bit."
+test-325 1,325,1,marched,VERB,0,0,0.00598,He marched into the classroom and announced the exam.
+test-326 1,326,1,communicate,VERB,0,0,0.00880,Please communicate this message to all employees.
+test-327 3,327,3,ignite,VERB,0,0,0.08486,Great heat can ignite almost any dry matter.
+test-328 2,328,2,taxing,VERB,1,1,0.90334,You are taxing my patience.
+test-329 3,329,3,match,VERB,1,1,0.92115,This job doesn't match my dreams.
+test-330 1,330,1,tugged,VERB,1,0,0.19972,She tugged for years to make a decent living.
+test-331 2,331,2,recaptures,VERB,1,1,0.99964,The author recaptures an old idea here.
+test-332 1,332,1,showered,VERB,1,0,0.00017,He showered her with presents.
+test-333 2,333,2,lightened,VERB,0,0,0.01672,The room lightened up.
+test-334 1,334,1,leaned,VERB,0,0,0.01464,He leaned his rifle against the wall.
+test-335 0,335,0,dashed,VERB,1,1,0.99434,dashed ambitions and hopes.
+test-336 2,336,2,blurs,VERB,0,1,0.73904,The haze blurs the hills.
+test-337 2,337,2,groped,VERB,1,1,0.99949,His mind groped to make the connection.
+test-338 0,338,0,deflate,VERB,1,0,0.07199,deflate the currency.
+test-339 1,339,1,mounted,VERB,0,0,0.03588,They mounted the aerator on a floating.
+test-340 2,340,2,besieged,VERB,0,0,0.04215,The Turks besieged Vienna.
+test-341 3,341,3,match.,VERB,0,1,0.64620,The two pieces match.
+test-342 3,342,3,levelled.,VERB,0,0,0.00187,The building was levelled.
+test-343 4,343,4,mellow,VERB,0,0,0.39723,These apples need to mellow a bit more.
+test-344 2,344,2,answered,VERB,0,1,0.80009,The defendant answered to all the charges of the prosecution.
+test-345 2,345,2,crowned,VERB,1,1,0.98774,The speech crowned the meeting.
+test-346 1,346,1,loaded,VERB,0,0,0.01829,He loaded his gun carefully.
+test-347 3,347,3,puffed,VERB,1,1,0.99791,The sudden fame puffed her ego.
+test-348 2,348,2,sheds,VERB,0,0,0.16289,Our dog sheds every Spring.
+test-349 2,349,2,clawed,VERB,1,1,0.99987,The politician clawed his rival.
+test-350 3,350,3,fracture,VERB,1,1,0.99275,These events could fracture the balance of power.
+test-351 1,351,1,splashed,VERB,0,0,0.02239,She splashed the water around her.
+test-352 3,352,3,redound,VERB,1,1,0.97844,Her efforts will redound to the general good.
+test-353 4,353,4,compare,VERB,0,1,0.83993,This car does not compare with our line of Mercedes.
+test-354 2,354,2,inclines,VERB,1,1,0.97944,Their language inclines us to believe them.
+test-355 2,355,2,blurs,VERB,0,1,0.87543,The fog blurs my vision.
+test-356 9,356,9,lock,VERB,0,1,0.98571,The therapist noticed that the patient's knees tended to lock in this exercise.
+test-357 3,357,3,harmonize.,VERB,1,1,0.65918,The colors don't harmonize.
+test-358 1,358,1,sifted,VERB,1,1,0.98440,He sifted the information.
+test-359 1,359,1,trenched,VERB,0,0,0.34814,He trenched his military camp.
+test-360 1,360,1,communicated,VERB,0,0,0.03235,He communicated his anxieties to the psychiatrist.
+test-361 2,361,2,erupted,VERB,1,1,0.98004,A rash erupted on her arms after she had touched the exotic plant.
+test-362 2,362,2,engraved,VERB,1,1,0.97471,The event engraved itself into her memory.
+test-363 4,363,4,repair,VERB,1,1,0.99214,One can never fully repair the suffering and losses of the Jews in the Third Reich.
+test-364 2,364,2,steamed,VERB,0,0,0.00364,The ship steamed off into the Pacific.
+test-365 1,365,1,seized,VERB,1,1,0.98522,Fear seized the prisoners.
+test-366 4,366,4,crawling,VERB,1,1,0.98138,The old cheese was crawling with maggots.
+test-367 2,367,2,taxes,VERB,0,0,0.12047,The State taxes alcohol heavily.
+test-368 3,368,3,flashed,VERB,0,0,0.32382,A shooting star flashed and was gone.
+test-369 2,369,2,taste,VERB,0,0,0.00617,Can you taste the garlic?
+test-370 0,370,0,Shake,VERB,0,0,0.00624,Shake the salt out of the salt shaker.
+test-371 2,371,2,dulled,VERB,0,1,0.99872,Age had dulled the surface.
+test-372 1,372,1,twist,VERB,1,1,0.98910,Don't twist my words.
+test-373 0,373,0,juggle,VERB,1,1,0.99357,juggle an account so as to hide a deficit.
+test-374 6,374,6,sit?,VERB,1,1,0.97951,When does the court of law sit?
+test-375 0,375,0,lined,VERB,0,1,0.95243,lined books are more enduring.
+test-376 2,376,2,visited,VERB,1,1,0.98190,The principal visited his rage on the students.
+test-377 3,377,3,jampacked.,VERB,1,0,0.04143,the theater was jampacked.
+test-378 1,378,1,salts,VERB,1,1,0.98335,She salts her lectures with jokes.
+test-379 2,379,2,staggered,VERB,1,1,0.97780,She was staggered with bills after she tried to rebuild her house following the earthquake.
+test-380 0,380,0,suck,VERB,0,0,0.15284,suck the poison from the place where the snake bit.
+test-381 3,381,3,sharpen,VERB,1,1,0.99857,This drug will sharpen your vision.
+test-382 1,382,1,dashed,VERB,0,1,0.90056,He dashed the plate against the wall.
+test-383 3,383,3,salt,VERB,0,0,0.01814,people used to salt meats on ships.
+test-384 0,384,0,trench,VERB,0,0,0.49659,trench the fallen soldiers.
+test-385 2,385,2,colored,VERB,0,0,0.00325,The child colored the drawings.
+test-386 2,386,2,climbed,VERB,1,0,0.42162,The path climbed all the way to the top of the hill.
+test-387 0,387,0,key,VERB,1,1,0.50651,key one's actions to the voters' prevailing attitude.
+test-388 3,388,3,fractures,VERB,1,1,0.99193,This writer really fractures the language.
+test-389 1,389,1,erase,VERB,0,0,0.00211,Please erase the formula on the blackboard -- it is wrong!
+test-390 2,390,2,thundered,VERB,1,0,0.01665,The bus thundered down the road.
+test-391 3,391,3,galloping,VERB,0,0,0.00910,The horse was galloping along.
+test-392 6,392,6,deflated,VERB,1,1,0.99277,The bad review of his work deflated his self- confidence.
+test-393 1,393,1,ascended,VERB,0,0,0.02210,We ascended the mountain.
+test-394 3,394,3,tugged,VERB,0,0,0.19960,The horse finally tugged the cart out of the mud.
+test-395 2,395,2,communicated.,VERB,1,1,0.91919,The rooms communicated.
+test-396 3,396,3,visit,VERB,0,0,0.00962,Did you ever visit Paris?.
+test-397 1,397,1,swallowed,VERB,1,1,0.97197,I swallowed my anger and kept quiet.
+test-398 4,398,4,stuffed.,VERB,0,0,0.02412,My nose is all stuffed.
+test-399 3,399,3,singing.,VERB,1,1,0.94475,the kettle was singing.
+test-400 0,400,0,spray,VERB,0,0,0.00021,spray water on someone.
+test-401 2,401,2,matched,VERB,1,1,0.96830,The company matched the employees' contributions.
+test-402 2,402,2,acknowledge,VERB,0,0,0.08147,We must acknowledge the kindness she showed towards us.
+test-403 3,403,3,drains,VERB,0,0,0.18307,The rain water drains into this big vat.
+test-404 10,404,10,answered.,VERB,0,1,0.89108,The question concerning the meaning of life can not be answered.
+test-405 1,405,1,whistled,VERB,0,0,0.00693,She whistled a melody.
+test-406 3,406,3,leaked,VERB,1,1,0.98372,The news were leaked to the paper.
+test-407 2,407,2,portrays,VERB,1,1,0.98314,The book portrays the actor as a selfish person.
+test-408 4,408,4,stagger,VERB,0,0,0.31593,The architect decided to stagger the chairs in the lecture hall.
+test-409 2,409,2,ruffled,VERB,0,0,0.01678,The bird ruffled its feathers.
+test-410 3,410,3,floating,VERB,1,1,0.99100,The Republicans are floating the idea of a tax reform.
+test-411 1,411,1,devoured,VERB,0,0,0.00044,he devoured three sandwiches.
+test-412 3,412,3,visited,VERB,1,0,0.01330,"Every summer, we visited our relatives in the country for a month."
+test-413 2,413,2,twisted,VERB,0,0,0.02493,The wrestler twisted his shoulder.
+test-414 1,414,1,guttered,VERB,1,1,0.93372,Tears guttered down her face.
+test-415 0,415,0,mount,VERB,1,1,0.98942,mount a campaign against pornography.
+test-416 0,416,0,ping,VERB,0,0,0.20765,ping your machine in the office.
+test-417 2,417,2,bolted,VERB,1,1,0.98914,The listeners bolted when he discussed his strange ideas.
+test-418 2,418,2,tops,VERB,0,0,0.10267,A star tops the Christmas Tree.
+test-419 4,419,4,tensed.,VERB,0,0,0.08503,the bodybuilder's neck muscles tensed.
+test-420 0,420,0,fill,VERB,1,1,0.97406,fill the child with pride.
+test-421 4,421,4,pounded.,VERB,1,0,0.15060,The prisoners are safely pounded.
+test-422 2,422,2,inflated,VERB,1,1,0.98552,The war inflated the economy.
+test-423 5,423,5,recapture,VERB,0,0,0.04124,The military forces managed to recapture the fort.
+test-424 4,424,4,breathes,VERB,1,1,0.95941,Our new synthetic fabric breathes and is perfect for summer wear.
+test-425 0,425,0,sow,VERB,0,0,0.00067,sow the ground with sunflower seeds.
+test-426 1,426,1,clogged,VERB,1,1,0.99936,Fear clogged her mind.
+test-427 4,427,4,tack,VERB,0,0,0.03660,The sailors decided to tack the boat.
+test-428 0,428,0,negociate,VERB,0,0,0.00360,negociate securities.
+test-429 3,429,3,invades,VERB,1,0,0.05028,This new colleague invades my territory.
+test-430 2,430,2,erased,VERB,1,0,0.13041,The Turks erased the Armenians in 1915.
+test-431 0,431,0,color,VERB,0,0,0.00302,color the walls with paint in warm tones.
+test-432 4,432,4,accommodate,VERB,1,0,0.04457,The scientists had to accommodate the new results with the existing theories.
+test-433 1,433,1,redounds,VERB,1,1,0.96864,Fame redounds to the heroes.
+test-434 2,434,2,squares,VERB,1,1,0.70748,one idea squares with the other one.
+test-435 2,435,2,gravitate,VERB,0,1,0.98425,The stars gravitate towards each other.
+test-436 3,436,3,deflated,VERB,1,1,0.98812,The new measures deflated the economy.
+test-437 1,437,1,talks,VERB,0,0,0.00419,She talks a lot of nonsense.
+test-438 1,438,1,ferment,VERB,0,0,0.00907,We ferment the grapes for a very long time to achieve high alcohol content.
+test-439 1,439,1,designed,VERB,0,0,0.02418,Chanel designed the famous suit.
+test-440 1,440,1,digests,VERB,0,1,0.86505,Protein digests in a few hours.
+test-441 2,441,2,clog,VERB,0,1,0.96313,The leaves clog our drains in the Fall.
+test-442 2,442,2,blistered,VERB,0,0,0.00840,Her feet blistered during the long hike.
+test-443 2,443,2,push,VERB,0,0,0.04766,""" Now push hard"", said the doctor to the woman."
+test-444 2,444,2,radiates,VERB,0,1,0.52657,The sun radiates heat.
+test-445 1,445,1,fastened,VERB,0,0,0.00081,He fastened the lock onto the door.
+test-446 3,446,3,grab,VERB,1,1,0.98938,This story will grab you.
+test-447 1,447,1,flowed,VERB,0,0,0.02729,Water flowed into the cave.
+test-448 2,448,2,mapped,VERB,1,1,0.96133,sorrow was mapped on the mother's face.
+test-449 3,449,3,guttered,VERB,0,1,0.57594,The heavy rain guttered the soil.
+test-450 2,450,2,landed,VERB,0,0,0.01643,The ship landed in Pearl Harbor.
+test-451 2,451,2,molds,VERB,1,1,0.98854,The dress molds her beautiful figure.
+test-452 0,452,0,build,VERB,1,1,0.98312,build a defense on nothing but the accused person's reputation.
+test-453 0,453,0,Boost,VERB,0,1,0.98819,Boost the voltage in an electrical circuit.
+test-454 2,454,2,marched,VERB,0,0,0.01619,The Japanese marched their prisoners through Manchuria.
+test-455 0,455,0,stuff,VERB,0,0,0.01585,stuff a pillow with feathers.
+test-456 0,456,0,reform,VERB,0,1,0.95583,reform a political system.
+test-457 3,457,3,hurt,VERB,0,0,0.31053,This exercise will hurt your back.
+test-458 3,458,3,glowing,VERB,0,0,0.37907,The coals were glowing in the dark.
+test-459 0,459,0,spray,VERB,0,0,0.00013,spray the wall with paint.
+test-460 2,460,2,match,VERB,1,0,0.17117,Let them match their best athletes against ours.
+test-461 0,461,0,preserve,VERB,1,0,0.16972,preserve the peace in the family.
+test-462 3,462,3,inherited,VERB,1,1,0.92524,The new chairman inherited many problems from the previous chair.
+test-463 0,463,0,steamroller,VERB,1,1,0.98582,steamroller the opposition.
+test-464 2,464,2,crushed,VERB,1,1,0.99097,She was crushed by his refusal of her invitation.
+test-465 2,465,2,clogged,VERB,1,0,0.26697,horses were clogged until they were tamed.
+test-466 2,466,2,lightened,VERB,1,1,0.99929,the conversation lightened me up a bit.
+test-467 2,467,2,jammed,VERB,0,0,0.18221,The driver jammed the brake pedal to the floor.
+test-468 3,468,3,ruffle,VERB,1,1,0.98530,She wanted to ruffle his composure.
+test-469 1,469,1,snorted,VERB,1,1,0.93619,she snorted her disapproval of the proposed bridegroom.
+test-470 1,470,1,swallowed,VERB,1,0,0.01791,She swallowed the last words of her speech.
+test-471 2,471,2,deflated.,VERB,0,0,0.00092,The balloons deflated.
+test-472 3,472,3,drink,VERB,0,0,0.00428,The patient must drink several liters each day.
+test-473 4,473,4,clogged,VERB,1,1,0.99977,The market is being clogged by these operations.
+test-474 2,474,2,condensed.,VERB,1,1,0.98723,Her feelings condensed.
+test-475 2,475,2,stagnate,VERB,1,1,0.86330,Industry will stagnate if we do not stimulate our economy.
+test-476 2,476,2,tied,VERB,0,0,0.07774,The fishermen tied their flies.
+test-477 1,477,1,tied,VERB,0,0,0.03848,They tied their victim to the chair.
+test-478 5,478,5,boosted,VERB,0,0,0.29556,The singer had to be boosted onto the stage by a special contraption.
+test-479 2,479,2,neutralized,VERB,1,1,0.88082,The treaty neutralized the small republic.
+test-480 2,480,2,reflected,VERB,0,1,0.97436,her sunglasses reflected his image.
+test-481 1,481,1,revived,VERB,1,1,0.98359,He revived this style of opera.
+test-482 3,482,3,flooded,VERB,0,0,0.05879,The swollen river flooded the village.
+test-483 3,483,3,composed,VERB,1,1,0.93011,Greed and ambition composed his personality.
+test-484 2,484,2,binds,VERB,1,1,0.98693,The hydrogen binds the oxygen.
+test-485 12,485,12,groped,VERB,0,0,0.00652,He made some sexual advances at the woman in his office and groped her repeatedly.
+test-486 3,486,3,visited,VERB,0,0,0.01330,"Every summer, we visited our relatives in the country for a month."
+test-487 1,487,1,locked,VERB,1,0,0.13294,He locked his hands around her neck.
+test-488 3,488,3,drifted,VERB,1,1,0.98580,The stock market drifted upward.
+test-489 3,489,3,plunged.,VERB,1,1,0.98897,the stock market plunged.
+test-490 2,490,2,streamed,VERB,1,1,0.97625,their manes streamed like stiff black pennants in the wind.
+test-491 3,491,3,volley,VERB,1,1,0.98286,I heard him volley a string of curses.
+test-492 2,492,2,neutralizes,VERB,1,1,0.99554,Her optimism neutralizes his gloom.
+test-493 1,493,1,composed,VERB,0,0,0.06729,Beethoven composed nine symphonies.
+test-494 3,494,3,staggered,VERB,0,0,0.02927,The drunken man staggered into the room.
+test-495 3,495,3,swim,VERB,0,0,0.01150,We had to swim for 20 minutes to reach the shore.
+test-496 2,496,2,pound,VERB,1,1,0.96179,The locks pound the water of the canal.
+test-497 1,497,1,injected,VERB,0,0,0.01692,We injected the glucose into the patient's vein.
+test-498 3,498,3,crushed,VERB,0,0,0.01842,The plastic bottle crushed against the wall.
+test-499 2,499,2,roots,VERB,0,0,0.08614,this plant roots quickly.
+test-500 2,500,2,streaming,VERB,1,1,0.85580,She was streaming with sweat.
+test-501 1,501,1,topped,VERB,1,1,0.97996,They topped off their dinner with a cognac.
+test-502 1,502,1,painted,VERB,0,0,0.01027,He painted his mistress many times.
+test-503 1,503,1,flashed,VERB,1,0,0.29833,he flashed a$ 100 bill.
+test-504 2,504,2,fueled,VERB,0,0,0.01576,The tanker fueled in Bahrain.
+test-505 3,505,3,color,VERB,1,1,0.92123,His political ideas color his lectures.
+test-506 0,506,0,fuel,VERB,1,1,0.91697,fuel the debate on creationism.
+test-507 2,507,2,scraped,VERB,1,1,0.74013,She had scraped together enough money for college.
+test-508 0,508,0,nagging,VERB,1,1,0.91229,nagging concerns and doubts.
+test-509 2,509,2,spotted,VERB,0,1,0.97445,The wine spotted the tablecloth.
+test-510 1,510,1,erupts,VERB,0,0,0.05367,Vesuvius erupts once in a while.
+test-511 2,511,2,smashed,VERB,0,0,0.10481,The motorcycle smashed into the guard rail.
+test-512 1,512,1,poisoned,VERB,0,0,0.02825,She poisoned her husband.
+test-513 2,513,2,landed,VERB,0,0,0.03483,The bird landed on the highest branch.
+test-514 0,514,0,map,VERB,0,0,0.00719,map the surface of Venus.
+test-515 2,515,2,infected,VERB,1,1,0.92430,society was infected by racism.
+test-516 3,516,3,acknowledged,VERB,0,0,0.00975,The program committee acknowledged the submission of the authors of the paper.
+test-517 1,517,1,smashed,VERB,0,0,0.03004,She smashed her car against the guard rail.
+test-518 0,518,0,mount,VERB,1,1,0.98438,mount a theater production.
+test-519 1,519,1,trenched,VERB,0,1,0.86965,letters trenched into the stone.
+test-520 3,520,3,rooting,VERB,0,0,0.16582,the pig was rooting for truffles.
+test-521 2,521,2,tugged,VERB,0,0,0.09905,The tugboat tugged the freighter into the harbor.
+test-522 1,522,1,preserve,VERB,0,0,0.02003,We preserve these archeological findings.
+test-523 0,523,0,capture,VERB,1,1,0.99967,capture the essence of Spring.
+test-524 4,524,4,spread,VERB,0,1,0.94414,A big oil spot spread across the water.
+test-525 3,525,3,bounced.,VERB,0,0,0.07185,The rubber ball bounced.
+test-526 1,526,1,captured,VERB,1,1,0.98835,She captured all the men's hearts.
+test-527 3,527,3,invaded,VERB,1,1,0.97118,The cancer had invaded her lungs.
+test-528 2,528,2,flushed,VERB,0,0,0.11067,The garbage flushed down the river.
+test-529 3,529,3,swimming,VERB,1,1,0.98550,my brain is swimming after the bottle of champagne.
+test-530 2,530,2,exploded,VERB,0,0,0.03126,The enemy exploded the bridge.
+test-531 5,531,5,gutter,VERB,0,0,0.00406,The cooling lava continued to gutter toward lower ground.
+test-532 1,532,1,streamed,VERB,0,0,0.14593,Tears streamed down her face.
+test-533 3,533,3,crawling,VERB,0,0,0.06839,The crocodile was crawling along the riverbed.
+test-534 3,534,3,poison.,VERB,0,0,0.37922,This mushrooms can poison.
+test-535 1,535,1,compared,VERB,0,0,0.07628,John compared his haircut to his friend's.
+test-536 6,536,6,sucked,VERB,1,1,0.98139,The current boom in the economy sucked many workers in from abroad.
+test-537 3,537,3,condensed,VERB,0,0,0.22090,All our planets condensed out of the same material.
+test-538 4,538,4,tied,VERB,1,0,0.46268,These big jets are tied to large airports.
+test-539 3,539,3,peeped,VERB,1,0,0.28646,The new moon peeped through the tree tops.
+test-540 2,540,2,pumps,VERB,0,0,0.08134,The athlete pumps weights in the gym.
+test-541 6,541,6,reflects.,VERB,0,1,0.94891,Drive carefully -- the wet road reflects.
+test-542 4,542,4,pushing,VERB,1,1,0.98475,The salesman is aggressively pushing the new computer model.
+test-543 3,543,3,computerized,VERB,0,0,0.00005,Please use a computerized disctionary.
+test-544 1,544,1,tacked,VERB,1,1,0.98576,He tacked together some verses.
+test-545 2,545,2,wears,VERB,1,0,0.22232,He always wears a smile.
+test-546 2,546,2,flowed,VERB,1,1,0.97110,The crowd flowed out of the stadium.
+test-547 4,547,4,gutter,VERB,0,0,0.17379,The roofer began to gutter the buildings.
+test-548 2,548,2,jammed.,VERB,0,1,0.93838,the mechanism jammed.
+test-549 3,549,3,recast,VERB,1,1,0.97298,She had to recast her image to please the electorate in her home state.
+test-550 1,550,1,heaped,VERB,1,0,0.41842,He heaped him with work.
+test-551 2,551,2,pricked,VERB,0,0,0.03596,The needle pricked his skin.
+test-552 2,552,2,negociated,VERB,0,0,0.02249,The parties negociated all night.
+test-553 1,553,1,brushed,VERB,0,0,0.01881,She brushed the suit before hanging it back into the closet.
+test-554 2,554,2,melted,VERB,0,0,0.05253,The sun melted the ice.
+test-555 1,555,1,bowed,VERB,0,0,0.01669,He bowed before the King.
+test-556 3,556,3,spell,VERB,0,0,0.04004,How do you spell this word?
+test-557 2,557,2,clouded,VERB,0,0,0.00591,The smoke clouded above the houses.
+test-558 0,558,0,drift,VERB,0,0,0.02429,drift the boats downstream.
+test-559 2,559,2,ripped,VERB,1,0,0.25114,The candidate ripped into his opponent mercilessly.
+test-560 2,560,2,scorched,VERB,1,1,0.82652,The heat scorched the countryside.
+test-561 1,561,1,condensed,VERB,1,1,0.98679,Congress condensed the three- year plan into a six- month plan.
+test-562 2,562,2,bowed,VERB,1,1,0.98948,The government bowed to the military pressure.
+test-563 1,563,1,rotate,VERB,1,1,0.61062,We rotate the lead soprano every night.
+test-564 0,564,0,harmonize,VERB,1,1,0.61323,harmonize one's goals with one's abilities.
+test-565 2,565,2,shipwrecked,VERB,1,1,0.99332,You have shipwrecked my career.
+test-566 2,566,2,drinks,VERB,0,0,0.00440,The husband drinks and beats his wife.
+test-567 3,567,3,recapture,VERB,0,0,0.01597,They tried to recapture the escaped prisoner.
+test-568 2,568,2,downed,VERB,0,0,0.34419,The policeman downed the heavily armed suspect.
+test-569 6,569,6,blurred.,VERB,1,1,0.97202,The distinction between the two theories blurred.
+test-570 0,570,0,engraved,VERB,0,0,0.00336,engraved the trophy cupt with the winner's.
+test-571 3,571,3,color,VERB,1,1,0.91422,My personal feelings color my judgment in this case.
+test-572 2,572,2,convulsed,VERB,1,1,0.87978,The comedian convulsed the crowd.
+test-573 2,573,2,acknowledges,VERB,0,0,0.08333,He never acknowledges his colleagues when they run into him in the hallway.
+test-574 7,574,7,pushing,VERB,1,1,0.98615,The guy hanging around the school is pushing drugs.
+test-575 3,575,3,palpitated,VERB,0,1,0.93834,Her violent feelings palpitated the young woman's heart.
+test-576 0,576,0,paste,VERB,0,0,0.00287,paste the sign on the wall.
+test-577 1,577,1,buzzed,VERB,0,1,0.99825,Planes buzzed the crowds in the square.
+test-578 1,578,1,peeped,VERB,0,0,0.00320,He peeped at the woman through the window.
+test-579 2,579,2,snorted,VERB,1,0,0.34121,The critic snorted contemptuously.
+test-580 2,580,2,traced,VERB,0,1,0.59955,The hunters traced the deer into the woods.
+test-581 0,581,0,spot,VERB,0,1,0.56120,spot the areas that one should clearly identify.
+test-582 3,582,3,tasted,VERB,1,1,0.97397,The ex- slave tasted freedom shortly before she died.
+test-583 0,583,0,lay,VERB,1,1,0.98935,lay the foundation for a new health care plan.
+test-584 2,584,2,sell,VERB,0,0,0.01056,The brothers sell shoes.
+test-585 2,585,2,melted,VERB,1,1,0.98587,her resistance melted under his charm.
+test-586 4,586,4,stagnate,VERB,0,0,0.00161,There are marshes that stagnate the waters.
+test-587 1,587,1,landed,VERB,1,1,0.97555,He landed several blows on his opponent's head.
+test-588 3,588,3,shook,VERB,1,1,0.98635,The bad news shook her hopes.
+test-589 2,589,2,flushed,VERB,1,1,0.97952,the sky flushed with rosy splendor.
+test-590 2,590,2,devoured,VERB,1,1,0.72511,Fire had devoured our home.
+test-591 1,591,1,steam,VERB,0,0,0.00927,just steam the vegetables.
+test-592 7,592,7,uprooted.,VERB,1,1,0.99788,The vestiges of political democracy were soon uprooted.
+test-593 3,593,3,emerged,VERB,1,1,0.72847,Some nice results emerged from the study.
+test-594 3,594,3,gagged.,VERB,1,1,0.74398,The press was gagged.
+test-595 2,595,2,reflects,VERB,1,1,0.98335,This action reflects his true beliefs.
+test-596 1,596,1,breathed,VERB,1,1,0.96458,He breathed new life into the old house.
+test-597 0,597,0,Curl,VERB,0,0,0.00259,"Curl my hair, please."
+test-598 2,598,2,stuffed,VERB,0,0,0.01143,Have you stuffed the turkey yet?
+test-599 2,599,2,wearing,VERB,0,0,0.00727,She was wearing yellow that day.
+test-600 3,600,3,inflated.,VERB,1,1,0.52548,The charges were inflated.
+test-601 2,601,2,singing,VERB,0,0,0.00318,She was singing while she was cooking.
+test-602 2,602,2,ruffled,VERB,0,0,0.00014,The seamstress ruffled the curtain fabric.
+test-603 2,603,2,pouring,VERB,1,0,0.07411,People were pouring out of the theater.
+test-604 0,604,0,load,VERB,0,0,0.00767,load the bags onto the trucks.
+test-605 2,605,2,kicked,VERB,0,0,0.01913,The boy kicked the dog.
+test-606 3,606,3,smothered,VERB,1,0,0.01237,the butter cream smothered the cake.
+test-607 2,607,2,raided,VERB,1,0,0.01793,Our babysitter raided our refrigerator.
+test-608 1,608,1,squared,VERB,1,0,0.09320,He squared his shoulders.
+test-609 6,609,6,posed,VERB,0,0,0.11521,We don't know the woman who posed for Leonardo so often.
+test-610 2,610,2,kited,VERB,0,0,0.01710,The pilot kited for a long time over the mountains.
+test-611 3,611,3,swelling,VERB,1,1,0.98862,The mother was swelling with importance when she spoke of her son.
+test-612 4,612,4,glow.,VERB,1,1,0.98153,Make the people's hearts glow.
+test-613 2,613,2,wrestled,VERB,0,0,0.00890,The children wrestled in the garden.
+test-614 2,614,2,pushed,VERB,0,1,0.96219,The crowd pushed forward.
+test-615 2,615,2,raided,VERB,0,0,0.05090,The pirates raided the coastal villages regularly.
+test-616 2,616,2,ripped,VERB,1,1,0.93509,The tornado ripped along the coast.
+test-617 2,617,2,spell,VERB,1,0,0.21505,the workers spell every four hours.
+test-618 3,618,3,bind,VERB,0,0,0.24684,The Chinese would bind the feet of their women.
+test-619 1,619,1,transformed,VERB,1,0,0.12415,He transformed into a monster.
+test-620 2,620,2,uprooted,VERB,1,1,0.68022,The war uprooted many people.
+test-621 2,621,2,sharpened.,VERB,1,1,0.99983,The debate sharpened.
+test-622 2,622,2,glowed,VERB,1,0,0.02220,Her face glowed when she came out of the sauna.
+test-623 1,623,1,bolt,VERB,1,1,0.97932,Don't bolt your food!
+test-624 0,624,0,answer,VERB,0,0,0.02723,answer the telephone.
+test-625 3,625,3,captured,VERB,0,1,0.98849,This nucleus has captured the slow- moving neutrons.
+test-626 1,626,1,computerized,VERB,0,0,0.02787,They computerized the car industry.
+test-627 1,627,1,drowned,VERB,1,1,0.96022,She drowned her trouble in alcohol.
+test-628 3,628,3,lend,VERB,1,1,0.96170,This story would lend itself well to serialization on television.
+test-629 7,629,7,recast.,VERB,0,0,0.07975,The bell cracked and had to be recast.
+test-630 3,630,3,besieged,VERB,1,1,0.93276,The press photographers besieged the movie star.
+test-631 1,631,1,absorbed,VERB,1,1,0.98642,He absorbed the knowledge or beliefs of his tribe.
+test-632 6,632,6,stamped,VERB,1,1,0.97899,a man whose name is permanently stamped on our maps.
+test-633 9,633,9,blaze.,VERB,0,0,0.05923,The summer sun alone can cause a pine to blaze.
+test-634 4,634,4,absorbed,VERB,1,1,0.98710,The sales tax is absorbed into the state income tax.
+test-635 1,635,1,grabbed,VERB,0,0,0.02111,She grabbed the child's hand and ran out of the room.
+test-636 0,636,0,spread,VERB,0,0,0.00885,spread cheese on a piece of bread.
+test-637 3,637,3,landed,VERB,0,0,0.04841,The drug smugglers landed the heroin on the beach of the island.
+test-638 2,638,2,steamrollered,VERB,1,0,0.02815,The Senator steamrollered the bill to defeat.
+test-639 2,639,2,ruffled,VERB,0,1,0.99679,The wind ruffled the surface of the water.

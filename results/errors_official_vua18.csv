@@ -1,0 +1,301 @@
+type,word,POS,p_metaphor,sentence,index
+FN,price-earnings,NOUN,0.000,The market's price-earnings multiple was 16 last night but it would drop below 14 if that increase in earnings really happens.,al2-fragment16 182
+FN,"make-up,",PART,0.000,"Her long hair, shining gold, was swept back and caught at the nape of her neck with a bow, make-up, expertly applied, accentuated the classically beautiful lines of her face, and she wore her well-cut suit with all the panache that was expected of her.",bmw-fragment09 2547
+FN,turn-of-the-century:,PUNCT,0.000,"If you didn't know the tunes, you'd assume Holly's lyrics decorated some innocent backporch spooners from the turn-of-the-century: â Stars appear and the shadows are fallin' You can hear my honey callin'.",a5e-fragment06 185
+FN,Cupid,PROPN,0.000,Or: â When Cupid shot his dart He shot it at your heart.,a5e-fragment06 187
+FN,make-up.,NOUN,0.000,"An individual's degree of extroversion or introversion is inherited, determined by his or her genetic make-up.",b17-fragment02 210
+FN,Pupils,NOUN,0.000,Pupils in action schools became markedly less stereotyped than pupils in control schools.,clw-fragment01 128
+FN,forebears,NOUN,0.000,Today's attraction-merchants are doing no more to lure 20th-century tourists than their medieval forebears did for pilgrims.,ahc-fragment61 1297
+FN,make-up,PART,0.000,The major problem faced by theories suggesting a link between genetic make-up and criminal behaviour is the difficulty of distinguishing between genetic and environmental effects.,b17-fragment02 216
+FN,voluminous,ADJ,0.000,"The supertram is, in effect, a low-cost replacement for British Rail's ageing fleet of suburban diesel multiple-unit trains, those rasping diesels which change gear to the accompaniment of voluminous clouds of acrid black exhaust fumes and the blessing of train spotters.",a3m-fragment02 86
+FN,imitating,VERB,0.000,She had listened to Arlene's own voice and set about imitating it for she held her mentor in the highest esteem whilst still being a little afraid of her.,bmw-fragment09 2555
+FN,ensembles:,NOUN,0.000,"There is, therefore, before any understanding of historic agents and movements, a certain aporia in all social ensembles: from afar they may appear whole, but close to, they can be seen as riddled with holes.",cty-fragment03 521
+FN,"State,",PROPN,0.000,"But the Metternich-like skills of the US Secretary of State, Mr James Baker, are ensuring that America maintains a strong stake in each forum.",a7t-fragment01 7
+FN,"say,",INTJ,0.000,"say, there's so many combinations that's the thing isn't it?",kb7-fragment48 13328
+FN,association,NOUN,0.000,The evidence for an association between personality characteristics and an interest in science has been more fully reviewed by Head( 1979).,clw-fragment01 13
+FN,heifers.,NOUN,0.000,"â He told me you two were pakiteng, little heifers.",faj-fragment17 1969
+FN,interest,NOUN,0.000,The evidence for an association between personality characteristics and an interest in science has been more fully reviewed by Head( 1979).,clw-fragment01 13
+FN,"Reeds,",PROPN,0.000,"But this is a plot development â the plot development â and, if it involves turning a couple of Aled Jones types into Oliver Reeds, why let logic get in the way?",a5e-fragment06 158
+FP,cut-and-dried,VERB,1.000,"If we compare boys of 14 years of age who opt for science with other boys, we find that the former have very cut-and-dried views on many issues.",clw-fragment01 33
+FP,uponupon,NOUN,1.000,It is a curiously paradoxical foundation uponupon which to build a theory of autonomy.,ecv-fragment05 1060
+FN,nuggets,NOUN,0.000,Twenty chicken nuggets please.,kbw-fragment09 3961
+FN,interaction,NOUN,0.000,"Probably a case-study approach involving the application of science, and the interaction with other disciplines, would be needed.",clw-fragment01 103
+FN,cupboard,NOUN,0.000,"In hard hats and protective glasses, we walked past the huge â fume cupboard where the most noxious barrels are opened, and arrived at the vast, closed mouth of the furnace itself.",a1u-fragment04 85
+FN,Friends,PROPN,0.000,"In 1986, according to Friends of the Earth, a survey of the homes clustered on the surrounding hills found that three-quarters of 800 residents were opposed to the Rechem plant.",a1u-fragment04 128
+FN,Aled,PROPN,0.000,"But this is a plot development â the plot development â and, if it involves turning a couple of Aled Jones types into Oliver Reeds, why let logic get in the way?",a5e-fragment06 158
+FN,loom,NOUN,0.001,"I glanced up at the sails, down at the compass, then ahead to where the lighthouse loom arced powerfully through the night.",ccw-fragment04 2086
+FN,Cruising,PROPN,0.001,Or: â Cruising and playing the radio With no particular place to go.,a5e-fragment06 180
+FN,that,DET,0.001,"But it is also apparent that that totality is not completely known, nor is its future shape even presumed.",cty-fragment03 541
+FP,unscathed,ADJ,0.999,The only department which explicitly escapes unscathed is the one which Conservatives would most like to abolish: the Department of Energy.,a1j-fragment33 499
+FN,elsewhere(,ADV,0.001,"The project and its outcomes have been fully described elsewhere( Smail et al.,",clw-fragment01 125
+FN,Misunderstood,PROPN,0.001,"Misunderstood by Decca Records, he maintains, â I wan na play ma music ma way.",a5e-fragment06 152
+FP,muzungus?,NOUN,0.999,You must tell lies like the muzungus?,faj-fragment17 2089
+FN,"see,",INTJ,0.001,"The GIST hypothesis was that female under-achievement in science and technology is at least partly socially constructed by the school, an hypothesis based on research evidence as well as critical feminist analysis( see, for example, Kelly, 1981).",clw-fragment01 132
+FN,He,PRON,0.001,Or: â When Cupid shot his dart He shot it at your heart.,a5e-fragment06 187
+FP,"quiver,",NOUN,0.999,"In his hands he holds a snuff box, shaped like a small quiver, and a thin stick.",faj-fragment17 2002
+FP,cut-throat,NOUN,0.999,But in the cut-throat world of fashion up and coming designers were to be feared â and already Gary's reputation was growing.,bmw-fragment09 2748
+FN,sermons,NOUN,0.001,"Biblical motifs recur â some art-experts call them sermons in stone, and their messages would certainly have been clear to the often-illiterate medieval pilgrims trudging to Santiago de Compostela in Spain.",ahc-fragment61 1294
+FN,fluently.),ADV,0.001,( Her accent is very French but she speaks English fluently.),faj-fragment17 1687
+FN,sure,ADJ,0.001,"Just make sure you squeeze their knickers off, make them",kb7-fragment48 13552
+FP,re-exteriorizes,VERB,0.999,"At the same time Sartre makes a larger, though less persuasive claim that the boxing-match also works synecdochally and re-exteriorizes a more fundamental violence, namely the interiorized condition of scarcity that he considers to be the basis of conflict in general.",cty-fragment03 549
+FP,crematorium.,NOUN,0.999,"For a place so hated, the Pontypool plant looks innocuous inside, like a cross between an oil refinery and a crematorium.",a1u-fragment04 83
+FN,Jones,PROPN,0.001,"But this is a plot development â the plot development â and, if it involves turning a couple of Aled Jones types into Oliver Reeds, why let logic get in the way?",a5e-fragment06 158
+FP,that's,DET,0.999,No that's what I say if calculated wrong,kb7-fragment45 12997
+FP,That's,DET,0.999,"That's what I say, you buy three pound of flour and two pound of mincemeat in a jar.",kb7-fragment31 11573
+FN,Bastards,NOUN,0.002,Bastards stealing our customers last night!,kbd-fragment21 8133
+FN,lady,NOUN,0.002,Dave do you want to take to that lady in the corner.,kbw-fragment09 3986
+FN,"know,",VERB,0.002,"You know, I remember him",kb7-fragment45 13109
+FN,"fresher,",ADJ,0.002,"The showrooms of the House of Oliver were smaller and less grand than those at the House of Mattli but the d©cor was newer and fresher, pale grey drapes, ultra modern black furniture and a great deal of gleaming stainless steel.",bmw-fragment09 2789
+FN,Sod,PROPN,0.002,Sod off!,kbd-fragment21 8123
+FN,trying,VERB,0.002,Paula perched herself against the cutting table trying to look nonchalant.,bmw-fragment09 2793
+FN,workhouse,NOUN,0.002,"As for the House of Mattli, it might have been in a different world to the hostel, with its air of being a cross between a workhouse and a boarding school.",bmw-fragment09 2615
+FN,expression,NOUN,0.002,Gary's expression became even more anxious.,bmw-fragment09 2852
+FN,interests,NOUN,0.002,"One of the main gains from the GIST project has been the clarification of what is meant by a â girl friendly, science, that is a science which will appeal equally to the interests and concerns of girls as well as boys. â¦",clw-fragment01 134
+FN,dawned.,VERB,0.002,Oh! she squealed as light dawned.,bmw-fragment09 2684
+FN,his,ADJ,0.002,Or: â When Cupid shot his dart He shot it at your heart.,a5e-fragment06 187
+FN,ill-will,NOUN,0.002,"The subject of a bad reference can sue the referee for libel but has to show the referee was upto no good: spite, ill-will or some improper motive will do.",a31-fragment03 124
+FP,that's,DET,0.998,"you know I need new glasses or something, you know that's how I feel.",kb7-fragment31 11428
+FN,it,PRON,0.002,Or: â When Cupid shot his dart He shot it at your heart.,a5e-fragment06 187
+FN,said,VERB,0.002,Schopenhauer said that women remain big children all their lives; it would be interesting to know what he thought children were like.,ecv-fragment05 1070
+FN,know,VERB,0.002,Oh I went we were absolutely you know everybody claimed something,kb7-fragment45 13086
+FN,supreme,ADJ,0.002,"There would in addition be a minister for Science and Technology at the newly supreme DTI, with responsibility for determing investment in research.",a1j-fragment33 509
+FN,"know,",VERB,0.002,"and and when this Peter come he said well you know, just show him everything and like you did me and he said he didn't wan na know thank you.",kb7-fragment45 13130
+FN,bought,VERB,0.002,She bought it.,a31-fragment03 130
+FN,"appeasement,",NOUN,0.002,"In a tone of meek appeasement, the letter draws attention to the arrest by Hong Kong police of anti-China demonstrators outside the agency's National Day reception.",a7w-fragment01 69
+FN,"say,",VERB,0.002,"Though this neatly solves the problem of how man can make history while at the same time history makes him, it does not answer the larger question of how a multiplicity of the products of individual acts, â totalizations, can themselves be totalized into the overall totalization required by the logic of dialectical rationality â rather than being the arbitrary, blind and self-cancelling movements of, say, Hardy's immanent will.",cty-fragment03 479
+FP,interiorized,ADJ,0.998,"At the same time Sartre makes a larger, though less persuasive claim that the boxing-match also works synecdochally and re-exteriorizes a more fundamental violence, namely the interiorized condition of scarcity that he considers to be the basis of conflict in general.",cty-fragment03 549
+FN,employment,NOUN,0.003,Paula was amazed by the security arrangements that were necessary to ensure that the new season's collections remained exclusive â the windows at the rear of the premises were heavily barred and practically the first thing she had to do on commencing her employment was to sign a contract promising that she would not breathe a word about the designs she saw.,bmw-fragment09 2624
+FN,practically,ADV,0.003,"If it works out we shall practically be neighbours, Paula.",bmw-fragment09 2699
+FN,know,VERB,0.003,"Joe and I mean I come a long way and they said he told them I wan na pop in Friday morning before we go He was surprised He said well I weren't surprised, I said but er you know I want a name yeah well, he just said well I can't he can't fault me on anything.",kb7-fragment45 13072
+FN,"interests,",NOUN,0.003,"These examples indicate some of the features of girl friendly science: it builds on girls' interests, not just boys'; it explicitly encourages girls to see themselves as potential scientists, and it includes some of the social and human implications and applications of science.",clw-fragment01 151
+FN,your,ADJ,0.003,Or: â When Cupid shot his dart He shot it at your heart.,a5e-fragment06 187
+FN,features,NOUN,0.003,"At present the science curriculum is structured around physical science interests, on which boys are keener( how motor cars work, atoms and molecules); we were able to recommend that teaching build on the overlapping interests of the two sexes, because girls as well as boys want to know more about human biology and spectacular features of the environment( animals in the jungle, volcanoes and earthquakes, acids and chemicals).",clw-fragment01 148
+FN,claimed,VERB,0.003,well he told me when I claimed,kb7-fragment45 13088
+FN,mop,NOUN,0.003,Gary ran a distracted hand through his mop of fair hair.,bmw-fragment09 2821
+FN,interests,NOUN,0.003,"At present the science curriculum is structured around physical science interests, on which boys are keener( how motor cars work, atoms and molecules); we were able to recommend that teaching build on the overlapping interests of the two sexes, because girls as well as boys want to know more about human biology and spectacular features of the environment( animals in the jungle, volcanoes and earthquakes, acids and chemicals).",clw-fragment01 148
+FN,star-studded,VERB,0.003,"I wished that Ellen and Rickie would go to their beds, for the soft mutter of their voices was an intrusion on the dark and star-studded infinity through which I steered Wavebreaker.",ccw-fragment04 2135
+FN,symptomatic,ADJ,0.003,"His difficulty is accompanied by a no doubt symptomatic increasing distrust of universals so that, in championing specificities against them, he seems to give up the attempt to validate the universals â History as Totalization â that originally formed the object of his project.",cty-fragment03 562
+FP,That's,DET,0.997,"That's the way I feel, am I not allowed?",kb7-fragment48 13481
+FN,start,VERB,0.003,"I suppose that's what John thought, we might not get them done, start early and get them finished",kb7-fragment45 13046
+FN,hereditary,ADJ,0.003,"The individual criminal is born so; and this is usually put down to â faulty chromosome patterns, or, more vaguely, to â hereditary traits.",b17-fragment02 191
+FN,to,PART,0.003,It may be that tougher-looking delinquents are more liable to be put away than fragile looking ones.,b17-fragment02 204
+FN,masts,NOUN,0.003,"The masts may seem unsightly to those unused to them, but I am sure it is simply a matter of getting accustomed.",ahd-fragment06 60
+FN,said,VERB,0.003,Aristotle said something very interesting in that extract from the Politics which I quoted earlier; he said that women have a deliberative faculty but that it lacks full authority.,ecv-fragment05 1217
+FN,bought,VERB,0.003,"We bought it off the city, well Michelin bought it off the city council and they gazumped us and erm but we, we have tables and chairs onto the dance floor on other nights and just pull them back when it's clear",kbd-fragment21 7988
+FN,interest,NOUN,0.003,"But there would be new regulatory commissions and consumer councils for every utility, along with ombudsmen, and public interest commissioners appointed by the Secretary of State.",a1j-fragment33 531
+FN,raccoon.,NOUN,0.003,"You look, how you say?, as a raccoon.",faj-fragment17 1692
+FN,that,ADJ,0.003,Just want to I just want a that will do me,kb7-fragment31 11480
+FN,in,PART,0.003,"Yeah, I'm going in as well darling.",kb7-fragment48 13459
+FN,interest,NOUN,0.003,"In contrast, only a minority of girls express an interest in science at any age but there is no obvious swing from science in the middle and late teens.",clw-fragment01 25
+FN,interest,NOUN,0.003,"For example Roe( 1952), Eiduson( 1962) and McClelland( 1962) suggested that male scientists often experienced a lonely childhood, perhaps suffering social isolation through illness or family circumstances, so that they developed a strong interest in their surrounding material world and a below average interest in other people and relationships.",clw-fragment01 8
+FN,crews,NOUN,0.003,But only two million out of the 20 million journeys which ambulance crews carry out each year are emergency calls.,a7w-fragment01 41
+FN,interest,NOUN,0.003,"Thereafter, there is a steady decline of interest in science and this disillusionment extends right through the secondary-school years and into the undergraduate period.",clw-fragment01 24
+FN,pollution).,NOUN,0.004,"The wastes include lindane, DDT, out-of-date drugs, carcinogenic chemicals, old cigars and even pornography( a different kind of pollution).",a1u-fragment04 109
+FN,said,VERB,0.004,The prison has a medical block with 24 beds and a gym with equipment that staff said would be the envy of many council leisure centres.,ahe-fragment03 42
+FN,wipe,VERB,0.004,wipe it off but nobody knows who you are anyway so what difference does it make?,kb7-fragment45 13190
+FN,decision,NOUN,0.004,"He doesn't smoke or drink, and even if he wanted to, two heart attacks and a by-pass operation have made the decision for him.",aa3-fragment08 216
+FN,said,VERB,0.004,Aristotle said something very interesting in that extract from the Politics which I quoted earlier; he said that women have a deliberative faculty but that it lacks full authority.,ecv-fragment05 1217
+FN,original,NOUN,0.004,The one thing they do not do is to re-examine the original for the tell-tale signs of forgery.,ecv-fragment05 1155
+FN,negation,NOUN,0.004,"At this point Sartre confronts the possibility that the whole project of the Critique, stated so confidently on its very first page â â it must be proved that a negation of a negation can be an affirmation( I, 15) â may break down.",cty-fragment03 528
+FN,means,NOUN,0.004,"But the job of lifting the standards of people employed, giving them proper training, and paying a wage which breaks dependence on overtime and lifts morale: this together must far exceed the costs of the technology, and it isn't by any means clear what the bill will be or where the money will come from.",a7w-fragment01 14
+FN,foreclosure,NOUN,0.004,"Consequently, very few girls at the foreclosure stage will enter science unless they receive considerable encouragement and a model to do so from their parents and their school.",clw-fragment01 70
+FN,"theft,",NOUN,0.004,"â Kind of starving, she justified her theft, then poured herself some diet soda.",ccw-fragment04 2029
+FN,done,VERB,0.004,"He come in Saturday, not that he, we've heard all that before, said that you can get give it a good wash and squeeze it back, that I can't put one on now, give me a ring when you're done",kb7-fragment48 13632
+FN,political,ADJ,0.004,"At the moment, â history is made without being known( l'histoire se fait sans se connitre) â history constitutes, we might say today, a political unconscious.",cty-fragment03 490
+FN,naught,NOUN,0.004,"We must remember that to deny someone control of their own lives is to offer them a most profound insult, not to mention the which the frustration of their wishes and the setting at naught of their own plans for themselves will add.",ecv-fragment05 1168
+FN,state,NOUN,0.004,Lack of congressional action also forced the Treasury to suspend new sales of US savings bonds and of special securities for state and local governments.,a7t-fragment01 24
+FN,Oliver,PROPN,0.004,"But this is a plot development â the plot development â and, if it involves turning a couple of Aled Jones types into Oliver Reeds, why let logic get in the way?",a5e-fragment06 158
+FN,medieval,ADJ,0.004,Today's attraction-merchants are doing no more to lure 20th-century tourists than their medieval forebears did for pilgrims.,ahc-fragment61 1297
+FN,supply,VERB,0.004,â I have been asked to supply the models and I would like you to be one of them.,bmw-fragment09 2557
+FN,bonds,NOUN,0.004,Lack of congressional action also forced the Treasury to suspend new sales of US savings bonds and of special securities for state and local governments.,a7t-fragment01 24
+FN,antagonistic,ADJ,0.004,"Sartre's fundamental thesis, that â History continually effects totalisations of totalisations( I, 15), does not in itself answer what Ronald Aronson has rightly characterized as the question for Sartre: â how do separate, antagonistic actions yield a history; how do individual totalizations lead to Totalization( and also progress, the direction of history, its truth and its meaning)?",cty-fragment03 480
+FN,causes.,NOUN,0.004,But they are not completely lost causes.,ecv-fragment05 1116
+FN,intractable,ADJ,0.004,The disposal of toxic wastes is one of the most intractable problems facing industrialised societies.,a1u-fragment04 57
+FN,organic,ADJ,0.004,"Unlike Luk¡cs' insignificant event from which the universal is precariously drawn out through the narrative, Sartre's singularity works synecdochally in a conventional antinomy with the universal, the relation between the two structured according to the familiar nineteenth-century model of organic growth or process in which each singular event makes up the whole while, as he puts it, â the whole is entirely present in the part as its present meaning and as its destiny.",cty-fragment03 532
+FN,earnings,NOUN,0.004,The City view is that the fall in corporate earnings has stopped and that next year's increase could be around 15 p.c.,al2-fragment16 181
+FN,gambling,NOUN,0.004,"If you were a gambling man it would not affect you, it would just be lost.",aa3-fragment08 232
+FN,earnings,NOUN,0.004,The market's price-earnings multiple was 16 last night but it would drop below 14 if that increase in earnings really happens.,al2-fragment16 182
+FN,piracy,NOUN,0.004,"There are always accusations of piracy and copy-catting, though they can't usually be substantiated.",bmw-fragment09 2817
+FN,looking,VERB,0.004,No we don't wan na be looking at,kbd-fragment21 8124
+FN,wanted,VERB,0.004,"And one wanted re-estimating, the other one wanted a few more prices cos everything like marble tops which are going to cost a fortune to get done.",kbh-fragment04 359
+FN,call,VERB,0.005,We'll call,kb7-fragment31 11466
+FN,"arches,",VERB,0.005,"Thus were explained anatomically the enormous jaws, high cheek bones, prominent superciliary arches, solitary lines on the palms, extreme size of the orbits, handle-shaped or sessile ears found in criminals, savages and apes, insensibility of pain, extremely acute sight, tattooing, excessive idleness, love of orgies and the craving for evil for its own sake â¦",b17-fragment02 196
+FN,"pupils,",NOUN,0.005,"First, the pupils, teachers and practitioners of science are overwhelmingly male in terms of numbers; second, school science is packaged and presented to appeal to boys, not girls; third, classroom behaviours and interaction operate to reconstruct science as a male activity, and finally it has been suggested that â scientific thinking embodies an intrinsically masculine world view.",clw-fragment01 160
+FN,foreclosure,NOUN,0.005,"The preponderance of boys at the foreclosure stage will yield the rigid, authoritarian attitudes often associated with scientists.",clw-fragment01 79
+FN,occurred;,VERB,0.005,"There are strict time limits: generally, six years from when damage first occurred; where the damage was initially â latent you are given longer â three years from when you could have discovered it, with a longstop of 15 years.",a31-fragment03 135
+FN,millipedes,NOUN,0.005,"After all, Mancunians and visitors to the Manchester conurbation are going to have to look at these mechanical millipedes for well into the twenty-first century.",a3m-fragment02 79
+FN,"touch,",NOUN,0.005,"â We must keep in touch, Gary said as he finished his cheese roll.",bmw-fragment09 2705
+FN,approach,NOUN,0.005,"Probably a case-study approach involving the application of science, and the interaction with other disciplines, would be needed.",clw-fragment01 103
+FN,"door,",NOUN,0.005,"Wriggling across country on the D216 to Port-d'Envaux, you come to two more chateaux: 18th-century Panloy, flaking romantically away on its hillock overlooking a bend in the Charente and, almost next door, the much older, moated Crazannes, half-smothered in amazing flamboyant Gothic carving.",ahc-fragment61 1279
+FN,gambled,VERB,0.005,"But until they get any money back, the Tysons find themselves in the position of the gambler who gambled all and lost.",aa3-fragment08 250
+FN,done,VERB,0.005,"You, getting all put some back in, I need some by six o'clock, I said comes at six thirty, you can't have it we're bloody cooking, any way I though you done John's said his got because come on.",kb7-fragment48 13627
+FN,invention,NOUN,0.005,"He sees childhood as a fairly modern invention designed to fit adult rather than children's needs, and an oppressive invention at that.",ecv-fragment05 1161
+FN,curiously,ADV,0.005,It is a curiously paradoxical foundation uponupon which to build a theory of autonomy.,ecv-fragment05 1060
+FN,interest,NOUN,0.005,That could work â though it is easy to imagine conflicts of interest with the housing and planning functions of the department.,a1j-fragment33 522
+FN,said),VERB,0.005,"Throughout we should ask ourselves, does this( whatever is being said) apply to her?",ecv-fragment05 1094
+FN,groomed,VERB,0.005,"Perfectly groomed from head to toe and with all that assurance, she was ready to take on the world, Arlene thought with satisfaction, for she looked on Paula as her very own creation.",bmw-fragment09 2551
+FN,observations.,NOUN,0.005,This model seems to explain our observations.,clw-fragment01 77
+FN,mind.,NOUN,0.005,"Somehow the image of the tall, thin, mournful double-deck tram with its wooden body, slatted wooden seats and growling electric motor has stuck in the British mind.",a3m-fragment02 60
+FN,off,PART,0.005,Women on there have to come off,kb7-fragment48 13390
+FN,victories,NOUN,0.005,"No one can predict the future of boxing, either at the level of particular victories or defeats, in effect a structure of repetition, nor at the more general level of possible modifications or developments of the sport.",cty-fragment03 543
+FN,invention,NOUN,0.005,"He sees childhood as a fairly modern invention designed to fit adult rather than children's needs, and an oppressive invention at that.",ecv-fragment05 1161
+FN,foreclosure,NOUN,0.005,"A large number of boys, particularly at the foreclosure stage, are initially attracted to science but there is a drift away throughout later adolescence as they undergo some crisis.",clw-fragment01 78
+FN,doing.,VERB,0.005,"Government fixes the format in which BR has to work; and if, as the Hidden report attests, many of its problems today reflect lack of past planning, lack of farsighted investment, living from hand to mouth, then that is not just BR's doing.",a7w-fragment01 16
+FN,injury,NOUN,0.005,Children must be taken care of by others and protected from external injury and against their own actions.,ecv-fragment05 1119
+FN,foreclosure,NOUN,0.005,"Eventually these persons might have to face up to period of crisis, of self-examination, and so achieve ego-identity by route C. However, foreclosure does offer an escape route and an individual might postpone indefinitely any real self-examination by clinging rigidly to his or her beliefs and values( route D).",clw-fragment01 59
+FN,afford,VERB,0.005,We can't afford any sloppiness.,bmw-fragment09 2566
+FN,Emphasizing,VERB,0.005,"Emphasizing the applications and relevance of science: To obtain a major qualitative improvement to recruitment in science with more girls and with students possessing imaginative, flexible minds it would be necessary to make science appealing to boys and girls at the moratorium stage.",clw-fragment01 100
+FN,road.,NOUN,0.005,"Fight back those tears at The Inevitable Parting: â You and me, boy, I reckon we've come to the end of our road.",a5e-fragment06 163
+FN,with,ADP,0.005,"Probably a case-study approach involving the application of science, and the interaction with other disciplines, would be needed.",clw-fragment01 103
+FN,occupations,NOUN,0.005,This means that schoolgirls are ineligible for a wide range of courses in further and higher education and for entry to occupations requiring a scientific or technical base.,clw-fragment01 116
+FN,evidence,NOUN,0.005,"Though he was always in evidence it was invariably Madame who did all the talking, giving orders, fussing around clients, so that Paula was never quite certain what his role was.",bmw-fragment09 2741
+FP,that.,DET,0.994,"Well so many of these songs have been done by so many people that you would be forgiven for thinking that, that.",kbh-fragment04 320
+FN,off.,PART,0.006,I will try to get him off.,faj-fragment17 2090
+FN,wine.,NOUN,0.006,"It made her feel strong, invincible almost, and just a tiny bit as if she had drunk too much wine.",bmw-fragment09 2861
+FN,"Clearly,",ADV,0.006,"Clearly, we are getting further and further away from the causes of delinquent behaviour, and it is perhaps wisest to think in terms of causal processes when looking at criminal behaviour.",b17-fragment02 185
+FP,through,ADP,0.994,"Whatever the outcome, the Government's willingness to continue pushing through the float during this Parliament shows how ministers are prepared to put political expediency before the interests of the industry.",a7t-fragment01 35
+FN,brilliantly,ADV,0.006,"That, after all, is what Don McLean did so brilliantly in â American Pie, a personal reaction to â the day the music died.",a5e-fragment06 201
+FN,survey,NOUN,0.006,"In 1986, according to Friends of the Earth, a survey of the homes clustered on the surrounding hills found that three-quarters of 800 residents were opposed to the Rechem plant.",a1u-fragment04 128
+FN,them.,PRON,0.006,â I have been asked to supply the models and I would like you to be one of them.,bmw-fragment09 2557
+FN,school.,NOUN,0.006,"As for the House of Mattli, it might have been in a different world to the hostel, with its air of being a cross between a workhouse and a boarding school.",bmw-fragment09 2615
+FN,presences,NOUN,0.006,But the vaporous presences that float through this slender and anaemic first novel by a notable poet would appear to support the claim.,a36-fragment07 182
+FN,up.,PART,0.006,"Of course got to cook so, depending on it will be about five o'clock so that they can get washed up.",kb7-fragment48 13522
+FN,interest,NOUN,0.006,Girls had far less â tinkering experience than boys and the connection with their lesser interest in topics like â how electricity is produced seemed obvious.,clw-fragment01 155
+FN,gambler,NOUN,0.006,"But until they get any money back, the Tysons find themselves in the position of the gambler who gambled all and lost.",aa3-fragment08 250
+FN,son,NOUN,0.006,"It had a son to be proud of: Samuel Champlain, founder of Quebec, who was born there around 1569.",ahc-fragment61 1272
+FP,in,ADP,0.994,"It did not help at all that upon arrival yesterday the royal couple instantly touched base in that comforting symbol of past British power, the Hong Kong and Shanghai Bank.",a7w-fragment01 62
+FN,distinguishable,ADJ,0.006,"If he can â pick and choose, I suggest, he is not a citizen, he does not have full political status and he is quite distinguishable on these grounds alone from the adults around him who do not have this option.",ecv-fragment05 1209
+FP,out,ADP,0.994,"Yeah, we pay all the year round for that don't we and that's all we bloody get out of it.",kb7-fragment48 13675
+FN,presented,VERB,0.006,The probable implication is that science would need to be presented in the context of the needs of society and individuals.,clw-fragment01 102
+FN,"interests,",NOUN,0.006,"At present the science curriculum is structured around physical science interests, on which boys are keener( how motor cars work, atoms and molecules); we were able to recommend that teaching build on the overlapping interests of the two sexes, because girls as well as boys want to know more about human biology and spectacular features of the environment( animals in the jungle, volcanoes and earthquakes, acids and chemicals).",clw-fragment01 148
+FN,foreclosure,NOUN,0.007,"In the development through the years of adolescence the number of foreclosure pupils will diminish, hence the recruitment of boys into science would be cut.",clw-fragment01 88
+FN,talking,VERB,0.007,â They are dedicated people who clearly know what they are talking about and have guided us through it.,aa3-fragment08 244
+FN,work,VERB,0.007,"Fair enough, I think I work",kb7-fragment48 13622
+FN,on,PART,0.007,what you put on there and that,kb7-fragment45 13169
+FN,bulbs,NOUN,0.007,"Well, you'll have nine bulbs and lights out got a thousand to do Ann's had",kb7-fragment45 12952
+FN,means,VERB,0.007,"Female exclusion from science and technology, even if it is apparently by girls' own choice, also means that as citizens their ability to understand and control their environment is limited.",clw-fragment01 117
+FP,On,ADP,0.993,"On that path, go on.",kbw-fragment09 3943
+FN,call,VERB,0.007,We I'll call in,kb7-fragment31 11443
+FN,wanted,VERB,0.007,"And one wanted re-estimating, the other one wanted a few more prices cos everything like marble tops which are going to cost a fortune to get done.",kbh-fragment04 359
+FN,talking,VERB,0.007,It is not language since Hobbes is here talking about the prelinguistic child.,ecv-fragment05 1133
+FN,short,ADJ,0.007,"â We must run it safely in the short term and long term, he said, â because if people are able to demonstrate that we are causing an environment problem we will be shut down.",a1u-fragment04 156
+FN,hiss,NOUN,0.007,"The sounds are the same as those of daylight, yet somehow the night magnifies and sharpens the creak of a yielding block, the sigh of air over a shroud, the stretching of a sail, the hiss of water sliding sleek against the hull, the curl of a quarter-wave falling away, and the thump as a wave strikes the cutwater to be sheared into two bright slices of whiteness.",ccw-fragment04 2130
+FN,observations,NOUN,0.007,Hobbes is not using an inductive argument here; the â possibility apparent is not an inductive argument from observations about past children but is meant to refer to some discernible feature of present ones.,ecv-fragment05 1130
+FN,road,NOUN,0.007,"In a desperately competitive climate, where anyone bright and competent could go down the road and pick up a better paid job with kinder hours and more congenial working conditions from someone like British Telecom, the railways ran a service dependent on people who belonged to a narrow and inbred working culture, with outdated procedures of training and promotion, and an institutional reliance on overtime working, whose wholly disgraceful dimensions are symbolised by the fact that maximum weekly hours were only recently cut to 72 hours a week.",a7w-fragment01 11
+FN,start,VERB,0.007,"Well, with the two lines going yeah would have been about right then but see, John I don't suppose he realised Ann was gon na fetch all the people out of here there and everywhere and start that up.",kb7-fragment45 13039
+FN,bedding,NOUN,0.007,Summer bedding is looking tired and should be removed so that the ground can be cleaned and fed ready for spring bulbs or wallflowers.,a3e-fragment02 22
+FN,gambling,NOUN,0.007,GEORGE Tyson is not a gambling man nor does he take unnecessary risks.,aa3-fragment08 215
+FN,kinder,ADJ,0.007,"In a desperately competitive climate, where anyone bright and competent could go down the road and pick up a better paid job with kinder hours and more congenial working conditions from someone like British Telecom, the railways ran a service dependent on people who belonged to a narrow and inbred working culture, with outdated procedures of training and promotion, and an institutional reliance on overtime working, whose wholly disgraceful dimensions are symbolised by the fact that maximum weekly hours were only recently cut to 72 hours a week.",a7w-fragment01 11
+FN,that'll,ADJ,0.007,"Yeah yeah might as well I'll make the mincemeat, mince pies this and give you some Ann that'll save you doing them, won't it?",kb7-fragment31 11525
+FN,sound,VERB,0.007,Don't sound a lot of weight but,kb7-fragment31 11575
+FN,"interests,",NOUN,0.008,"Schools and teachers tried curriculum development to build on girls' science interests, changing patterns of classroom interaction, single sex groups and classes.",clw-fragment01 137
+FN,knife,NOUN,0.008,Choke up at The Price Of Fame: â I give â em everything and they stick a knife in my back.,a5e-fragment06 162
+FN,in,ADP,0.008,The evidence for an association between personality characteristics and an interest in science has been more fully reviewed by Head( 1979).,clw-fragment01 13
+FN,now,ADV,0.008,"He won't last for a ten now done the, done the Welcome Break, they done the Char Grill, now they're on the Tescos.",kb7-fragment45 12935
+FN,"off,",PART,0.008,"Just make sure you squeeze their knickers off, make them",kb7-fragment48 13552
+FP,from,ADP,0.992,The Tysons have yet to see any cash payment from the liquidators who have been winding up BCI's affairs.,aa3-fragment08 247
+FP,about,ADP,0.992,She had listened to Arlene's own voice and set about imitating it for she held her mentor in the highest esteem whilst still being a little afraid of her.,bmw-fragment09 2555
+FN,plant.,NOUN,0.008,"In 1986, according to Friends of the Earth, a survey of the homes clustered on the surrounding hills found that three-quarters of 800 residents were opposed to the Rechem plant.",a1u-fragment04 128
+FN,negation,NOUN,0.008,"Sartre's reaction to the threat that the negation of a negation may produce a detotalizing effect is to introduce a new category, a unifying force of a â singularization which incarnates the universal: â If totalization really is an ongoing process, he writes, â then it operates everywhere.",cty-fragment03 530
+FN,away.,ADV,0.008,If we got Terry to do that we'd be well away.,kbh-fragment04 387
+FN,Model,PROPN,0.008,A Model to Link Personality Characteristics to a Preference for Science,clw-fragment01 2
+FN,talking,VERB,0.008,"Partly to redress the balance and partly because talking about â children covers such a wide range of potential images, I shall try to keep before my mind an ordinary 10-year-old of our society.",ecv-fragment05 1092
+FP,"place,",NOUN,0.992,"While he suggests in apocalyptic tones in The Problem of Method that this process of self-consciousness is at last beginning to take place, and that civil, foreign and colonial wars are becoming apparent as different forms of a single class struggle, Sartre also admits that the divorce between theory and praxis which ensued under Stalinism has generally prevented any clear self-consciousness among the masses.",cty-fragment03 492
+FN,forgery.,NOUN,0.008,The one thing they do not do is to re-examine the original for the tell-tale signs of forgery.,ecv-fragment05 1155
+FP,these,DET,0.992,"Although the major theoretical explanations are covered in the numerous introductions to the sociology of crime and deviance and to sociology generally, some review of these theories is necessary before embarking upon an examination of specific, substantive examples of criminal behaviour.",b17-fragment02 176
+FN,"justified,",VERB,0.008,"In either case, the political implication is that denying rights to children is entirely justified, and there the matter rests.",ecv-fragment05 1122
+FP,in,ADP,0.992,"Take up references before giving credit, lending money, letting in tenants, taking on staff.",a31-fragment03 121
+FP,whole,NOUN,0.992,"thus one can and must say â¦ that each fight is the singularisation of all the circumstances of the social whole in movement and that by this singularisation, it incarnates the enveloping totalization which the historical process is.",cty-fragment03 551
+FN,ramshackle,ADJ,0.008,The ramshackle Whitley Council negotiating machinery is the other reason why the ambulance workers have lost out.,a7w-fragment01 46
+FN,plants,NOUN,0.008,"No one could therefore call for the closure of incineration plants at a stroke, because noxious chemicals have to go somewhere.",a1u-fragment04 123
+FP,Metternich-like,ADJ,0.992,"But the Metternich-like skills of the US Secretary of State, Mr James Baker, are ensuring that America maintains a strong stake in each forum.",a7t-fragment01 7
+FN,rate,NOUN,0.008,The waste arrives at the rate of up to seven tanker-loads every day â that is seven lorries passing thousands of doorsteps.,a1u-fragment04 107
+FN,false,ADJ,0.008,"The model came in with the cups of tea, still glowering darkly at Paula from beneath her fringe of false eyelashes.",bmw-fragment09 2835
+FP,ready-made.,VERB,0.992,"The most common reason for a biomusical is opportunism: take a star like Judy Garland or John Lennon, and you pick up a hit title and a hit score ready-made.",a5e-fragment06 160
+FN,written,VERB,0.008,"The recognition that children can not simply be written off in the rationality stakes and can not therefore be denied autonomy on this account has led some writers to conclude that they can not, therefore, be denied it on any account.",ecv-fragment05 1157
+FN,operate,VERB,0.009,A â new Minister of Environmental Protection would operate inside the DoE.,a1j-fragment33 521
+FP,form,VERB,0.991,"The â medium term industrial strategy which would form the centrepiece of Labour's economic policy would, according to the Productive and Competitive Economy review group, be â administered by a transformed Department of Trade and Industry.",a1j-fragment33 504
+FP,up,ADP,0.991,"That boy will do anything for me, even up to getting himself killed by a lion.",faj-fragment17 2121
+FN,emission-free.,ADJ,0.009,"Mr Wheeler, an engineer who worked for many years in the oil business, is a pleasant, slightly worried-looking man who can not bear the fact that no one seems to realise just what lengths he goes to in order to keep the plant squeaky clean and emission-free.",a1u-fragment04 84
+FP,place,NOUN,0.991,"But what about those conflicts that do not take place within such a constituted social system, such as conflictual bourgeois societies which can not be said to be unified, except, as Sartre suggests dismissively, by appeal to a lost paradise before the class struggle?",cty-fragment03 557
+FP,whole,NOUN,0.991,"The boxing match â is the public incarnation of all conflict( II, 32), totalizing in its own struggle the whole of â contemporary irreducibilities and fissures( II, 26):",cty-fragment03 550
+FN,application,NOUN,0.009,"Probably a case-study approach involving the application of science, and the interaction with other disciplines, would be needed.",clw-fragment01 103
+FP,"palls,",VERB,0.991,"Such writing rapidly palls, and I hope that in the novels to come, Motion can curb his reckless passion for it.",a36-fragment07 206
+FP,in,ADP,0.991,"It's not as if there aren't aspects of his career that aren't worth exploring: how did he come to use drums, then almost unknown in Texan country line-ups?",a5e-fragment06 196
+FP,On,ADP,0.991,"That when women are given the vote it follows that children should be given it too is no argument at all, but a version of it occurs in modern debates over the justice or injustice of Mill's famous disclaimer in his essay On Liberty.",ecv-fragment05 1082
+FN,weight.,NOUN,0.009,"They, they would love him I mean one of them it was annoying really cos Terry's just not pulling his weight.",kbh-fragment04 388
+FN,pretending,VERB,0.009,But â posturing and pretending went far beyond the unions.,a7w-fragment01 33
+FN,"them,",PRON,0.009,"The masts may seem unsightly to those unused to them, but I am sure it is simply a matter of getting accustomed.",ahd-fragment06 60
+FN,work;,VERB,0.009,"Government fixes the format in which BR has to work; and if, as the Hidden report attests, many of its problems today reflect lack of past planning, lack of farsighted investment, living from hand to mouth, then that is not just BR's doing.",a7w-fragment01 16
+FP,place,NOUN,0.991,"Its totalization takes place through its incarnation, as part of the totality of boxing, in the overall framework within which each individual fight occurs.",cty-fragment03 539
+FP,stickler,NOUN,0.991,"Madame Mattli might be a stickler for detail, with a generous helping of the artistic temperament which kept her tight-coiled as a spring and which would explode into frenzy if the smallest detail was not as it should be, but she also had a kind face and deep perceptive eyes.",bmw-fragment09 2573
+FN,elaborately,ADV,0.009,The sergeant's face is elaborately composed.,faj-fragment17 1843
+FP,place.,NOUN,0.991,Once again he backtracks and assumes a larger unity in which conflict takes place.,cty-fragment03 560
+FN,yard.,NOUN,0.009,"Plus a backdrop of houses covering the valley walls on either side, a reminder that wherever industrialised societies decide to deal with their most intractable problems, they are unlikely to find a place to do so which is not in somebody's back yard.",a1u-fragment04 70
+FP,felt,VERB,0.991,For the first time she felt the stirrings of something like power.,bmw-fragment09 2858
+FN,materials,NOUN,0.009,"The raw materials might have been there before â indeed, hadn't it been she, Arlene, who had spotted them?",bmw-fragment09 2552
+FN,call,VERB,0.009,We'll call in,kb7-fragment31 11464
+FN,turkey,NOUN,0.009,"That turkey has got one chance of avoiding jail, just one, and that chance is by proving to the judge that he's cleaned up his act.",ccw-fragment04 2075
+FP,power,NOUN,0.991,What should have been a routine exercise in extending the Government's borrowing power to $3.1 thousand billion became bogged down in wrangling over legislative initiatives lawmakers wanted to attach to the bill.,a7t-fragment01 22
+FN,crews,NOUN,0.009,"The crews are able to resuscitate heart attack patients, replace fluid intraveneously after severe blood loss, and insert tubes to maintain air supplies in unconconscious casualties.",a7w-fragment01 39
+FN,New,PROPN,0.009,That it is firmly tied must be correct; the inhabitants of Brave New World are not autonomous precisely because they are denied access to relevant information.,ecv-fragment05 1215
+FN,repackaging,NOUN,0.010,"The GIST interventions described above relate to three of these: VISTA women, albeit briefly and temporarily, redressed the numerical balance by offering female role models of practising scientists; VISTA and the curriculum development which followed involved a limited â repackaging of science to remove its exclusively masculine appeal, and the single-sex classes and classroom observation showed how science comes to be defined as â masculine in the mixed school.",clw-fragment01 161
+FP,that?,DET,0.990,Do you know who's that?,kb7-fragment31 11242
+FP,feel,VERB,0.990,"I bet you feel like a now, give them in when they can't truss them du n no.",kb7-fragment45 13035
+FN,decide,VERB,0.010,It would then be up to the US and Canada to decide whether they want to face towards the Atlantic or Pacific â or be caught between two great trading oceans.,a7t-fragment01 16
+FP,cheesed,VERB,0.990,"Sound cheesed off, what's the matter?",kb7-fragment48 13468
+FN,speaking,VERB,0.010,"I don't write anything, I send the tape in, they don't know who you are you're just a it's just a voice speaking nobody knows who you are or anything, they only know me nobody else.",kb7-fragment45 13170
+FP,in,ADP,0.990,"Of the £190million invested in both funds, BCI investors faced a shortfall of up to £100million.",aa3-fragment08 228
+FP,in,ADP,0.990,"Education has been directed at the production of the rational, the free, the independent of mind, the dignified, in short, the autonomous human being.",ecv-fragment05 1056
+FP,handle,VERB,0.990,You can't you can't handle money and,kbd-fragment21 8181
+FN,"business,",NOUN,0.010,"Mr Wheeler, an engineer who worked for many years in the oil business, is a pleasant, slightly worried-looking man who can not bear the fact that no one seems to realise just what lengths he goes to in order to keep the plant squeaky clean and emission-free.",a1u-fragment04 84
+FN,control,VERB,0.010,"Female exclusion from science and technology, even if it is apparently by girls' own choice, also means that as citizens their ability to understand and control their environment is limited.",clw-fragment01 117
+FN,those,DET,0.010,"Overall there would be a reduction in the number of students choosing science, but those who do so choose will be more likely to stay happily in the subject and to possess more flexible minds.",clw-fragment01 90
+FP,pushing,VERB,0.990,"Whatever the outcome, the Government's willingness to continue pushing through the float during this Parliament shows how ministers are prepared to put political expediency before the interests of the industry.",a7t-fragment01 35
+FP,take,VERB,0.990,"It is not clear whether or not Harris thinks that children of 10 should be obliged to take on full political status whether or not they want to, but Holt clearly does not.",ecv-fragment05 1191
+FP,take,VERB,0.990,Holt does not want children to be obliged to take on any of these responsibilities and he manages to make his point by concentrating solely on the rights so that he can remark:,ecv-fragment05 1205
+FP,manage,VERB,0.990,"All you can do with these songs is sing them, and Buddy fails even to manage that with any subtlety.",a5e-fragment06 190
+FN,around.,ADV,0.010,If I want it spread around.,kb7-fragment45 12922
+FP,"path,",NOUN,0.990,"On that path, go on.",kbw-fragment09 3943
+FP,poses,VERB,0.990,"For the â dogmatic dialectic, as he describes dialectical materialism, the whole question naturally poses no problem, for each person or group simply constitutes a partial moment of an already operative movement of totalization that produces them and then goes beyond them.",cty-fragment03 511
+FP,clear-cut,VERB,0.990,"The science boys seemed to possess few doubts or uncertainties, they offered clear-cut answers.",clw-fragment01 37
+FN,masts,NOUN,0.010,It involves nothing more than putting up 80-foot masts all over the land.,ahd-fragment06 56
+FP,got,VERB,0.990,Yeah they've got it,kb7-fragment31 11291
+FP,quango-like,ADJ,0.990,"That is the first of many agencies, executives, commissions, and other quango-like bodies recommended by the review.",a1j-fragment33 527
+FP,plans,NOUN,0.990,"We must remember that to deny someone control of their own lives is to offer them a most profound insult, not to mention the which the frustration of their wishes and the setting at naught of their own plans for themselves will add.",ecv-fragment05 1168
+FN,has,VERB,0.010,Commitment means that the individual has acquired clear and firm beliefs both about himself or herself and the world.,clw-fragment01 54
+FP,pose,VERB,0.990,"In the context of the negativity of this formulation, Sartre is obliged to pose once again the problem of whether there can be a totalization, without any independent totalizer or totalizing force such as the dialectic, or whether the structure of negation that he has described means that, as for Adorno or Bakhtin, history does not develop positively but, rather, negatively, and is therefore instead detotalizing:",cty-fragment03 523
+FN,predecessors,NOUN,0.010,"Like most shows which are manufactured with an eye to commercial success( Winnie, High Society, to name only Buddy's predecessors at the Victoria Palace), this one will probably fail.",a5e-fragment06 195
+FN,mad,ADJ,0.011,"I take I take, only occasionally I go mad and let ripe and have quite a few, other times I just be on an orange juice and lemonade",kb7-fragment48 13651
+FN,in,ADP,0.011,The probable implication is that science would need to be presented in the context of the needs of society and individuals.,clw-fragment01 102
+FN,flotation,NOUN,0.011,For the nuclear element in electricity privatisation is the coping stone on which the flotation plans are based.,a7t-fragment01 36
+FP,throw,VERB,0.989,"Local people mutter and march, make speeches and throw things; staff face sarcasm in nearby pubs; and for years there have been demands for a public inquiry.",a1u-fragment04 80
+FN,lumpen,VERB,0.011,"They held up the bright new diesel buses and, even worse, blocked the progress of private motorists in bulbous Austins and lumpen Humbers in canyon-like city thoroughfares.",a3m-fragment02 63
+FP,this,DET,0.989,"How far back does this go, I suppose early fifties?",kbh-fragment04 313
+FP,rooted,ADJ,0.989,"The assumption that all groups in the â not-men class are identical with each other is so firmly rooted that, as we shall see in the fourth section, it is readily assumed even by modern libertarian thinkers that showing that, for example, some ground for distinguishing between men and women is false or irrelevant, immediately commits us to the view that the same ground is irrelevant in distinguishing men from children.",ecv-fragment05 1079
+FN,order,VERB,0.011,order my,kb7-fragment48 13403
+FP,account,VERB,0.989,"If you say that children are completely non-rational then you have to account for the fact that they become rational, and to do that it appears from these examples that you have to assume that they already are.",ecv-fragment05 1151
+FP,take,VERB,0.989,"Perfectly groomed from head to toe and with all that assurance, she was ready to take on the world, Arlene thought with satisfaction, for she looked on Paula as her very own creation.",bmw-fragment09 2551
+FP,market.,NOUN,0.989,As she speaks we see a Masai market.,faj-fragment17 1719
+FN,drunk,VERB,0.011,"It made her feel strong, invincible almost, and just a tiny bit as if she had drunk too much wine.",bmw-fragment09 2861
+FP,put,VERB,0.989,"This is also the view put forward by John Harris, though in less specific terms.",ecv-fragment05 1165
+FP,level,NOUN,0.989,Approximately three times as many boys as girls take O level physics and approximately four times as many take CSE physics.,clw-fragment01 114
+FP,Over,ADP,0.989,"Over Cook's side, he only lasted about three more weeks, I mean",kb7-fragment45 13095
+FP,operation.,NOUN,0.989,Until the time when these things happen then Mill's disclaimer comes into operation.,ecv-fragment05 1118
+FP,level,NOUN,0.989,"Margaret Spear, in a different study from the one reported in this volume, found that for identical work boys were marked higher than girls for supposed understanding of principles, aptitude for science and O level suitability( Spear, 1984).",clw-fragment01 166
+FN,"touch,",NOUN,0.011,"At least you keep in touch, some of them get shoved away and they never, nobody don't bother with them do they?",kb7-fragment48 13664
+FN,QUESTION,NOUN,0.011,THE QUESTION of just who would even want to be a partner with the US was underlined last night as the American Administration headed for default for the first time in its history.,a7t-fragment01 18
+FP,poses,VERB,0.989,"This strategy marks a structure of repetition in Sartre's text: each time he poses the question of how there can be totalization of History without a totalizer, he retreats to a more limited example whose unity is already evident, but which in the end only brings him back to the original question again.",cty-fragment03 537
+FP,make,VERB,0.989,"I'm, I'm going to erm we'll make that into something American.",kbd-fragment21 8115
+FP,"entry,",NOUN,0.989,"The author's job is not merely to offer an illustrated Who's Who entry, but to turn elements of a man's life into a dramatic entity.",a5e-fragment06 199
+FP,hammer,VERB,0.989,Leaders on Capitol Hill virtually put all other business on hold as it sought to hammer out a debt ceiling increase.,a7t-fragment01 20
+FP,make,VERB,0.989,You can make it different like and make it sort of still a dance area.,kbd-fragment21 7953
+FN,play,VERB,0.011,I'm gon na play with that and see what,kbd-fragment21 8037
+FP,place,NOUN,0.989,"It is simple enough for him to show that a boxing match takes place within a general totality of â boxing, which is itself only ever present in any individual incarnation, for as a game each match is both an individual bout and something conducted according to general rules and a specific social tradition.",cty-fragment03 556
+FN,said,VERB,0.011,But the same can not be said for duties and responsibilities.,ecv-fragment05 1200
+FP,turns,VERB,0.989,"Rationality turns into narrow intellectualism, freedom into licence, independence into isolationism, dignity into selfish pride; the autonomous human being turns out to be no more than a social atom after all.",ecv-fragment05 1058
+FN,pupils,NOUN,0.011,Pupils in action schools became markedly less stereotyped than pupils in control schools.,clw-fragment01 128
+FN,foreclosure.,NOUN,0.011,This condition is known as foreclosure.,clw-fragment01 58
+FP,make,VERB,0.989,You can make it different like and make it sort of still a dance area.,kbd-fragment21 7953
+FN,negation,NOUN,0.011,"In the context of the negativity of this formulation, Sartre is obliged to pose once again the problem of whether there can be a totalization, without any independent totalizer or totalizing force such as the dialectic, or whether the structure of negation that he has described means that, as for Adorno or Bakhtin, history does not develop positively but, rather, negatively, and is therefore instead detotalizing:",cty-fragment03 523
+FP,missing,VERB,0.989,"VISTA made science more girl friendly in two ways: both boys and girls were offered an attractive image of a competent woman scientist, and talks concentrated on social and industrial applications of science, an element too often missing from science at school.",clw-fragment01 139

@@ -11,6 +11,7 @@
 set -euo pipefail
 SEED=${1:-42}
 cd external/MelBERT
+export PYTORCH_ENABLE_MPS_FALLBACK=1
 
 python main.py \
   --data_dir data/VUA18 \
