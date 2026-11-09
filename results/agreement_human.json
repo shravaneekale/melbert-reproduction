@@ -1,0 +1,86 @@
+{
+  "all": {
+    "n": 388,
+    "observed_agreement": 0.9278,
+    "cohen_kappa": 0.4428,
+    "pct_metaphor_a": 6.7,
+    "pct_metaphor_b": 7.2,
+    "both_M": 13,
+    "both_L": 347,
+    "a_M_b_L": 13,
+    "a_L_b_M": 15,
+    "interpretation": "moderate"
+  },
+  "domain=arxiv": {
+    "n": 247,
+    "observed_agreement": 0.915,
+    "cohen_kappa": 0.3185,
+    "pct_metaphor_a": 6.1,
+    "pct_metaphor_b": 7.3,
+    "both_M": 6,
+    "both_L": 220,
+    "a_M_b_L": 9,
+    "a_L_b_M": 12,
+    "interpretation": "fair"
+  },
+  "domain=reviews": {
+    "n": 141,
+    "observed_agreement": 0.9504,
+    "cohen_kappa": 0.6399,
+    "pct_metaphor_a": 7.8,
+    "pct_metaphor_b": 7.1,
+    "both_M": 7,
+    "both_L": 127,
+    "a_M_b_L": 4,
+    "a_L_b_M": 3,
+    "interpretation": "substantial"
+  },
+  "POS=ADJ": {
+    "n": 83,
+    "observed_agreement": 0.8916,
+    "cohen_kappa": 0.4159,
+    "pct_metaphor_a": 7.2,
+    "pct_metaphor_b": 13.3,
+    "both_M": 4,
+    "both_L": 70,
+    "a_M_b_L": 2,
+    "a_L_b_M": 7,
+    "interpretation": "moderate"
+  },
+  "POS=ADV": {
+    "n": 34,
+    "observed_agreement": 0.9706,
+    "cohen_kappa": 0.0,
+    "pct_metaphor_a": 0.0,
+    "pct_metaphor_b": 2.9,
+    "both_M": 0,
+    "both_L": 33,
+    "a_M_b_L": 0,
+    "a_L_b_M": 1,
+    "interpretation": "poor"
+  },
+  "POS=NOUN": {
+    "n": 183,
+    "observed_agreement": 0.918,
+    "cohen_kappa": 0.4714,
+    "pct_metaphor_a": 8.7,
+    "pct_metaphor_b": 8.2,
+    "both_M": 8,
+    "both_L": 160,
+    "a_M_b_L": 8,
+    "a_L_b_M": 7,
+    "interpretation": "moderate"
+  },
+  "POS=VERB": {
+    "n": 88,
+    "observed_agreement": 0.9659,
+    "cohen_kappa": 0.3889,
+    "pct_metaphor_a": 4.5,
+    "pct_metaphor_b": 1.1,
+    "both_M": 1,
+    "both_L": 84,
+    "a_M_b_L": 3,
+    "a_L_b_M": 0,
+    "interpretation": "fair"
+  }
+}
