@@ -1,0 +1,37 @@
+You are an expert metaphor annotator trained in MIPVU (Steen et al., 2010), the procedure used to build the VU Amsterdam Metaphor Corpus.
+For a target word in a sentence:
+1. Establish its contextual meaning in this sentence.
+2. Establish its basic meaning: more concrete, bodily, precise or historically older (as in Macmillan / Longman learner's dictionaries, same part of speech).
+3. If the contextual meaning differs from the basic meaning but can be understood by comparison with it, the word is metaphorical (M). Otherwise literal (L).
+Conventional metaphors count as M (e.g. 'prices climbed', 'grasp an idea'). Personification of objects counts as M. If the contextual meaning is the basic meaning, or the word has only one sense, it is L.
+
+A metaphor-detection system has labelled each target word below as METAPHORICAL or LITERAL.
+For each item, judge whether the system's label is correct under MIPVU. Return ONLY a JSON array, one object per item, in the same order:
+[{"item_id": "...", "verdict": "CORRECT" or "INCORRECT", "reason": "<one short sentence>"}]
+
+Items (the target word is in [brackets]):
+rev0014_01 | As [others] have written, the package it comes in sucks. | target: others (NOUN) | system label: LITERAL
+rev0014_03 | As others have [written,] the package it comes in sucks. | target: written, (VERB) | system label: LITERAL
+rev0014_05 | As others have written, the [package] it comes in sucks. | target: package (NOUN) | system label: LITERAL
+rev0014_07 | As others have written, the package it [comes] in sucks. | target: comes (VERB) | system label: LITERAL
+rev0014_09 | As others have written, the package it comes in [sucks.] | target: sucks. (NOUN) | system label: METAPHORICAL
+rev0019_02 | If I [really] want to read this book, I'll find a used copy because you've annoyed me that much. | target: really (ADV) | system label: LITERAL
+rev0019_03 | If I really [want] to read this book, I'll find a used copy because you've annoyed me that much. | target: want (VERB) | system label: LITERAL
+rev0019_05 | If I really want to [read] this book, I'll find a used copy because you've annoyed me that much. | target: read (VERB) | system label: LITERAL
+rev0019_07 | If I really want to read this [book,] I'll find a used copy because you've annoyed me that much. | target: book, (NOUN) | system label: LITERAL
+rev0019_09 | If I really want to read this book, I'll [find] a used copy because you've annoyed me that much. | target: find (VERB) | system label: LITERAL
+rev0019_11 | If I really want to read this book, I'll find a [used] copy because you've annoyed me that much. | target: used (VERB) | system label: LITERAL
+rev0019_12 | If I really want to read this book, I'll find a used [copy] because you've annoyed me that much. | target: copy (NOUN) | system label: LITERAL
+rev0019_15 | If I really want to read this book, I'll find a used copy because you've [annoyed] me that much. | target: annoyed (VERB) | system label: LITERAL
+rev0019_17 | If I really want to read this book, I'll find a used copy because you've annoyed me [that] much. | target: that (ADV) | system label: METAPHORICAL
+rev0019_18 | If I really want to read this book, I'll find a used copy because you've annoyed me that [much.] | target: much. (ADV) | system label: LITERAL
+rev0022_04 | Cop this and his [other] 2 albums especially "Postcards From The Third Rock." | target: other (ADJ) | system label: LITERAL
+rev0022_06 | Cop this and his other 2 [albums] especially "Postcards From The Third Rock." | target: albums (NOUN) | system label: LITERAL
+rev0022_07 | Cop this and his other 2 albums [especially] "Postcards From The Third Rock." | target: especially (ADV) | system label: LITERAL
+rev0022_08 | Cop this and his other 2 albums especially ["Postcards] From The Third Rock." | target: "Postcards (NOUN) | system label: LITERAL
+rev0023_02 | If you [love] Transformers, if you want to enjoy the Cartoon that defined a generation, BUY THIS SET!!!!!! | target: love (VERB) | system label: LITERAL
+rev0023_03 | If you love [Transformers,] if you want to enjoy the Cartoon that defined a generation, BUY THIS SET!!!!!! | target: Transformers, (NOUN) | system label: LITERAL
+rev0023_06 | If you love Transformers, if you [want] to enjoy the Cartoon that defined a generation, BUY THIS SET!!!!!! | target: want (VERB) | system label: LITERAL
+rev0023_08 | If you love Transformers, if you want to [enjoy] the Cartoon that defined a generation, BUY THIS SET!!!!!! | target: enjoy (VERB) | system label: LITERAL
+rev0023_12 | If you love Transformers, if you want to enjoy the Cartoon that [defined] a generation, BUY THIS SET!!!!!! | target: defined (VERB) | system label: METAPHORICAL
+rev0023_14 | If you love Transformers, if you want to enjoy the Cartoon that defined a [generation,] BUY THIS SET!!!!!! | target: generation, (NOUN) | system label: LITERAL

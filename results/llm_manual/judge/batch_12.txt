@@ -1,0 +1,37 @@
+You are an expert metaphor annotator trained in MIPVU (Steen et al., 2010), the procedure used to build the VU Amsterdam Metaphor Corpus.
+For a target word in a sentence:
+1. Establish its contextual meaning in this sentence.
+2. Establish its basic meaning: more concrete, bodily, precise or historically older (as in Macmillan / Longman learner's dictionaries, same part of speech).
+3. If the contextual meaning differs from the basic meaning but can be understood by comparison with it, the word is metaphorical (M). Otherwise literal (L).
+Conventional metaphors count as M (e.g. 'prices climbed', 'grasp an idea'). Personification of objects counts as M. If the contextual meaning is the basic meaning, or the word has only one sense, it is L.
+
+A metaphor-detection system has labelled each target word below as METAPHORICAL or LITERAL.
+For each item, judge whether the system's label is correct under MIPVU. Return ONLY a JSON array, one object per item, in the same order:
+[{"item_id": "...", "verdict": "CORRECT" or "INCORRECT", "reason": "<one short sentence>"}]
+
+Items (the target word is in [brackets]):
+arx0055_01 | The [entropy] flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues. | target: entropy (NOUN) | system label: LITERAL
+arx0055_02 | The entropy [flow] from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues. | target: flow (NOUN) | system label: METAPHORICAL
+arx0055_04 | The entropy flow from [cancer] to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues. | target: cancer (NOUN) | system label: LITERAL
+arx0055_06 | The entropy flow from cancer to [healthy] cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues. | target: healthy (ADJ) | system label: LITERAL
+arx0055_07 | The entropy flow from cancer to healthy [cell] takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues. | target: cell (NOUN) | system label: LITERAL
+arx0055_08 | The entropy flow from cancer to healthy cell [takes] along the harmful information of cancerous cell, propagating its toxic action to healthy tissues. | target: takes (VERB) | system label: METAPHORICAL
+arx0055_11 | The entropy flow from cancer to healthy cell takes along the [harmful] information of cancerous cell, propagating its toxic action to healthy tissues. | target: harmful (ADJ) | system label: LITERAL
+arx0055_12 | The entropy flow from cancer to healthy cell takes along the harmful [information] of cancerous cell, propagating its toxic action to healthy tissues. | target: information (NOUN) | system label: LITERAL
+arx0055_14 | The entropy flow from cancer to healthy cell takes along the harmful information of [cancerous] cell, propagating its toxic action to healthy tissues. | target: cancerous (ADJ) | system label: LITERAL
+arx0055_15 | The entropy flow from cancer to healthy cell takes along the harmful information of cancerous [cell,] propagating its toxic action to healthy tissues. | target: cell, (NOUN) | system label: LITERAL
+arx0055_16 | The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, [propagating] its toxic action to healthy tissues. | target: propagating (VERB) | system label: LITERAL
+arx0055_18 | The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its [toxic] action to healthy tissues. | target: toxic (ADJ) | system label: LITERAL
+arx0055_19 | The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic [action] to healthy tissues. | target: action (NOUN) | system label: METAPHORICAL
+arx0055_21 | The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to [healthy] tissues. | target: healthy (ADJ) | system label: LITERAL
+arx0055_22 | The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy [tissues.] | target: tissues. (NOUN) | system label: LITERAL
+arx0061_02 | In the [first] place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership. | target: first (ADJ) | system label: LITERAL
+arx0061_03 | In the first [place] this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership. | target: place (NOUN) | system label: METAPHORICAL
+arx0061_06 | In the first place this is [just] an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership. | target: just (ADV) | system label: LITERAL
+arx0061_08 | In the first place this is just an [illustration] of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership. | target: illustration (NOUN) | system label: LITERAL
+arx0061_11 | In the first place this is just an illustration of the [birthday] problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership. | target: birthday (NOUN) | system label: LITERAL
+arx0061_12 | In the first place this is just an illustration of the birthday [problem,] but a deeper analysis must take into account dependencies among profiles caused by family or population membership. | target: problem, (NOUN) | system label: LITERAL
+arx0061_15 | In the first place this is just an illustration of the birthday problem, but a [deeper] analysis must take into account dependencies among profiles caused by family or population membership. | target: deeper (ADJ) | system label: METAPHORICAL
+arx0061_16 | In the first place this is just an illustration of the birthday problem, but a deeper [analysis] must take into account dependencies among profiles caused by family or population membership. | target: analysis (NOUN) | system label: LITERAL
+arx0061_18 | In the first place this is just an illustration of the birthday problem, but a deeper analysis must [take] into account dependencies among profiles caused by family or population membership. | target: take (VERB) | system label: METAPHORICAL
+arx0061_20 | In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into [account] dependencies among profiles caused by family or population membership. | target: account (NOUN) | system label: METAPHORICAL

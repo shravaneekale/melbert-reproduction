@@ -1,0 +1,37 @@
+You are an expert metaphor annotator trained in MIPVU (Steen et al., 2010), the procedure used to build the VU Amsterdam Metaphor Corpus.
+For a target word in a sentence:
+1. Establish its contextual meaning in this sentence.
+2. Establish its basic meaning: more concrete, bodily, precise or historically older (as in Macmillan / Longman learner's dictionaries, same part of speech).
+3. If the contextual meaning differs from the basic meaning but can be understood by comparison with it, the word is metaphorical (M). Otherwise literal (L).
+Conventional metaphors count as M (e.g. 'prices climbed', 'grasp an idea'). Personification of objects counts as M. If the contextual meaning is the basic meaning, or the word has only one sense, it is L.
+
+A metaphor-detection system has labelled each target word below as METAPHORICAL or LITERAL.
+For each item, judge whether the system's label is correct under MIPVU. Return ONLY a JSON array, one object per item, in the same order:
+[{"item_id": "...", "verdict": "CORRECT" or "INCORRECT", "reason": "<one short sentence>"}]
+
+Items (the target word is in [brackets]):
+rev0061_13 | I never thought I would use these as much as I do, any [job] is made just a little bit easier with these bits on hand... | target: job (NOUN) | system label: LITERAL
+rev0061_15 | I never thought I would use these as much as I do, any job is [made] just a little bit easier with these bits on hand... | target: made (VERB) | system label: METAPHORICAL
+rev0061_16 | I never thought I would use these as much as I do, any job is made [just] a little bit easier with these bits on hand... | target: just (ADV) | system label: LITERAL
+rev0061_18 | I never thought I would use these as much as I do, any job is made just a [little] bit easier with these bits on hand... | target: little (ADJ) | system label: METAPHORICAL
+rev0061_19 | I never thought I would use these as much as I do, any job is made just a little [bit] easier with these bits on hand... | target: bit (NOUN) | system label: LITERAL
+rev0061_20 | I never thought I would use these as much as I do, any job is made just a little bit [easier] with these bits on hand... | target: easier (ADJ) | system label: LITERAL
+rev0061_23 | I never thought I would use these as much as I do, any job is made just a little bit easier with these [bits] on hand... | target: bits (NOUN) | system label: LITERAL
+rev0061_25 | I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on [hand...] | target: hand... (NOUN) | system label: LITERAL
+rev0074_00 | [However,] I have this installed on my storage room in the kitchen, so the noise is not an issue. | target: However, (ADV) | system label: LITERAL
+rev0074_02 | However, I [have] this installed on my storage room in the kitchen, so the noise is not an issue. | target: have (VERB) | system label: LITERAL
+rev0074_04 | However, I have this [installed] on my storage room in the kitchen, so the noise is not an issue. | target: installed (VERB) | system label: LITERAL
+rev0074_07 | However, I have this installed on my [storage] room in the kitchen, so the noise is not an issue. | target: storage (NOUN) | system label: LITERAL
+rev0074_08 | However, I have this installed on my storage [room] in the kitchen, so the noise is not an issue. | target: room (NOUN) | system label: LITERAL
+rev0074_11 | However, I have this installed on my storage room in the [kitchen,] so the noise is not an issue. | target: kitchen, (NOUN) | system label: LITERAL
+rev0074_14 | However, I have this installed on my storage room in the kitchen, so the [noise] is not an issue. | target: noise (NOUN) | system label: LITERAL
+rev0074_18 | However, I have this installed on my storage room in the kitchen, so the noise is not an [issue.] | target: issue. (NOUN) | system label: LITERAL
+arx0006_00 | [Then,] the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined. | target: Then, (ADV) | system label: LITERAL
+arx0006_02 | Then, the [hierarchy] of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined. | target: hierarchy (NOUN) | system label: LITERAL
+arx0006_05 | Then, the hierarchy of the [equations] of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined. | target: equations (NOUN) | system label: LITERAL
+arx0006_07 | Then, the hierarchy of the equations of [motion] closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined. | target: motion (NOUN) | system label: METAPHORICAL
+arx0006_08 | Then, the hierarchy of the equations of motion [closes] and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined. | target: closes (NOUN) | system label: METAPHORICAL
+arx0006_10 | Then, the hierarchy of the equations of motion closes and [analytical] expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined. | target: analytical (ADJ) | system label: LITERAL
+arx0006_11 | Then, the hierarchy of the equations of motion closes and analytical [expressions] for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined. | target: expressions (NOUN) | system label: METAPHORICAL
+arx0006_15 | Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's [functions] are obtained in terms of a finite number of parameters, to be self-consistently determined. | target: functions (NOUN) | system label: LITERAL
+arx0006_17 | Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are [obtained] in terms of a finite number of parameters, to be self-consistently determined. | target: obtained (VERB) | system label: METAPHORICAL

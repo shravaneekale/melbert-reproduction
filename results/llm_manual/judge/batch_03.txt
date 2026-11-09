@@ -1,0 +1,37 @@
+You are an expert metaphor annotator trained in MIPVU (Steen et al., 2010), the procedure used to build the VU Amsterdam Metaphor Corpus.
+For a target word in a sentence:
+1. Establish its contextual meaning in this sentence.
+2. Establish its basic meaning: more concrete, bodily, precise or historically older (as in Macmillan / Longman learner's dictionaries, same part of speech).
+3. If the contextual meaning differs from the basic meaning but can be understood by comparison with it, the word is metaphorical (M). Otherwise literal (L).
+Conventional metaphors count as M (e.g. 'prices climbed', 'grasp an idea'). Personification of objects counts as M. If the contextual meaning is the basic meaning, or the word has only one sense, it is L.
+
+A metaphor-detection system has labelled each target word below as METAPHORICAL or LITERAL.
+For each item, judge whether the system's label is correct under MIPVU. Return ONLY a JSON array, one object per item, in the same order:
+[{"item_id": "...", "verdict": "CORRECT" or "INCORRECT", "reason": "<one short sentence>"}]
+
+Items (the target word is in [brackets]):
+rev0044_04 | It is colorful and [handy,] folding up in to object about the size of a large book with handles. | target: handy, (ADJ) | system label: METAPHORICAL
+rev0044_05 | It is colorful and handy, [folding] up in to object about the size of a large book with handles. | target: folding (VERB) | system label: LITERAL
+rev0044_09 | It is colorful and handy, folding up in to [object] about the size of a large book with handles. | target: object (VERB) | system label: LITERAL
+rev0044_12 | It is colorful and handy, folding up in to object about the [size] of a large book with handles. | target: size (NOUN) | system label: LITERAL
+rev0044_15 | It is colorful and handy, folding up in to object about the size of a [large] book with handles. | target: large (ADJ) | system label: LITERAL
+rev0044_16 | It is colorful and handy, folding up in to object about the size of a large [book] with handles. | target: book (NOUN) | system label: LITERAL
+rev0044_18 | It is colorful and handy, folding up in to object about the size of a large book with [handles.] | target: handles. (NOUN) | system label: METAPHORICAL
+rev0052_02 | It does [smell] like dirt or onions not totally gross but not fresh and clean smelling. | target: smell (VERB) | system label: LITERAL
+rev0052_04 | It does smell like [dirt] or onions not totally gross but not fresh and clean smelling. | target: dirt (NOUN) | system label: LITERAL
+rev0052_06 | It does smell like dirt or [onions] not totally gross but not fresh and clean smelling. | target: onions (NOUN) | system label: LITERAL
+rev0052_08 | It does smell like dirt or onions not [totally] gross but not fresh and clean smelling. | target: totally (ADV) | system label: LITERAL
+rev0052_09 | It does smell like dirt or onions not totally [gross] but not fresh and clean smelling. | target: gross (ADJ) | system label: LITERAL
+rev0052_12 | It does smell like dirt or onions not totally gross but not [fresh] and clean smelling. | target: fresh (ADJ) | system label: LITERAL
+rev0052_14 | It does smell like dirt or onions not totally gross but not fresh and [clean] smelling. | target: clean (ADJ) | system label: LITERAL
+rev0052_15 | It does smell like dirt or onions not totally gross but not fresh and clean [smelling.] | target: smelling. (NOUN) | system label: LITERAL
+rev0053_01 | Any [fan] of old school Angra needs this. | target: fan (NOUN) | system label: METAPHORICAL
+rev0053_03 | Any fan of [old] school Angra needs this. | target: old (ADJ) | system label: LITERAL
+rev0053_04 | Any fan of old [school] Angra needs this. | target: school (NOUN) | system label: LITERAL
+rev0053_06 | Any fan of old school Angra [needs] this. | target: needs (VERB) | system label: LITERAL
+rev0054_01 | It [cranked] smoothly and the baitfeeding lever tripped effortlessly. | target: cranked (VERB) | system label: METAPHORICAL
+rev0054_02 | It cranked [smoothly] and the baitfeeding lever tripped effortlessly. | target: smoothly (ADV) | system label: LITERAL
+rev0054_05 | It cranked smoothly and the [baitfeeding] lever tripped effortlessly. | target: baitfeeding (VERB) | system label: METAPHORICAL
+rev0054_06 | It cranked smoothly and the baitfeeding [lever] tripped effortlessly. | target: lever (NOUN) | system label: LITERAL
+rev0054_07 | It cranked smoothly and the baitfeeding lever [tripped] effortlessly. | target: tripped (VERB) | system label: METAPHORICAL
+rev0054_08 | It cranked smoothly and the baitfeeding lever tripped [effortlessly.] | target: effortlessly. (ADV) | system label: LITERAL

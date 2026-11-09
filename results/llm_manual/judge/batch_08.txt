@@ -1,0 +1,37 @@
+You are an expert metaphor annotator trained in MIPVU (Steen et al., 2010), the procedure used to build the VU Amsterdam Metaphor Corpus.
+For a target word in a sentence:
+1. Establish its contextual meaning in this sentence.
+2. Establish its basic meaning: more concrete, bodily, precise or historically older (as in Macmillan / Longman learner's dictionaries, same part of speech).
+3. If the contextual meaning differs from the basic meaning but can be understood by comparison with it, the word is metaphorical (M). Otherwise literal (L).
+Conventional metaphors count as M (e.g. 'prices climbed', 'grasp an idea'). Personification of objects counts as M. If the contextual meaning is the basic meaning, or the word has only one sense, it is L.
+
+A metaphor-detection system has labelled each target word below as METAPHORICAL or LITERAL.
+For each item, judge whether the system's label is correct under MIPVU. Return ONLY a JSON array, one object per item, in the same order:
+[{"item_id": "...", "verdict": "CORRECT" or "INCORRECT", "reason": "<one short sentence>"}]
+
+Items (the target word is in [brackets]):
+arx0022_04 | The aim of this [note] is to introduce a compound basis for the space of symmetric functions. | target: note (NOUN) | system label: METAPHORICAL
+arx0022_07 | The aim of this note is to [introduce] a compound basis for the space of symmetric functions. | target: introduce (VERB) | system label: METAPHORICAL
+arx0022_09 | The aim of this note is to introduce a [compound] basis for the space of symmetric functions. | target: compound (NOUN) | system label: LITERAL
+arx0022_10 | The aim of this note is to introduce a compound [basis] for the space of symmetric functions. | target: basis (NOUN) | system label: LITERAL
+arx0022_13 | The aim of this note is to introduce a compound basis for the [space] of symmetric functions. | target: space (NOUN) | system label: METAPHORICAL
+arx0022_15 | The aim of this note is to introduce a compound basis for the space of [symmetric] functions. | target: symmetric (ADJ) | system label: LITERAL
+arx0022_16 | The aim of this note is to introduce a compound basis for the space of symmetric [functions.] | target: functions. (NOUN) | system label: LITERAL
+arx0023_02 | In this [paper] we present an upper bound for the decay of correlation for the stationary stochastic process associated with the Entropy Penalized Method. | target: paper (NOUN) | system label: LITERAL
+arx0023_04 | In this paper we [present] an upper bound for the decay of correlation for the stationary stochastic process associated with the Entropy Penalized Method. | target: present (VERB) | system label: LITERAL
+arx0023_06 | In this paper we present an [upper] bound for the decay of correlation for the stationary stochastic process associated with the Entropy Penalized Method. | target: upper (ADJ) | system label: LITERAL
+arx0023_07 | In this paper we present an upper [bound] for the decay of correlation for the stationary stochastic process associated with the Entropy Penalized Method. | target: bound (NOUN) | system label: LITERAL
+arx0023_10 | In this paper we present an upper bound for the [decay] of correlation for the stationary stochastic process associated with the Entropy Penalized Method. | target: decay (NOUN) | system label: LITERAL
+arx0023_12 | In this paper we present an upper bound for the decay of [correlation] for the stationary stochastic process associated with the Entropy Penalized Method. | target: correlation (NOUN) | system label: LITERAL
+arx0023_15 | In this paper we present an upper bound for the decay of correlation for the [stationary] stochastic process associated with the Entropy Penalized Method. | target: stationary (ADJ) | system label: LITERAL
+arx0023_16 | In this paper we present an upper bound for the decay of correlation for the stationary [stochastic] process associated with the Entropy Penalized Method. | target: stochastic (ADJ) | system label: LITERAL
+arx0023_17 | In this paper we present an upper bound for the decay of correlation for the stationary stochastic [process] associated with the Entropy Penalized Method. | target: process (NOUN) | system label: LITERAL
+arx0023_18 | In this paper we present an upper bound for the decay of correlation for the stationary stochastic process [associated] with the Entropy Penalized Method. | target: associated (VERB) | system label: LITERAL
+arx0026_01 | We [show] that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0 | target: show (VERB) | system label: METAPHORICAL
+arx0026_04 | We show that the [existence] of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0 | target: existence (NOUN) | system label: LITERAL
+arx0026_07 | We show that the existence of a [positive] uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0 | target: positive (ADJ) | system label: METAPHORICAL
+arx0026_08 | We show that the existence of a positive [uniruled] symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0 | target: uniruled (ADJ) | system label: LITERAL
+arx0026_09 | We show that the existence of a positive uniruled [symplectic] divisor often implies that the ambient manifold has a nonzero uniruled genus 0 | target: symplectic (ADJ) | system label: LITERAL
+arx0026_10 | We show that the existence of a positive uniruled symplectic [divisor] often implies that the ambient manifold has a nonzero uniruled genus 0 | target: divisor (NOUN) | system label: LITERAL
+arx0026_11 | We show that the existence of a positive uniruled symplectic divisor [often] implies that the ambient manifold has a nonzero uniruled genus 0 | target: often (ADV) | system label: LITERAL
+arx0026_12 | We show that the existence of a positive uniruled symplectic divisor often [implies] that the ambient manifold has a nonzero uniruled genus 0 | target: implies (VERB) | system label: METAPHORICAL

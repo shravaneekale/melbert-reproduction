@@ -1,0 +1,37 @@
+You are an expert metaphor annotator trained in MIPVU (Steen et al., 2010), the procedure used to build the VU Amsterdam Metaphor Corpus.
+For a target word in a sentence:
+1. Establish its contextual meaning in this sentence.
+2. Establish its basic meaning: more concrete, bodily, precise or historically older (as in Macmillan / Longman learner's dictionaries, same part of speech).
+3. If the contextual meaning differs from the basic meaning but can be understood by comparison with it, the word is metaphorical (M). Otherwise literal (L).
+Conventional metaphors count as M (e.g. 'prices climbed', 'grasp an idea'). Personification of objects counts as M. If the contextual meaning is the basic meaning, or the word has only one sense, it is L.
+
+A metaphor-detection system has labelled each target word below as METAPHORICAL or LITERAL.
+For each item, judge whether the system's label is correct under MIPVU. Return ONLY a JSON array, one object per item, in the same order:
+[{"item_id": "...", "verdict": "CORRECT" or "INCORRECT", "reason": "<one short sentence>"}]
+
+Items (the target word is in [brackets]):
+rev0055_00 | [Overall] everything went perfect and from now on this is the only tape I'm gonna buy. | target: Overall (ADJ) | system label: LITERAL
+rev0055_02 | Overall everything [went] perfect and from now on this is the only tape I'm gonna buy. | target: went (VERB) | system label: METAPHORICAL
+rev0055_03 | Overall everything went [perfect] and from now on this is the only tape I'm gonna buy. | target: perfect (ADJ) | system label: LITERAL
+rev0055_06 | Overall everything went perfect and from [now] on this is the only tape I'm gonna buy. | target: now (ADV) | system label: LITERAL
+rev0055_11 | Overall everything went perfect and from now on this is the [only] tape I'm gonna buy. | target: only (ADJ) | system label: LITERAL
+rev0055_12 | Overall everything went perfect and from now on this is the only [tape] I'm gonna buy. | target: tape (NOUN) | system label: LITERAL
+rev0055_14 | Overall everything went perfect and from now on this is the only tape I'm [gonna] buy. | target: gonna (VERB) | system label: LITERAL
+rev0055_15 | Overall everything went perfect and from now on this is the only tape I'm gonna [buy.] | target: buy. (VERB) | system label: LITERAL
+rev0060_03 | Okay sure you [have] very limited gameplay in the first person mode but hey, CS is a online game not single player. | target: have (VERB) | system label: METAPHORICAL
+rev0060_04 | Okay sure you have [very] limited gameplay in the first person mode but hey, CS is a online game not single player. | target: very (ADV) | system label: LITERAL
+rev0060_05 | Okay sure you have very [limited] gameplay in the first person mode but hey, CS is a online game not single player. | target: limited (ADJ) | system label: LITERAL
+rev0060_06 | Okay sure you have very limited [gameplay] in the first person mode but hey, CS is a online game not single player. | target: gameplay (NOUN) | system label: LITERAL
+rev0060_09 | Okay sure you have very limited gameplay in the [first] person mode but hey, CS is a online game not single player. | target: first (ADJ) | system label: LITERAL
+rev0060_10 | Okay sure you have very limited gameplay in the first [person] mode but hey, CS is a online game not single player. | target: person (NOUN) | system label: LITERAL
+rev0060_11 | Okay sure you have very limited gameplay in the first person [mode] but hey, CS is a online game not single player. | target: mode (NOUN) | system label: LITERAL
+rev0060_17 | Okay sure you have very limited gameplay in the first person mode but hey, CS is a [online] game not single player. | target: online (ADJ) | system label: LITERAL
+rev0060_18 | Okay sure you have very limited gameplay in the first person mode but hey, CS is a online [game] not single player. | target: game (NOUN) | system label: LITERAL
+rev0060_20 | Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not [single] player. | target: single (ADJ) | system label: LITERAL
+rev0060_21 | Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single [player.] | target: player. (NOUN) | system label: LITERAL
+rev0061_01 | I [never] thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand... | target: never (ADV) | system label: LITERAL
+rev0061_02 | I never [thought] I would use these as much as I do, any job is made just a little bit easier with these bits on hand... | target: thought (VERB) | system label: LITERAL
+rev0061_05 | I never thought I would [use] these as much as I do, any job is made just a little bit easier with these bits on hand... | target: use (VERB) | system label: LITERAL
+rev0061_07 | I never thought I would use these [as] much as I do, any job is made just a little bit easier with these bits on hand... | target: as (ADV) | system label: LITERAL
+rev0061_08 | I never thought I would use these as [much] as I do, any job is made just a little bit easier with these bits on hand... | target: much (ADV) | system label: LITERAL
+rev0061_11 | I never thought I would use these as much as I [do,] any job is made just a little bit easier with these bits on hand... | target: do, (VERB) | system label: LITERAL

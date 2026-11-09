@@ -1,0 +1,37 @@
+You are an expert metaphor annotator trained in MIPVU (Steen et al., 2010), the procedure used to build the VU Amsterdam Metaphor Corpus.
+For a target word in a sentence:
+1. Establish its contextual meaning in this sentence.
+2. Establish its basic meaning: more concrete, bodily, precise or historically older (as in Macmillan / Longman learner's dictionaries, same part of speech).
+3. If the contextual meaning differs from the basic meaning but can be understood by comparison with it, the word is metaphorical (M). Otherwise literal (L).
+Conventional metaphors count as M (e.g. 'prices climbed', 'grasp an idea'). Personification of objects counts as M. If the contextual meaning is the basic meaning, or the word has only one sense, it is L.
+
+A metaphor-detection system has labelled each target word below as METAPHORICAL or LITERAL.
+For each item, judge whether the system's label is correct under MIPVU. Return ONLY a JSON array, one object per item, in the same order:
+[{"item_id": "...", "verdict": "CORRECT" or "INCORRECT", "reason": "<one short sentence>"}]
+
+Items (the target word is in [brackets]):
+arx0026_15 | We show that the existence of a positive uniruled symplectic divisor often implies that the [ambient] manifold has a nonzero uniruled genus 0 | target: ambient (ADJ) | system label: LITERAL
+arx0026_16 | We show that the existence of a positive uniruled symplectic divisor often implies that the ambient [manifold] has a nonzero uniruled genus 0 | target: manifold (NOUN) | system label: LITERAL
+arx0026_17 | We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold [has] a nonzero uniruled genus 0 | target: has (VERB) | system label: METAPHORICAL
+arx0026_19 | We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a [nonzero] uniruled genus 0 | target: nonzero (NOUN) | system label: LITERAL
+arx0026_20 | We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero [uniruled] genus 0 | target: uniruled (ADJ) | system label: LITERAL
+arx0026_21 | We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled [genus] 0 | target: genus (NOUN) | system label: LITERAL
+arx0037_02 | As an [application] we obtain a direct computation of the cryptographic exponent of the Jacobians of these curves. | target: application (NOUN) | system label: METAPHORICAL
+arx0037_04 | As an application we [obtain] a direct computation of the cryptographic exponent of the Jacobians of these curves. | target: obtain (VERB) | system label: METAPHORICAL
+arx0037_06 | As an application we obtain a [direct] computation of the cryptographic exponent of the Jacobians of these curves. | target: direct (ADJ) | system label: METAPHORICAL
+arx0037_07 | As an application we obtain a direct [computation] of the cryptographic exponent of the Jacobians of these curves. | target: computation (NOUN) | system label: LITERAL
+arx0037_10 | As an application we obtain a direct computation of the [cryptographic] exponent of the Jacobians of these curves. | target: cryptographic (ADJ) | system label: LITERAL
+arx0037_11 | As an application we obtain a direct computation of the cryptographic [exponent] of the Jacobians of these curves. | target: exponent (NOUN) | system label: LITERAL
+arx0037_17 | As an application we obtain a direct computation of the cryptographic exponent of the Jacobians of these [curves.] | target: curves. (NOUN) | system label: LITERAL
+arx0038_00 | [Observing] the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments. | target: Observing (VERB) | system label: LITERAL
+arx0038_02 | Observing the [fact] that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments. | target: fact (NOUN) | system label: LITERAL
+arx0038_04 | Observing the fact that [traditional] tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments. | target: traditional (ADJ) | system label: LITERAL
+arx0038_05 | Observing the fact that traditional [tutoring] systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments. | target: tutoring (NOUN) | system label: LITERAL
+arx0038_06 | Observing the fact that traditional tutoring [systems] normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments. | target: systems (NOUN) | system label: LITERAL
+arx0038_07 | Observing the fact that traditional tutoring systems [normally] are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments. | target: normally (ADV) | system label: LITERAL
+arx0038_09 | Observing the fact that traditional tutoring systems normally are [domain-static,] this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments. | target: domain-static, (NOUN) | system label: LITERAL
+arx0038_11 | Observing the fact that traditional tutoring systems normally are domain-static, this [paper] shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments. | target: paper (NOUN) | system label: LITERAL
+arx0038_12 | Observing the fact that traditional tutoring systems normally are domain-static, this paper [shows] investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments. | target: shows (VERB) | system label: LITERAL
+arx0038_13 | Observing the fact that traditional tutoring systems normally are domain-static, this paper shows [investigations] for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments. | target: investigations (NOUN) | system label: LITERAL
+arx0038_16 | Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a [generic] domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments. | target: generic (ADJ) | system label: LITERAL
+arx0038_17 | Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic [domain-independent] tutoring system for utilizing test scenarios in computer-based and web-based environments. | target: domain-independent (NOUN) | system label: LITERAL

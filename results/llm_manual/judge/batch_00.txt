@@ -1,0 +1,37 @@
+You are an expert metaphor annotator trained in MIPVU (Steen et al., 2010), the procedure used to build the VU Amsterdam Metaphor Corpus.
+For a target word in a sentence:
+1. Establish its contextual meaning in this sentence.
+2. Establish its basic meaning: more concrete, bodily, precise or historically older (as in Macmillan / Longman learner's dictionaries, same part of speech).
+3. If the contextual meaning differs from the basic meaning but can be understood by comparison with it, the word is metaphorical (M). Otherwise literal (L).
+Conventional metaphors count as M (e.g. 'prices climbed', 'grasp an idea'). Personification of objects counts as M. If the contextual meaning is the basic meaning, or the word has only one sense, it is L.
+
+A metaphor-detection system has labelled each target word below as METAPHORICAL or LITERAL.
+For each item, judge whether the system's label is correct under MIPVU. Return ONLY a JSON array, one object per item, in the same order:
+[{"item_id": "...", "verdict": "CORRECT" or "INCORRECT", "reason": "<one short sentence>"}]
+
+Items (the target word is in [brackets]):
+rev0005_01 | Your [probably] better off downloading the best MP3s and then burning them onto CD. | target: probably (ADV) | system label: LITERAL
+rev0005_02 | Your probably [better] off downloading the best MP3s and then burning them onto CD. | target: better (ADV) | system label: LITERAL
+rev0005_04 | Your probably better off [downloading] the best MP3s and then burning them onto CD. | target: downloading (VERB) | system label: LITERAL
+rev0005_06 | Your probably better off downloading the [best] MP3s and then burning them onto CD. | target: best (ADJ) | system label: LITERAL
+rev0005_07 | Your probably better off downloading the best [MP3s] and then burning them onto CD. | target: MP3s (NOUN) | system label: LITERAL
+rev0005_09 | Your probably better off downloading the best MP3s and [then] burning them onto CD. | target: then (ADV) | system label: LITERAL
+rev0005_10 | Your probably better off downloading the best MP3s and then [burning] them onto CD. | target: burning (VERB) | system label: LITERAL
+rev0008_01 | A [couple] of great action sequences doesn't make up for almost an 2 and a half hours of boredom. | target: couple (NOUN) | system label: METAPHORICAL
+rev0008_03 | A couple of [great] action sequences doesn't make up for almost an 2 and a half hours of boredom. | target: great (ADJ) | system label: METAPHORICAL
+rev0008_04 | A couple of great [action] sequences doesn't make up for almost an 2 and a half hours of boredom. | target: action (NOUN) | system label: LITERAL
+rev0008_05 | A couple of great action [sequences] doesn't make up for almost an 2 and a half hours of boredom. | target: sequences (NOUN) | system label: LITERAL
+rev0008_07 | A couple of great action sequences doesn't [make] up for almost an 2 and a half hours of boredom. | target: make (VERB) | system label: METAPHORICAL
+rev0008_10 | A couple of great action sequences doesn't make up for [almost] an 2 and a half hours of boredom. | target: almost (ADV) | system label: LITERAL
+rev0008_15 | A couple of great action sequences doesn't make up for almost an 2 and a [half] hours of boredom. | target: half (NOUN) | system label: METAPHORICAL
+rev0008_16 | A couple of great action sequences doesn't make up for almost an 2 and a half [hours] of boredom. | target: hours (NOUN) | system label: LITERAL
+rev0008_18 | A couple of great action sequences doesn't make up for almost an 2 and a half hours of [boredom.] | target: boredom. (NOUN) | system label: LITERAL
+rev0012_01 | It's [smooth,] jazzy, and bluesy all at the same time. | target: smooth, (ADJ) | system label: METAPHORICAL
+rev0012_04 | It's smooth, jazzy, and [bluesy] all at the same time. | target: bluesy (VERB) | system label: LITERAL
+rev0012_08 | It's smooth, jazzy, and bluesy all at the [same] time. | target: same (ADJ) | system label: LITERAL
+rev0012_09 | It's smooth, jazzy, and bluesy all at the same [time.] | target: time. (NOUN) | system label: LITERAL
+rev0013_01 | Nirvana [released] a best of cd and then a best of the box? | target: released (VERB) | system label: METAPHORICAL
+rev0013_03 | Nirvana released a [best] of cd and then a best of the box? | target: best (ADJ) | system label: LITERAL
+rev0013_07 | Nirvana released a best of cd and [then] a best of the box? | target: then (ADV) | system label: LITERAL
+rev0013_09 | Nirvana released a best of cd and then a [best] of the box? | target: best (ADJ) | system label: LITERAL
+rev0013_12 | Nirvana released a best of cd and then a best of the [box?] | target: box? (NOUN) | system label: METAPHORICAL

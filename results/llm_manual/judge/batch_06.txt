@@ -1,0 +1,37 @@
+You are an expert metaphor annotator trained in MIPVU (Steen et al., 2010), the procedure used to build the VU Amsterdam Metaphor Corpus.
+For a target word in a sentence:
+1. Establish its contextual meaning in this sentence.
+2. Establish its basic meaning: more concrete, bodily, precise or historically older (as in Macmillan / Longman learner's dictionaries, same part of speech).
+3. If the contextual meaning differs from the basic meaning but can be understood by comparison with it, the word is metaphorical (M). Otherwise literal (L).
+Conventional metaphors count as M (e.g. 'prices climbed', 'grasp an idea'). Personification of objects counts as M. If the contextual meaning is the basic meaning, or the word has only one sense, it is L.
+
+A metaphor-detection system has labelled each target word below as METAPHORICAL or LITERAL.
+For each item, judge whether the system's label is correct under MIPVU. Return ONLY a JSON array, one object per item, in the same order:
+[{"item_id": "...", "verdict": "CORRECT" or "INCORRECT", "reason": "<one short sentence>"}]
+
+Items (the target word is in [brackets]):
+arx0006_19 | Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in [terms] of a finite number of parameters, to be self-consistently determined. | target: terms (NOUN) | system label: LITERAL
+arx0006_22 | Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a [finite] number of parameters, to be self-consistently determined. | target: finite (ADJ) | system label: LITERAL
+arx0006_23 | Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite [number] of parameters, to be self-consistently determined. | target: number (NOUN) | system label: LITERAL
+arx0006_25 | Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of [parameters,] to be self-consistently determined. | target: parameters, (NOUN) | system label: LITERAL
+arx0006_28 | Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be [self-consistently] determined. | target: self-consistently (NOUN) | system label: LITERAL
+arx0006_29 | Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently [determined.] | target: determined. (VERB) | system label: LITERAL
+arx0011_02 | In the [companion] paper, we measured homology classes and computed the optimal homology basis. | target: companion (NOUN) | system label: LITERAL
+arx0011_03 | In the companion [paper,] we measured homology classes and computed the optimal homology basis. | target: paper, (NOUN) | system label: LITERAL
+arx0011_05 | In the companion paper, we [measured] homology classes and computed the optimal homology basis. | target: measured (VERB) | system label: METAPHORICAL
+arx0011_06 | In the companion paper, we measured [homology] classes and computed the optimal homology basis. | target: homology (NOUN) | system label: LITERAL
+arx0011_07 | In the companion paper, we measured homology [classes] and computed the optimal homology basis. | target: classes (NOUN) | system label: LITERAL
+arx0011_09 | In the companion paper, we measured homology classes and [computed] the optimal homology basis. | target: computed (VERB) | system label: METAPHORICAL
+arx0011_11 | In the companion paper, we measured homology classes and computed the [optimal] homology basis. | target: optimal (ADJ) | system label: LITERAL
+arx0011_12 | In the companion paper, we measured homology classes and computed the optimal [homology] basis. | target: homology (NOUN) | system label: LITERAL
+arx0011_13 | In the companion paper, we measured homology classes and computed the optimal homology [basis.] | target: basis. (NOUN) | system label: LITERAL
+arx0015_01 | A [new] `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to loop order 8. | target: new (ADJ) | system label: LITERAL
+arx0015_02 | A new [`twist'] identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to loop order 8. | target: `twist' (NOUN) | system label: METAPHORICAL
+arx0015_03 | A new `twist' [identity] amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to loop order 8. | target: identity (NOUN) | system label: LITERAL
+arx0015_05 | A new `twist' identity amongst [periods] is proved and a list of graphs (the census) with their periods, if available, is given up to loop order 8. | target: periods (NOUN) | system label: LITERAL
+arx0015_07 | A new `twist' identity amongst periods is [proved] and a list of graphs (the census) with their periods, if available, is given up to loop order 8. | target: proved (VERB) | system label: LITERAL
+arx0015_10 | A new `twist' identity amongst periods is proved and a [list] of graphs (the census) with their periods, if available, is given up to loop order 8. | target: list (NOUN) | system label: LITERAL
+arx0015_12 | A new `twist' identity amongst periods is proved and a list of [graphs] (the census) with their periods, if available, is given up to loop order 8. | target: graphs (NOUN) | system label: LITERAL
+arx0015_14 | A new `twist' identity amongst periods is proved and a list of graphs (the [census)] with their periods, if available, is given up to loop order 8. | target: census) (NOUN) | system label: LITERAL
+arx0015_17 | A new `twist' identity amongst periods is proved and a list of graphs (the census) with their [periods,] if available, is given up to loop order 8. | target: periods, (NOUN) | system label: LITERAL
+arx0015_19 | A new `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if [available,] is given up to loop order 8. | target: available, (ADJ) | system label: LITERAL

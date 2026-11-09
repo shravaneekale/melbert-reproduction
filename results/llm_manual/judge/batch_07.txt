@@ -1,0 +1,37 @@
+You are an expert metaphor annotator trained in MIPVU (Steen et al., 2010), the procedure used to build the VU Amsterdam Metaphor Corpus.
+For a target word in a sentence:
+1. Establish its contextual meaning in this sentence.
+2. Establish its basic meaning: more concrete, bodily, precise or historically older (as in Macmillan / Longman learner's dictionaries, same part of speech).
+3. If the contextual meaning differs from the basic meaning but can be understood by comparison with it, the word is metaphorical (M). Otherwise literal (L).
+Conventional metaphors count as M (e.g. 'prices climbed', 'grasp an idea'). Personification of objects counts as M. If the contextual meaning is the basic meaning, or the word has only one sense, it is L.
+
+A metaphor-detection system has labelled each target word below as METAPHORICAL or LITERAL.
+For each item, judge whether the system's label is correct under MIPVU. Return ONLY a JSON array, one object per item, in the same order:
+[{"item_id": "...", "verdict": "CORRECT" or "INCORRECT", "reason": "<one short sentence>"}]
+
+Items (the target word is in [brackets]):
+arx0015_21 | A new `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is [given] up to loop order 8. | target: given (VERB) | system label: METAPHORICAL
+arx0015_24 | A new `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to [loop] order 8. | target: loop (VERB) | system label: METAPHORICAL
+arx0015_25 | A new `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to loop [order] 8. | target: order (NOUN) | system label: LITERAL
+arx0017_00 | [Here] we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions. | target: Here (ADV) | system label: LITERAL
+arx0017_02 | Here we [test] these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions. | target: test (VERB) | system label: LITERAL
+arx0017_04 | Here we test these [constraints] numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions. | target: constraints (NOUN) | system label: LITERAL
+arx0017_05 | Here we test these constraints [numerically] in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions. | target: numerically (ADV) | system label: LITERAL
+arx0017_08 | Here we test these constraints numerically in the [framework] of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions. | target: framework (NOUN) | system label: LITERAL
+arx0017_12 | Here we test these constraints numerically in the framework of the Abelian-Higgs [model] in the Type-I regime and report on good agreement with the analytical predictions. | target: model (NOUN) | system label: LITERAL
+arx0017_16 | Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I [regime] and report on good agreement with the analytical predictions. | target: regime (NOUN) | system label: LITERAL
+arx0017_18 | Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and [report] on good agreement with the analytical predictions. | target: report (NOUN) | system label: LITERAL
+arx0017_20 | Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on [good] agreement with the analytical predictions. | target: good (ADJ) | system label: LITERAL
+arx0017_21 | Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good [agreement] with the analytical predictions. | target: agreement (NOUN) | system label: LITERAL
+arx0017_24 | Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the [analytical] predictions. | target: analytical (ADJ) | system label: LITERAL
+arx0017_25 | Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical [predictions.] | target: predictions. (NOUN) | system label: LITERAL
+arx0019_00 | [Transport] and mixing properties of passive particles advected by an array of vortices are investigated. | target: Transport (NOUN) | system label: METAPHORICAL
+arx0019_02 | Transport and [mixing] properties of passive particles advected by an array of vortices are investigated. | target: mixing (VERB) | system label: METAPHORICAL
+arx0019_03 | Transport and mixing [properties] of passive particles advected by an array of vortices are investigated. | target: properties (NOUN) | system label: LITERAL
+arx0019_05 | Transport and mixing properties of [passive] particles advected by an array of vortices are investigated. | target: passive (ADJ) | system label: LITERAL
+arx0019_06 | Transport and mixing properties of passive [particles] advected by an array of vortices are investigated. | target: particles (NOUN) | system label: LITERAL
+arx0019_07 | Transport and mixing properties of passive particles [advected] by an array of vortices are investigated. | target: advected (VERB) | system label: METAPHORICAL
+arx0019_10 | Transport and mixing properties of passive particles advected by an [array] of vortices are investigated. | target: array (NOUN) | system label: METAPHORICAL
+arx0019_12 | Transport and mixing properties of passive particles advected by an array of [vortices] are investigated. | target: vortices (NOUN) | system label: METAPHORICAL
+arx0019_14 | Transport and mixing properties of passive particles advected by an array of vortices are [investigated.] | target: investigated. (VERB) | system label: LITERAL
+arx0022_01 | The [aim] of this note is to introduce a compound basis for the space of symmetric functions. | target: aim (NOUN) | system label: METAPHORICAL

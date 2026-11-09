@@ -1,0 +1,37 @@
+You are an expert metaphor annotator trained in MIPVU (Steen et al., 2010), the procedure used to build the VU Amsterdam Metaphor Corpus.
+For a target word in a sentence:
+1. Establish its contextual meaning in this sentence.
+2. Establish its basic meaning: more concrete, bodily, precise or historically older (as in Macmillan / Longman learner's dictionaries, same part of speech).
+3. If the contextual meaning differs from the basic meaning but can be understood by comparison with it, the word is metaphorical (M). Otherwise literal (L).
+Conventional metaphors count as M (e.g. 'prices climbed', 'grasp an idea'). Personification of objects counts as M. If the contextual meaning is the basic meaning, or the word has only one sense, it is L.
+
+A metaphor-detection system has labelled each target word below as METAPHORICAL or LITERAL.
+For each item, judge whether the system's label is correct under MIPVU. Return ONLY a JSON array, one object per item, in the same order:
+[{"item_id": "...", "verdict": "CORRECT" or "INCORRECT", "reason": "<one short sentence>"}]
+
+Items (the target word is in [brackets]):
+arx0067_01 | The [performance] for learning drifting concepts of one of the presented algorithms is analysed and compared with the Baldi-Chauvin algorithm in the same situations. | target: performance (NOUN) | system label: LITERAL
+arx0067_03 | The performance for [learning] drifting concepts of one of the presented algorithms is analysed and compared with the Baldi-Chauvin algorithm in the same situations. | target: learning (VERB) | system label: LITERAL
+arx0067_04 | The performance for learning [drifting] concepts of one of the presented algorithms is analysed and compared with the Baldi-Chauvin algorithm in the same situations. | target: drifting (VERB) | system label: METAPHORICAL
+arx0067_05 | The performance for learning drifting [concepts] of one of the presented algorithms is analysed and compared with the Baldi-Chauvin algorithm in the same situations. | target: concepts (NOUN) | system label: LITERAL
+arx0067_10 | The performance for learning drifting concepts of one of the [presented] algorithms is analysed and compared with the Baldi-Chauvin algorithm in the same situations. | target: presented (VERB) | system label: METAPHORICAL
+arx0067_11 | The performance for learning drifting concepts of one of the presented [algorithms] is analysed and compared with the Baldi-Chauvin algorithm in the same situations. | target: algorithms (NOUN) | system label: LITERAL
+arx0067_13 | The performance for learning drifting concepts of one of the presented algorithms is [analysed] and compared with the Baldi-Chauvin algorithm in the same situations. | target: analysed (VERB) | system label: LITERAL
+arx0067_15 | The performance for learning drifting concepts of one of the presented algorithms is analysed and [compared] with the Baldi-Chauvin algorithm in the same situations. | target: compared (VERB) | system label: LITERAL
+arx0067_22 | The performance for learning drifting concepts of one of the presented algorithms is analysed and compared with the Baldi-Chauvin algorithm in the [same] situations. | target: same (ADJ) | system label: LITERAL
+arx0067_23 | The performance for learning drifting concepts of one of the presented algorithms is analysed and compared with the Baldi-Chauvin algorithm in the same [situations.] | target: situations. (NOUN) | system label: METAPHORICAL
+arx0072_01 | We [find] the asymptotic distribution of the domination number and use it for testing spatial point patterns of segregation and association. | target: find (VERB) | system label: LITERAL
+arx0072_03 | We find the [asymptotic] distribution of the domination number and use it for testing spatial point patterns of segregation and association. | target: asymptotic (ADJ) | system label: LITERAL
+arx0072_04 | We find the asymptotic [distribution] of the domination number and use it for testing spatial point patterns of segregation and association. | target: distribution (NOUN) | system label: LITERAL
+arx0072_07 | We find the asymptotic distribution of the [domination] number and use it for testing spatial point patterns of segregation and association. | target: domination (NOUN) | system label: METAPHORICAL
+arx0072_08 | We find the asymptotic distribution of the domination [number] and use it for testing spatial point patterns of segregation and association. | target: number (NOUN) | system label: LITERAL
+arx0072_10 | We find the asymptotic distribution of the domination number and [use] it for testing spatial point patterns of segregation and association. | target: use (VERB) | system label: LITERAL
+arx0072_13 | We find the asymptotic distribution of the domination number and use it for [testing] spatial point patterns of segregation and association. | target: testing (VERB) | system label: LITERAL
+arx0072_14 | We find the asymptotic distribution of the domination number and use it for testing [spatial] point patterns of segregation and association. | target: spatial (ADJ) | system label: LITERAL
+arx0072_15 | We find the asymptotic distribution of the domination number and use it for testing spatial [point] patterns of segregation and association. | target: point (NOUN) | system label: LITERAL
+arx0072_16 | We find the asymptotic distribution of the domination number and use it for testing spatial point [patterns] of segregation and association. | target: patterns (NOUN) | system label: LITERAL
+arx0072_18 | We find the asymptotic distribution of the domination number and use it for testing spatial point patterns of [segregation] and association. | target: segregation (NOUN) | system label: LITERAL
+arx0072_20 | We find the asymptotic distribution of the domination number and use it for testing spatial point patterns of segregation and [association.] | target: association. (NOUN) | system label: LITERAL
+arx0073_03 | How would the [counter-factual] mortality of these 18 year olds have compared to their actual observed mortality through 2007? | target: counter-factual (ADJ) | system label: LITERAL
+arx0073_04 | How would the counter-factual [mortality] of these 18 year olds have compared to their actual observed mortality through 2007? | target: mortality (NOUN) | system label: LITERAL
+arx0073_08 | How would the counter-factual mortality of these 18 [year] olds have compared to their actual observed mortality through 2007? | target: year (NOUN) | system label: LITERAL

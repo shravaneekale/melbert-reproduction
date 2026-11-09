@@ -1,0 +1,37 @@
+You are an expert metaphor annotator trained in MIPVU (Steen et al., 2010), the procedure used to build the VU Amsterdam Metaphor Corpus.
+For a target word in a sentence:
+1. Establish its contextual meaning in this sentence.
+2. Establish its basic meaning: more concrete, bodily, precise or historically older (as in Macmillan / Longman learner's dictionaries, same part of speech).
+3. If the contextual meaning differs from the basic meaning but can be understood by comparison with it, the word is metaphorical (M). Otherwise literal (L).
+Conventional metaphors count as M (e.g. 'prices climbed', 'grasp an idea'). Personification of objects counts as M. If the contextual meaning is the basic meaning, or the word has only one sense, it is L.
+
+A metaphor-detection system has labelled each target word below as METAPHORICAL or LITERAL.
+For each item, judge whether the system's label is correct under MIPVU. Return ONLY a JSON array, one object per item, in the same order:
+[{"item_id": "...", "verdict": "CORRECT" or "INCORRECT", "reason": "<one short sentence>"}]
+
+Items (the target word is in [brackets]):
+arx0038_18 | Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent [tutoring] system for utilizing test scenarios in computer-based and web-based environments. | target: tutoring (NOUN) | system label: LITERAL
+arx0038_19 | Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring [system] for utilizing test scenarios in computer-based and web-based environments. | target: system (NOUN) | system label: LITERAL
+arx0038_21 | Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for [utilizing] test scenarios in computer-based and web-based environments. | target: utilizing (VERB) | system label: LITERAL
+arx0038_22 | Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing [test] scenarios in computer-based and web-based environments. | target: test (NOUN) | system label: LITERAL
+arx0038_23 | Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test [scenarios] in computer-based and web-based environments. | target: scenarios (NOUN) | system label: LITERAL
+arx0038_25 | Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in [computer-based] and web-based environments. | target: computer-based (NOUN) | system label: LITERAL
+arx0038_27 | Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and [web-based] environments. | target: web-based (NOUN) | system label: LITERAL
+arx0038_28 | Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based [environments.] | target: environments. (NOUN) | system label: LITERAL
+arx0045_01 | A [software] agent autonomous with regard to the mobility illustrates a possible implementation of this model. | target: software (NOUN) | system label: LITERAL
+arx0045_02 | A software [agent] autonomous with regard to the mobility illustrates a possible implementation of this model. | target: agent (NOUN) | system label: LITERAL
+arx0045_03 | A software agent [autonomous] with regard to the mobility illustrates a possible implementation of this model. | target: autonomous (ADJ) | system label: LITERAL
+arx0045_05 | A software agent autonomous with [regard] to the mobility illustrates a possible implementation of this model. | target: regard (NOUN) | system label: LITERAL
+arx0045_08 | A software agent autonomous with regard to the [mobility] illustrates a possible implementation of this model. | target: mobility (NOUN) | system label: LITERAL
+arx0045_09 | A software agent autonomous with regard to the mobility [illustrates] a possible implementation of this model. | target: illustrates (VERB) | system label: METAPHORICAL
+arx0045_11 | A software agent autonomous with regard to the mobility illustrates a [possible] implementation of this model. | target: possible (ADJ) | system label: LITERAL
+arx0045_12 | A software agent autonomous with regard to the mobility illustrates a possible [implementation] of this model. | target: implementation (NOUN) | system label: LITERAL
+arx0045_15 | A software agent autonomous with regard to the mobility illustrates a possible implementation of this [model.] | target: model. (NOUN) | system label: METAPHORICAL
+arx0051_01 | These [dynamics] have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli. | target: dynamics (NOUN) | system label: LITERAL
+arx0051_02 | These dynamics [have] multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli. | target: have (VERB) | system label: METAPHORICAL
+arx0051_03 | These dynamics have [multiple] attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli. | target: multiple (ADJ) | system label: LITERAL
+arx0051_04 | These dynamics have multiple [attractors,] and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli. | target: attractors, (NOUN) | system label: METAPHORICAL
+arx0051_07 | These dynamics have multiple attractors, and we [find] that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli. | target: find (VERB) | system label: METAPHORICAL
+arx0051_10 | These dynamics have multiple attractors, and we find that the [worm] visits these in a rapid and almost completely deterministic response to weak thermal stimuli. | target: worm (NOUN) | system label: LITERAL
+arx0051_11 | These dynamics have multiple attractors, and we find that the worm [visits] these in a rapid and almost completely deterministic response to weak thermal stimuli. | target: visits (VERB) | system label: METAPHORICAL
+arx0051_15 | These dynamics have multiple attractors, and we find that the worm visits these in a [rapid] and almost completely deterministic response to weak thermal stimuli. | target: rapid (ADJ) | system label: LITERAL
