@@ -21,7 +21,7 @@
 % looks in ../results (local build) and results/ (Overleaf with the repo root as project root)
 \newcommand{\maybeinput}[1]{\IfFileExists{../#1}{\input{../#1}}{\IfFileExists{#1}{\input{#1}}{\fbox{\parbox{0.9\linewidth}{\centering\small\textcolor{red}{table not generated yet: \detokenize{#1}}}}}}}
 \newcommand{\maybefigure}[1]{\IfFileExists{../#1}{\includegraphics[width=\linewidth]{../#1}}{\IfFileExists{#1}{\includegraphics[width=\linewidth]{#1}}{\fbox{\small figure not generated yet}}}}
-\newcommand{\repourl}{https://github.com/USERNAME/melbert-reproduction} % TBD: your GitHub username
+\newcommand{\repourl}{https://github.com/shravaneekale/melbert-reproduction}
 % ---------------------------------------------------------------------------
 
 \title{Reproducing MelBERT for Metaphor Detection\\and Testing Its Generalisation to New Domains}
@@ -34,7 +34,7 @@
 \maketitle
 
 \begin{abstract}
-We reproduce MelBERT \citep{choi-etal-2021-melbert}, a RoBERTa-based word-level metaphor detector that builds two linguistic theories of metaphor identification into its architecture, and test how well it generalises beyond its benchmark. Using the authors' official code with a three-line compatibility patch, we retrain MelBERT on VUA-18 with the paper's settings and obtain \TBD{xx.x} F1 against the reported 78.5. We trace the remaining gap to single-seed training and to differences between the code and the paper's description. We then build a new, human-annotated evaluation set of \TBD{N} target words from two domains absent from the benchmarks: Amazon product reviews and arXiv abstracts. Two annotators labelled the words with MIPVU (Cohen's $\kappa$ = \TBD{0.xx}). MelBERT reaches \TBD{xx.x} F1 on reviews and \TBD{xx.x} on arXiv, compared with \TBD{xx.x} on the matching parts of speech in VUA-18. We also use an LLM both as an annotator and as a judge of MelBERT's outputs, and measure how far LLM-as-judge evaluation can stand in for human labels. Code and data: \url{\repourl}.
+We reproduce MelBERT \citep{choi-etal-2021-melbert}, a RoBERTa-based word-level metaphor detector that builds two linguistic theories of metaphor identification into its architecture, and test how well it generalises beyond its benchmark. With the authors' official code and a three-line compatibility patch, the released checkpoint scores 78.8 F1 on VUA-18, and our retrained model 78.2, against the reported 78.5. Results on VUA-Verb, MOH-X and TroFi are also within 1.6 F1 of the paper. We then build a new evaluation set from two domains absent from the benchmarks, Amazon product reviews and arXiv abstracts: 150 sampled sentences (1,436 content-word targets), of which a stratified random subset of 40 sentences (388 targets) was hand-annotated with MIPVU. An LLM labelled the same targets independently as a second rater. On the new data MelBERT drops to 36.8 F1 on reviews and 31.6 on arXiv, against 72.1 on the matching parts of speech of VUA-18. It over-predicts metaphor two-fold, mostly on delexical verbs and abstract academic vocabulary that VUA's conventions treat as metaphorical. Human--LLM agreement was low ($\kappa = 0.15$), which shows how hard consistent metaphor annotation is outside VUA. Code and data: \url{\repourl}.
 \end{abstract}
 
 % ===========================================================================
@@ -57,7 +57,7 @@ The two signals are computed by separate layers over the same encoder and combin
 
 \paragraph{Evaluation framework} Each target word is classified as metaphorical (M) or literal (L), and the paper reports precision, recall and F1 on the M class. Accuracy is not used because only about 12\% of VUA tokens are metaphorical, so predicting ``literal'' everywhere already gives about 88\% accuracy. MelBERT reports 78.5 F1 on VUA-18 (P 80.1, R 76.9), 75.7 on VUA-Verb and 72.3 on VUA-20. In zero-shot transfer from VUA-20 it scores 79.2 F1 on MOH-X and 62.0 on TroFi, outperforming RoBERTa baselines and earlier models. All numbers are means over five seeds.
 
-\paragraph{Justification} (i) \emph{Venue}: NAACL is ranked \textbf{A} in the CORE/ICORE conference rankings, a top-tier venue for computational linguistics. (ii) \emph{Impact}: the paper has \TBD{>100} citations (Google Scholar, Nov.~2026), and later metaphor-detection work still uses it as a standard baseline. (iii) \emph{Code}: the authors' official implementation is public\footnote{\url{https://github.com/jin530/MelBERT}}. The first author's GitHub account hosts it, along with pre-processed data and a trained checkpoint. (iv) \emph{Data}: all four benchmarks are public, and the authors also release them pre-processed into the code's input format, which removes a major source of replication error. (v) \emph{Feasibility}: our proposal pilot ran the full pipeline end to end on a laptop after a one-line fix (\S\ref{sec:replication}). Together these make MelBERT a paper whose results \emph{should} be reproducible, which makes testing that claim worthwhile.
+\paragraph{Justification} (i) \emph{Venue}: NAACL is ranked \textbf{A} in the CORE/ICORE conference rankings, a top-tier venue for computational linguistics. (ii) \emph{Impact}: the paper has about 100 citations (Semantic Scholar, Nov.~2026), and later metaphor-detection work still uses it as a standard baseline. (iii) \emph{Code}: the authors' official implementation is public\footnote{\url{https://github.com/jin530/MelBERT}}. The first author's GitHub account hosts it, along with pre-processed data and a trained checkpoint. (iv) \emph{Data}: all four benchmarks are public, and the authors also release them pre-processed into the code's input format, which removes a major source of replication error. (v) \emph{Feasibility}: our proposal pilot ran the full pipeline end to end on a laptop after a one-line fix (\S\ref{sec:replication}). Together these make MelBERT a paper whose results \emph{should} be reproducible, which makes testing that claim worthwhile.
 
 % ===========================================================================
 \section{Original Datasets}
@@ -103,7 +103,7 @@ a3m-fragment02 45 1     Design: Crossed lines ... NOUN 2
 \section{Replication of the Original Work}
 \label{sec:replication}
 
-\paragraph{Code and environment} We cloned the official repository at commit \texttt{11b0f78} and changed only three lines (\texttt{setup/patch\_melbert.py}). (1) \texttt{AdamW} is imported from \texttt{torch.optim}, because \texttt{transformers} no longer provides it. (2) The device selection falls back to Apple-Silicon MPS. (3) \texttt{torch.load} is given a \texttt{map\_location}, so GPU-trained checkpoints load on a laptop. We pinned \texttt{transformers}~4.46.3, because the 2021 code depends on 4.x tokenizer behaviour. The original pins (Python~3.7, PyTorch~1.6, \texttt{transformers}~4.2.2) no longer install on current hardware. Full training ran on Google Colab with an NVIDIA \TBD{T4/L4/A100} GPU (PyTorch \TBD{2.x}), taking \TBD{h} per run. All scripts are in our repository.\footnote{\url{\repourl}}
+\paragraph{Code and environment} We cloned the official repository at commit \texttt{11b0f78} and changed only three lines (\texttt{setup/patch\_melbert.py}). (1) \texttt{AdamW} is imported from \texttt{torch.optim}, because \texttt{transformers} no longer provides it. (2) The device selection falls back to Apple-Silicon MPS. (3) \texttt{torch.load} is given a \texttt{map\_location}, so GPU-trained checkpoints load on a laptop. We pinned \texttt{transformers}~4.46.3, because the 2021 code depends on 4.x tokenizer behaviour. The original pins (Python~3.7, PyTorch~1.6, \texttt{transformers}~4.2.2) no longer install on current hardware. The released checkpoint was scored on a Google Colab NVIDIA T4 GPU. Full retraining ran on an Apple-Silicon MacBook Pro (PyTorch~2.15, MPS backend) and took 5\,h\,44\,min (about 1.9\,s per batch of 32), plus 12 minutes for each test-set evaluation. All scripts are in our repository.\footnote{\url{\repourl}}
 
 \paragraph{Procedure} We ran three experiments:
 \textbf{(R1)} scoring the authors' \emph{released checkpoint} on the test sets, which checks code and data without retraining;
@@ -134,10 +134,10 @@ Training data (laptop) & Ep. & P & R & F1 \\
 \label{tab:pilot}
 \end{table}
 
-\paragraph{Results} Table~\ref{tab:replication} compares our numbers with the paper's. The authors' released checkpoint scores 78.8 F1 on VUA-18 (P 79.4, R 78.3), 75.6 on VUA-Verb, 79.2 on MOH-X and 61.0 on TroFi, within 1 F1 of every reported number. The released code, data and model therefore reproduce the published results. Our retrained model scores \TBD{xx.x} on VUA-18, against the reported 78.5. On VUA-Verb the retrained model scores \TBD{xx.x} (reported 75.7). Zero-shot it scores \TBD{xx.x} on MOH-X and \TBD{xx.x} on TroFi (reported 79.2 / 62.0). Table~\ref{tab:pilot} shows that training budget matters a great deal. With 3k sentences and the default two-epoch warm-up, the model first collapses to the majority class (0 F1 at 86\% accuracy), exactly the failure mode that makes accuracy uninformative. With 10k sentences it reaches 68.2 F1. \paragraph{How close} Our retrained F1 differs from the paper's by \TBD{$\pm$x.x} points (\TBD{x.x}\% relative). The paper does not report seed variance, but bagging over seeds changes its F1 by 1.3 points (78.5 to 79.8), so differences of about one point are within normal run-to-run variation. \TBD{If you ran 3 seeds: our seeds range from xx.x to xx.x (mean xx.x $\pm$ x.x), so the paper's 78.5 falls inside / just outside this range.} Precision and recall show \TBD{which way} the difference goes: \TBD{e.g.\ our model has higher recall and lower precision, consistent with the $3\times$ class weight}. Overall the main result \TBD{reproduces / reproduces approximately}.
+\paragraph{Results} Table~\ref{tab:replication} compares our numbers with the paper's. The authors' released checkpoint scores 78.8 F1 on VUA-18 (P 79.4, R 78.3), 75.6 on VUA-Verb, 79.2 on MOH-X and 61.0 on TroFi, within 1 F1 of every reported number. The released code, data and model therefore reproduce the published results. Our retrained model scores 78.2 on VUA-18 (P 79.7, R 76.7, accuracy 93.9), against the reported 78.5 (P 80.1, R 76.9). Test-set F1 after epochs 1, 2 and 3 was 35.8, 71.8 and 78.2. The slow start follows from the schedule: the learning rate warms up linearly for two epochs and only peaks at the end of epoch~2, so most of the learning happens in the last epoch. On VUA-Verb the retrained model scores 75.3 (reported 75.7). Zero-shot it scores 80.8 on MOH-X and 62.3 on TroFi (reported 79.2 / 62.0), despite being trained on the smaller VUA-18 rather than VUA-20. Scoring the released checkpoint on the Mac (MPS) gave exactly the same numbers as on the Colab GPU, so inference does not depend on the hardware. TroFi stays far below the other sets for every model (precision about 52): its literal/non-literal labels follow different guidelines from MIPVU, and a VUA-trained model over-predicts metaphor there. Table~\ref{tab:pilot} shows that training budget matters a great deal. With 3k sentences and the default two-epoch warm-up, the model first collapses to the majority class (0 F1 at 86\% accuracy), exactly the failure mode that makes accuracy uninformative. With 10k sentences it reaches 68.2 F1. \paragraph{How close} Our retrained F1 is 0.3 points below the paper's (0.4\% relative), and the released checkpoint is 0.3 above it. The paper does not report seed variance, but bagging over seeds changes its F1 by 1.3 points (78.5 to 79.8), so differences of about one point are within normal run-to-run variation. Precision and recall are each within 0.4 points of the paper, so the small difference is not a shift in the precision--recall balance. Overall, the main VUA-18 result \textbf{reproduces}, both from the released checkpoint and from retraining with the released code.
 
 \paragraph{Why the numbers can differ} Reading the code against the paper turned up several differences that matter for reproducibility.
-(1) \emph{Seeds}: the paper reports a mean over five seeds; we trained \TBD{one / three} seed(s).
+(1) \emph{Seeds}: the paper reports a mean over five seeds; we trained one seed (42), which our compute budget allowed.
 (2) \emph{Model selection}: the paper says hyperparameters were tuned on the VUA-18 development set, but the released code evaluates on the \emph{test} set after every epoch and never loads \texttt{dev.tsv}. For VUA it keeps the last epoch, so there is no test-set selection. For MOH-X/TroFi cross-validation, though, it keeps the epoch with the best \emph{test-fold} F1, which slightly inflates those numbers.
 (3) \emph{Class weighting}: the code weights the metaphor class $3\times$ in the loss (\texttt{class\_weight = 3}), which the paper does not mention. This trades precision for recall.
 (4) \emph{Software}: newer PyTorch/\texttt{transformers} versions change numerics and tokenisation slightly, and GPU training is not bit-wise deterministic.
@@ -149,7 +149,7 @@ Training data (laptop) & Ep. & P & R & F1 \\
 
 \paragraph{Choice of domains} The proposal listed five candidate corpora. We kept the two that are freely licensed, need no scraping, and differ from VUA along clear axes. \textbf{(a) Amazon product reviews} (\texttt{fancyzhx/amazon\_polarity} on Hugging Face; \citealp{zhang2015character}, derived from \citealp{mcauley2013hidden}) are informal, evaluative, user-written text, a register VUA lacks. We expect personification (\textit{my laptop \textbf{crawls}}) and hyperbole there. \textbf{(b) arXiv abstracts} (\texttt{gfissore/arxiv-abstracts-2021}, CC0; \citealp{clement2019arxiv}) are technical prose. They are more terminology-dense than VUA's academic genre, so we expect few but subtle, highly conventional metaphors (\textit{a \textbf{framework}}, \textit{\textbf{tackle} a problem}). These two domains test both directions of domain shift: whether MelBERT over-predicts metaphor in literal text, and whether it misses informal figurative language. We dropped lyrics (copyright), live-forum scraping (platform terms and API restrictions) and sports commentary (cleaning cost).
 
-\paragraph{From unlabelled corpora to labelled data} Neither corpus has metaphor labels. All labels in our new data come from our own manual MIPVU annotation, not from the source datasets. The 60 \emph{synthetic} sentences shown in our progress video were discarded. Every sentence used here is real, sampled text.
+\paragraph{From unlabelled corpora to labelled data} Neither corpus has metaphor labels, so every label in our new data comes from our own MIPVU annotation, not from the source datasets. The 60 \emph{synthetic} sentences shown in our progress video were discarded, and every sentence used here is real, sampled text.
 
 \paragraph{Sampling and processing} We streamed each corpus in a seeded random order. To maximise diversity we took at most one sentence per document. For arXiv we balanced five subject areas (physics, mathematics, computer science, statistics, quantitative biology). Sentences were kept if they had 8--40 tokens, were mostly alphabetic, contained no URLs, e-mail addresses, handles or LaTeX maths, and had no PERSON named entity (a privacy filter, using spaCy; \citealp{honnibal2020spacy}). Exact duplicates were removed. We then whitespace-tokenised each sentence exactly as MelBERT does and assigned Universal POS tags (as in VUA-18) by aligning spaCy tokens to whitespace tokens. Every \emph{content word} (verb, noun, adjective, adverb; no proper nouns or auxiliaries) became a target. Content words carry most of the metaphors that matter for downstream use, and fully annotating function words was beyond our budget. For a like-for-like comparison we therefore also report VUA-18 restricted to the same four POS. Figure~\ref{fig:newsnippet} shows example items (code: \texttt{src/sample\_corpus.py}, \texttt{src/build\_targets.py}).
 
@@ -157,29 +157,61 @@ Training data (laptop) & Ep. & P & R & F1 \\
 \centering\scriptsize
 \begin{BVerbatim}
 index    label sentence                     POS  w_index
-rev0012  1     The battery died after a ... VERB 2
-rev0012  0     The battery died after a ... NOUN 1
-arx0031  1     We tackle the problem of ... VERB 1
+rev0014  0     As others have written, the ... NOUN 5
+rev0014  1     As others have written, the ... VERB 7
+arx0017  1     Here we test these constraints ... NOUN 8
 \end{BVerbatim}
-\caption{New data in MelBERT's input format (\texttt{data/NEW/all/test.tsv}). \TBD{Replace with real rows from your gold file.}}
+\caption{New data in MelBERT's input format (\texttt{data/NEW/all/test.tsv}). Sentences: \textit{As others have written, the package it \textbf{comes} in \textbf{sucks}} (\textit{package} literal, \textit{comes} and \textit{sucks} metaphorical); \textit{Here we test these constraints numerically in the \textbf{framework} of the Abelian-Higgs model\dots} (\textit{framework} metaphorical).}
 \label{fig:newsnippet}
 \end{figure}
 
-\paragraph{Annotation} Labels follow MIPVU \citep{steen2010method}, the procedure behind VUA itself, so our gold standard uses the same definition of metaphor as MelBERT's training data. For each target the annotator (1) determines its contextual meaning, (2) looks up its basic meaning in a learner's dictionary (Macmillan/Longman, as MIPVU prescribes), and (3) labels it M if the two meanings contrast but are related by comparison (guidelines: \texttt{annotation/guidelines.md}). Annotation was blind: annotators never saw model or LLM outputs. A purpose-built terminal tool (and a spreadsheet alternative) recorded labels, a low-confidence flag and notes. The first author (A1) labelled every target. A second annotator (A2, \TBD{a fellow postgraduate student}) independently labelled a random 30\% of sentences, stratified by domain, after reading the guidelines and practising on \TBD{10} VUA examples. Disagreements were adjudicated by discussion with reference to the dictionary, and the adjudicated label became gold.
+\paragraph{Annotation} Labels follow MIPVU \citep{steen2010method}, the procedure behind VUA itself, so our gold standard uses the same definition of metaphor as MelBERT's training data. For each target the annotator (1) determines its contextual meaning, (2) identifies its basic meaning (more concrete, bodily or precise; checked in Longman/Macmillan as MIPVU prescribes), and (3) labels it M if the two contrast but are related by comparison (guidelines: \texttt{annotation/guidelines.md}). A purpose-built terminal tool showed one target at a time and recorded labels, a low-confidence flag and notes.
 
-\paragraph{Agreement and statistics} Table~\ref{tab:agreement} reports Cohen's $\kappa$ \citep{cohen1960coefficient}. Overall agreement on \TBD{n} doubly-annotated targets is $\kappa = \TBD{0.xx}$ (\TBD{substantial}; \citealp{landis1977measurement}). For comparison, the VUAMC reliability tests with four trained annotators reached Fleiss' $\kappa \approx 0.85$ \citep{steen2010method}. Agreement was lowest on \TBD{nouns/arXiv}, mostly over \TBD{whether technical senses such as \textit{network} or \textit{field} still count as metaphorical}. Table~\ref{tab:newstats} summarises the final gold standard. \TBD{x.x}\% of targets are metaphorical in reviews and \TBD{x.x}\% in arXiv, compared with 21\% for VUA-18 test content words. The data thus has the essential properties of the original: the same input format, the same POS tagset, the same annotation procedure, and a metaphor rate in the same range as VUA.
+\emph{Scope.} Within the project's time budget, the author hand-annotated a \textbf{stratified random subset of 40 sentences} (20 per domain, seed 8240), giving 388 targets. All 150 sentences and 1,436 targets are released, with LLM labels for every target as a silver standard.
+
+\emph{Second rater.} No second human annotator was available, so an LLM (Claude Opus~5.5 through claude.ai, 5 November 2026) labelled every target independently. It received the MIPVU instructions in \texttt{src/llm\_judge.py} and never saw the human labels. The human annotation was completed without seeing the LLM's labels.
+
+\emph{Pilot.} A first, pilot pass by the author labelled only 0.8\% of targets as metaphorical, because conventionalised metaphors (\textit{the battery \textbf{died}}) were treated as literal. That pass was discarded and the guidelines re-read before the final annotation. The pilot labels are kept in the repository.
+
+\emph{Adjudication.} Every target where the author and the LLM disagreed (45 of 388) was resolved by the author. For each one the LLM was asked for a MIPVU analysis (basic meaning, contextual meaning, reason), which the author reviewed before recording the final label and reason (\texttt{data/annotation/adjudication.csv}).
+
+\paragraph{Agreement and statistics} Table~\ref{tab:agreement} reports Cohen's $\kappa$ \citep{cohen1960coefficient} between the author and the LLM \emph{before} adjudication. Raw agreement is high (88.4\%) because most targets are literal, but chance-corrected agreement is only $\kappa = 0.15$ (slight; \citealp{landis1977measurement}). Both raters found a similar \emph{rate} of metaphor (6.7\% vs.\ 8.0\%) but mostly picked \emph{different} words: they agreed on only 6 metaphors, against 20 marked only by the author and 25 only by the LLM. The author's extra labels were mainly unusual or technical words used literally (\textit{oversize}, \textit{gameplay}, drill \textit{bits}). The LLM's were conventional metaphors (\textit{framework}, \textit{regime}, \textit{agreement}, Nirvana \textit{released} an album, the package \textit{sucks}). Adjudication sided with the LLM in 43 of the 45 cases, so the gold standard is closer to the LLM's reading of MIPVU than to the author's original one. We return to this in the limitations. For comparison, the VUAMC reliability tests with four trained annotators reached Fleiss' $\kappa \approx 0.85$ \citep{steen2010method}; the gap shows how much training MIPVU needs.
+
+Table~\ref{tab:newstats} summarises the gold standard: 8.5\% of targets are metaphorical in both domains, against 15.9\% for VUA-18 test content words. Verbs are the most metaphorical part of speech, as in VUA. No adverb was labelled metaphorical.
 
 \begin{table}[t]
 \centering\small
-\resizebox{\linewidth}{!}{\maybeinput{results/tables/new_stats.tex}}
-\caption{New gold standard: sentences, targets, metaphor rate (\%M) overall and by POS, and number of targets in the doubly-annotated subset.}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Domain & Sent. & Targets & \%M & V & N & Adj & Adv \\
+\midrule
+Reviews & 20 & 141 & 8.5 & 17.5 & 8.2 & 3.4 & 0.0 \\
+arXiv & 20 & 247 & 8.5 & 10.4 & 10.4 & 3.7 & 0.0 \\
+\midrule
+All & 40 & 388 & 8.5 & 13.6 & 9.8 & 3.6 & 0.0 \\
+\bottomrule
+\end{tabular}
+\caption{Hand-annotated gold standard: sentences, targets, and \% metaphorical overall and by POS.}
 \label{tab:newstats}
 \end{table}
 
 \begin{table}[t]
 \centering\small
-\maybeinput{results/tables/agreement_human.tex}
-\caption{Inter-annotator agreement (A1 vs.\ A2) on the doubly-annotated subset. \%M = metaphor rate for each annotator.}
+\begin{tabular}{lrrrr}
+\toprule
+Subset & $n$ & Agree. & $\kappa$ & \%M (H/LLM) \\
+\midrule
+All & 388 & 0.88 & 0.15 & 6.7/8.0 \\
+Reviews & 141 & 0.87 & 0.10 & 7.8/8.5 \\
+arXiv & 247 & 0.89 & 0.18 & 6.1/7.7 \\
+\midrule
+Verb & 88 & 0.86 & 0.20 & 4.5/13.6 \\
+Noun & 183 & 0.86 & 0.17 & 8.7/9.3 \\
+Adj & 83 & 0.90 & $-$0.04 & 7.2/2.4 \\
+Adv & 34 & 1.00 & -- & 0.0/0.0 \\
+\bottomrule
+\end{tabular}
+\caption{Agreement between the human annotator (H) and the LLM rater before adjudication.}
 \label{tab:agreement}
 \end{table}
 
@@ -187,29 +219,38 @@ arx0031  1     We tackle the problem of ... VERB 1
 \section{Results on New Data}
 \label{sec:results}
 
-We ran our retrained VUA-18 model (R2) unchanged on the new data. Confidence intervals come from a sentence-level (cluster) bootstrap with 1,000 resamples \citep{efron1993bootstrap}, because targets in the same sentence are not independent.
+We ran our retrained VUA-18 model (R2) and the released checkpoint (R1) unchanged on the 388 gold targets. Confidence intervals come from a sentence-level (cluster) bootstrap with 1,000 resamples \citep{efron1993bootstrap}, because targets in the same sentence are not independent.
 
 \begin{table*}[t]
 \centering\small
-\maybeinput{results/tables/new_data.tex}
-\caption{MelBERT (trained on VUA-18) on the new domains. The first row restricts the VUA-18 test set to the same four POS as the new data, for a like-for-like comparison. \%M pred $>$ \%M gold means the model over-predicts metaphor. The bottom block scores the LLM annotator against the same human gold.}
+\begin{tabular}{lrrrrrrlr}
+\toprule
+Test set & $n$ & \%M gold & \%M pred & P & R & F1 & 95\% CI & F1 (R1) \\
+\midrule
+VUA-18 test (V/N/Adj/Adv) & 24,849 & 15.9 & 14.9 & 74.5 & 69.7 & 72.1 & [70.8, 73.3] & -- \\
+Reviews (new) & 141 & 8.5 & 18.4 & 26.9 & 58.3 & 36.8 & [18.8, 55.2] & 33.3 \\
+arXiv (new) & 247 & 8.5 & 22.3 & 21.8 & 57.1 & 31.6 & [17.1, 43.9] & 30.6 \\
+New (both) & 388 & 8.5 & 20.9 & 23.5 & 57.6 & 33.3 & [22.4, 43.6] & 31.4 \\
+\bottomrule
+\end{tabular}
+\caption{MelBERT on the new domains (our retrained model R2; the last column is the released checkpoint R1). The first row restricts the VUA-18 test set to the same four POS as the new data. \%M pred $>$ \%M gold means the model over-predicts metaphor.}
 \label{tab:newdata}
 \end{table*}
 
 \begin{table}[t]
 \centering\small
-\maybeinput{results/tables/per_pos.tex}
-\caption{F1 by POS (number of targets in brackets). Paper = Table~5 of Choi et al.\ (2021).}
+\resizebox{\linewidth}{!}{\maybeinput{results/tables/per_pos.tex}}
+\caption{F1 by POS (number of targets in brackets). Paper = Table~5 of Choi et al.\ (2021). No adverb in the new data is gold-metaphorical, so its F1 is 0.}
 \label{tab:pos}
 \end{table}
 
-\paragraph{Overall} Table~\ref{tab:newdata} gives the main results. On VUA-18 content words our model scores \TBD{xx.x} F1. It scores \TBD{xx.x} on reviews and \TBD{xx.x} on arXiv, a drop of \TBD{x.x} and \TBD{x.x} points. \TBD{State whether the CIs overlap with VUA, i.e.\ whether the drop is reliable given the small test sets.}
+\paragraph{Overall} Table~\ref{tab:newdata} gives the main result. On VUA-18 content words our model scores 72.1 F1. On the new domains it scores 36.8 (reviews) and 31.6 (arXiv), a drop of 35--40 points. The test sets are small, so the bootstrap intervals are wide, but even their upper bounds (55.2 and 43.9) lie far below the VUA interval [70.8, 73.3], so the drop is not an artefact of sample size. The released checkpoint behaves almost identically (31.4 vs.\ 33.3 F1 overall), so the drop is a property of MelBERT, not of our training run. Recall stays moderate (about 58\%), but precision collapses to 22--27\%. MelBERT labels 20.9\% of targets as metaphorical where the gold standard has 8.5\%: it over-predicts about 2.5-fold.
 
-\paragraph{Reviews} \TBD{Interpret P vs R and \%M pred vs gold. Expected pattern to check: MelBERT recognises conventional VUA-like metaphors (\textit{killed}, \textit{freezes}) but misses informal or novel ones, and over-flags evaluative adjectives.} Error analysis of \texttt{results/errors\_ours\_reviews.csv} shows \TBD{two or three concrete FP/FN examples with a short explanation}.
+\paragraph{Reviews} 19 of the 26 positive predictions are false positives. Most are \emph{delexical or conventional} uses: \textit{make} (up for), \textit{made} (easier), \textit{have} (no talent), \textit{great} (action sequences), a \textit{couple} of, a \textit{little} bit, \textit{that} much, it \textit{teaches}. In VUA's MIPVU conventions many such words count as metaphorical (e.g.\ \textit{great} meaning ``very good'' contrasts with ``large''), so MelBERT has learned a broader notion of metaphor than our annotation applied. Other false positives are literal hobby vocabulary unlike anything in VUA (fishing reel \textit{cranked}, \textit{baitfeeding}, \textit{riffs}). The five misses are informal or idiomatic metaphors: \textit{burning} a CD, \textit{on hand}, the \textit{best of places}, \textit{old school}, the package it \textit{comes} in. MelBERT gave these a metaphor probability below 0.3.
 
-\paragraph{arXiv} \TBD{Interpret. Expected pattern to check: very low gold metaphor rate, so precision is the key number. Does the model flag technical terms (\textit{network}, \textit{field}, \textit{tree}) as metaphorical? Give examples.}
+\paragraph{arXiv} Errors are dominated by 43 false positives on academic and technical vocabulary: \textit{show}, \textit{obtain}, \textit{introduce}, \textit{implies}, \textit{aim}, \textit{application}, \textit{space}, \textit{direct}, \textit{positive}, \textit{larger}, \textit{force}, \textit{model}, plus physics terms (\textit{vortices}, \textit{array}, \textit{advected}). Many are exactly the abstract uses of concrete words that VUA's academic genre marks as metaphorical (the paper reports 83.9 F1 on VUA academic), so this is partly a difference in annotation convention. Terminology-dense abstracts also contain many words whose technical sense is now basic, and MelBERT over-applies the MIP signal to them. Conversely, it missed conventional abstract-noun metaphors that our annotation counts (\textit{framework}, \textit{regime}, \textit{agreement}, \textit{census}, software \textit{agent}, computing \textit{environments}, \textit{hierarchy}), often with near-zero probability.
 
-\paragraph{By POS} Table~\ref{tab:pos} and Figure~\ref{fig:pos} break F1 down by POS. \TBD{Which POS degrades most out of domain, and does that match the paper's finding that adjectives are hardest?}
+\paragraph{By POS} Table~\ref{tab:pos} and Figure~\ref{fig:pos} show that on VUA our replication matches the paper's per-POS results to within 2 F1. Out of domain, verbs hold up best in reviews (50.0) and nouns degrade most (18.2 in reviews, 29.3 in arXiv). In VUA the hardest POS is adjectives (paper: 64.4); on the new data it is nouns, consistent with abstract nouns in technical prose being where the two annotation conventions differ most.
 
 \begin{figure}[t]
 \centering
@@ -218,16 +259,9 @@ We ran our retrained VUA-18 model (R2) unchanged on the new data. Confidence int
 \label{fig:pos}
 \end{figure}
 
-\paragraph{LLM-as-judge} We used an LLM (\TBD{model name, date}, temperature 0) in two roles, both with a MIPVU instruction prompt (\texttt{src/llm\_judge.py}). \textbf{(1) Annotator}: blind to MelBERT and to the human labels, the LLM labelled every target. Against the human gold it agrees with $\kappa = \TBD{0.xx}$ and scores \TBD{xx.x} F1 as a zero-shot detector (Table~\ref{tab:newdata}, bottom). \TBD{Compare with the human--human $\kappa$: is the LLM as reliable as a second human?} \textbf{(2) Judge}: for each MelBERT prediction, the LLM decided whether the label was correct \citep[cf.][]{zheng2023judging}. Because we have human gold, we can check the judge itself (Table~\ref{tab:judge}). Its verdict matches the gold-derived verdict on \TBD{xx}\% of items, and it estimates MelBERT's F1 at \TBD{xx.x}, against the true \TBD{xx.x}. \TBD{Does the judge over- or under-estimate quality, and why (e.g.\ lenient on conventional metaphors)?} So LLM judging could \TBD{/could not} replace human labels for ranking systems in a new domain, though not for measuring absolute F1 precisely.
+\paragraph{LLM-as-judge} The LLM played two judging roles. \textbf{(1) Independent rater}: it judged the metaphoricity of every target. On the hand-annotated subset its agreement with the author is $\kappa = 0.15$, so an LLM cannot simply replace a human annotator for MIPVU, and a single non-expert annotator is not a reliable reference either. \textbf{(2) Adjudication aid}: for the 45 disagreements it supplied MIPVU analyses that the author reviewed. Because adjudication mostly followed the LLM, scoring the LLM against the final gold would be circular, so we do not report LLM F1 on the gold. A further role, judging MelBERT's outputs directly, was implemented (\texttt{src/llm\_judge.py judge}) but not run within the time budget.
 
-\begin{table}[t]
-\centering\small
-\maybeinput{results/tables/llm_judge.tex}
-\caption{MelBERT's quality on the new data as measured with human gold vs.\ as estimated by the LLM judge.}
-\label{tab:judge}
-\end{table}
-
-\paragraph{How the new results relate to the replication} \TBD{Summarise in 2--3 sentences: in-domain (VUA) the replication holds to within x F1; out of domain MelBERT loses y F1, mostly through z. The evaluation differs from the replication in three ways: content words only, our own MIPVU labels (agreement $\kappa$ = 0.xx, which caps attainable F1), and much smaller test sets, hence wide CIs.}
+\paragraph{How the new results relate to the replication} In domain, the replication holds to within 0.3 F1 on VUA-18 and within 1.6 F1 on every benchmark. Out of domain, the same model loses 35--40 F1, mostly through over-prediction. The new-data evaluation differs from the replication in four ways: (i) only content words are targets; (ii) the labels come from one non-expert annotator assisted by an LLM, not from trained MIPVU annotators, and are more conservative about conventional metaphor than VUA (8.5\% vs.\ 15.9\% metaphorical); (iii) agreement was low, which caps the F1 any system can attain against these labels; and (iv) the test sets are about 60 times smaller than VUA, hence the wide intervals. Part of the measured drop is therefore a mismatch in annotation convention, not only model failure. Even so, the errors show genuine domain-shift problems, such as unfamiliar technical vocabulary and informal idioms.
 
 % ===========================================================================
 \section{Ethical Considerations}
@@ -236,25 +270,25 @@ We ran our retrained VUA-18 model (R2) unchanged on the new data. Confidence int
 \paragraph{The original work} VUAMC is built from British National Corpus texts, which are licensed for research. Redistributing derived data therefore depends on BNC and shared-task terms, so we do not redistribute VUA. MelBERT inherits the biases of RoBERTa's web-scale pre-training data. Its notion of ``basic meaning'' is a single dictionary-based, British/American-English norm, which can misjudge dialectal or culturally specific usage. The paper reports a mean over five seeds and states its compute (two GPUs). Its released code, however, differs from the paper's description in ways that affect results (\S\ref{sec:replication}). The honesty and transparency principles of the \emph{Australian Code for the Responsible Conduct of Research} \citep{nhmrc2018code} require such discrepancies to be reported.
 
 \paragraph{Our new data} Under the Code's eight principles the main issues are as follows.
-\emph{Respect and privacy}: review authors posted publicly but did not consent to research use. We use only sentences, drop user identifiers, filter sentences naming people, and release only $\sim$150 sentences with labels. Because the reviews are public and nothing is collected from the authors, the risk is low. Publishing this as a paper would still mean asking the university Human Research Ethics Committee whether a negligible-risk exemption applies under the \emph{National Statement} \citep{nhmrc2023statement}.
+\emph{Respect and privacy}: review authors posted publicly but did not consent to research use. We use only sentences, drop user identifiers, filter sentences naming people, and release only 150 sentences with labels. Because the reviews are public and nothing is collected from the authors, the risk is low. Publishing this as a paper would still mean asking the university Human Research Ethics Committee whether a negligible-risk exemption applies under the \emph{National Statement} \citep{nhmrc2023statement}.
 \emph{Licensing (accountability)}: the Hugging Face copy is labelled Apache-2.0, but the reviews originate from Amazon, whose terms limit reuse. arXiv metadata is CC0. We redistribute only a small research sample with full provenance (\texttt{source\_doc\_id}) and document it with a datasheet-style README \citep{gebru2021datasheets}.
-\emph{Fairness to annotators}: the second annotator volunteered, was told how the labels would be used, could withdraw, and is acknowledged. No one was paid, so we kept the task short (\TBD{$\sim$n} items).
+\emph{Transparency about annotation}: the second rater was an LLM, not a person. We say so, name the model, report the discarded pilot pass and that adjudication mostly followed the LLM, and release all label sets, so readers can judge the gold standard themselves. Agreement with an LLM is a weaker reliability check than agreement between trained humans, and we treat it as such.
 \emph{Rigour and honesty}: we report agreement, confidence intervals and negative results. We replaced the synthetic pilot data rather than presenting it as real.
-\emph{Third-party LLMs}: sending data to an external API discloses it to a provider. This is acceptable only because the text is already public and filtered. LLM labels were never used as gold.
-\emph{Environmental cost}: training a transformer uses energy \citep{strubell-etal-2019-energy}. We first scored the released checkpoint and limited retraining to \TBD{n} runs.
+\emph{Third-party LLMs}: sending data to an external API discloses it to a provider. This is acceptable only because the text is already public and filtered. LLM labels became gold only after review by the author.
+\emph{Environmental cost}: training a transformer uses energy \citep{strubell-etal-2019-energy}. We first scored the released checkpoint and limited retraining to a single run.
 \emph{Open science}: code, labels, guidelines and annotation tools are public, so the work can be checked and extended.
-\emph{Use of generative AI}: as permitted for this assessment, AI assistance was used for \TBD{code scaffolding and editing}. All experiments were run, and all labels assigned, by the author.
+\emph{Use of generative AI}: as permitted for this assessment, AI assistance was used for code scaffolding, drafting and editing, as the second annotation rater, and to suggest analyses during adjudication. All experiments were run by the author, and every final label was recorded by the author.
 
 % ===========================================================================
 \section{Conclusions and Reflections}
 
-\textbf{Replication} With three lines of compatibility changes, the official code runs on current software. Retraining gives \TBD{xx.x} F1 on VUA-18 versus the reported 78.5, so the headline result \TBD{reproduces within x points}. The released checkpoint scores 78.8, within 0.3 of the paper. The remaining differences come from seeds and from undocumented choices in the code (test-set evaluation each epoch, a metaphor-class weight of~3) rather than from errors in the method.
-\textbf{Generalisation} On real, MIPVU-annotated product reviews and arXiv abstracts, MelBERT \TBD{drops to xx.x / xx.x F1}. The main cause is \TBD{x}, so MelBERT generalises \TBD{reasonably / poorly} beyond VUA's four genres.
+\textbf{Replication} With three lines of compatibility changes, the official code runs on current software. Retraining gives 78.2 F1 on VUA-18 versus the reported 78.5, so the headline result reproduces to within 0.3 points. The released checkpoint scores 78.8, within 0.3 of the paper. The remaining differences come from seeds and from undocumented choices in the code (test-set evaluation each epoch, a metaphor-class weight of~3) rather than from errors in the method.
+\textbf{Generalisation} On real, MIPVU-annotated product reviews and arXiv abstracts, MelBERT drops to 36.8 and 31.6 F1 (from 72.1 on comparable VUA targets). The main cause is over-prediction on delexical verbs and abstract academic vocabulary, which partly reflects VUA's broad annotation conventions and partly genuine domain shift. MelBERT therefore generalises poorly to these registers when judged against an independent annotation.
 
-\textbf{Reflections} (1) Annotation was the hardest and slowest part. Deciding the ``basic'' sense of technical vocabulary (\textit{network}, \textit{field}) needed the most adjudication, and a domain-specific supplement to MIPVU would help. (2) Sampling by sentence and labelling only content words made annotation feasible, but lowered the metaphor rate and ruled out comparison on prepositions, VUA's most metaphor-dense POS. (3) The early synthetic pilot showed the pipeline worked but said nothing about generalisation. Annotating real text from the start would have been better. (4) The LLM judge was \TBD{useful as a cheap first pass / unreliable on conventional metaphors}. We would use it to rank systems or to choose items for human review, not as gold.
+\textbf{Reflections} (1) Annotation was the hardest and slowest part. Our pilot pass showed how easy it is to miss conventional metaphors when applying MIPVU, and deciding the ``basic'' sense of technical vocabulary (\textit{network}, \textit{framework}) needed the most adjudication. A calibration round on VUA examples before annotating, and a second trained human annotator, would strengthen the gold standard. (2) Sampling by sentence and labelling only content words made annotation feasible, but lowered the metaphor rate and ruled out comparison on prepositions, VUA's most metaphor-dense POS. (3) The early synthetic pilot showed the pipeline worked but said nothing about generalisation. Annotating real text from the start would have been better. (4) The LLM was a useful second opinion: it consistently spotted conventional metaphors the human missed. But its low agreement with the human ($\kappa = 0.15$) and its dominance in adjudication mean it should guide human review, not replace it. (5) Time pressure limited hand annotation to 40 of the 150 sentences. Annotating the rest, and calibrating against VUA examples, would narrow the confidence intervals and separate convention mismatch from true domain shift.
 
 \section*{Acknowledgments}
-We thank \TBD{name} for annotating the agreement subset, and the MelBERT authors for releasing their code, data and checkpoint.
+We thank the MelBERT authors for releasing their code, data and checkpoint.
 
 \bibliography{custom}
 
