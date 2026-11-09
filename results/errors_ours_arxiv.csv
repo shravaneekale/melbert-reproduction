@@ -1,0 +1,53 @@
+type,word,POS,p_metaphor,sentence,index
+FN,agreement,NOUN,0.004,Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions.,arx0017
+FP,aim,NOUN,0.994,The aim of this note is to introduce a compound basis for the space of symmetric functions.,arx0022
+FN,environments.,NOUN,0.007,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments.",arx0038
+FP,application,NOUN,0.992,As an application we obtain a direct computation of the cryptographic exponent of the Jacobians of these curves.,arx0037
+FP,introduce,VERB,0.988,The aim of this note is to introduce a compound basis for the space of symmetric functions.,arx0022
+FP,model.,NOUN,0.988,A software agent autonomous with regard to the mobility illustrates a possible implementation of this model.,arx0045
+FP,space,NOUN,0.988,The aim of this note is to introduce a compound basis for the space of symmetric functions.,arx0022
+FP,direct,ADJ,0.987,As an application we obtain a direct computation of the cryptographic exponent of the Jacobians of these curves.,arx0037
+FP,mixing,VERB,0.987,Many statistical techniques based on M-estimates have been proposed for estimating the mixing matrix.,arx0074
+FN,agent,NOUN,0.015,A software agent autonomous with regard to the mobility illustrates a possible implementation of this model.,arx0045
+FN,census),NOUN,0.016,"A new `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to loop order 8.",arx0015
+FP,measured,VERB,0.979,"In the companion paper, we measured homology classes and computed the optimal homology basis.",arx0011
+FP,reduce,VERB,0.979,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds.",arx0062
+FP,positive,ADJ,0.978,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0,arx0026
+FN,passive,ADJ,0.023,Transport and mixing properties of passive particles advected by an array of vortices are investigated.,arx0019
+FP,force,NOUN,0.976,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds.",arx0062
+FP,show,VERB,0.976,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0,arx0026
+FP,larger,ADJ,0.975,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds.",arx0062
+FP,situations.,NOUN,0.973,The performance for learning drifting concepts of one of the presented algorithms is analysed and compared with the Baldi-Chauvin algorithm in the same situations.,arx0067
+FP,"attractors,",NOUN,0.972,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli.",arx0051
+FN,regime,NOUN,0.028,Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions.,arx0017
+FP,matrix.,NOUN,0.971,Many statistical techniques based on M-estimates have been proposed for estimating the mixing matrix.,arx0074
+FP,obtain,VERB,0.971,As an application we obtain a direct computation of the cryptographic exponent of the Jacobians of these curves.,arx0037
+FP,model,NOUN,0.967,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds.",arx0062
+FP,implies,VERB,0.964,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0,arx0026
+FP,loop,VERB,0.963,"A new `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to loop order 8.",arx0015
+FP,expressions,NOUN,0.956,"Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined.",arx0006
+FP,have,VERB,0.955,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli.",arx0051
+FP,has,VERB,0.955,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0,arx0026
+FP,obtained,VERB,0.954,"Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined.",arx0006
+FN,companion,NOUN,0.050,"In the companion paper, we measured homology classes and computed the optimal homology basis.",arx0011
+FP,action,NOUN,0.935,"The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues.",arx0055
+FP,find,VERB,0.926,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli.",arx0051
+FP,Transport,NOUN,0.922,Transport and mixing properties of passive particles advected by an array of vortices are investigated.,arx0019
+FP,incorporate,VERB,0.900,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds.",arx0062
+FP,response,NOUN,0.887,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli.",arx0051
+FN,framework,NOUN,0.130,Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions.,arx0017
+FP,vortices,NOUN,0.854,Transport and mixing properties of passive particles advected by an array of vortices are investigated.,arx0019
+FP,mixing,VERB,0.832,Transport and mixing properties of passive particles advected by an array of vortices are investigated.,arx0019
+FP,array,NOUN,0.816,Transport and mixing properties of passive particles advected by an array of vortices are investigated.,arx0019
+FP,account,NOUN,0.813,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership.",arx0061
+FP,presented,VERB,0.812,The performance for learning drifting concepts of one of the presented algorithms is analysed and compared with the Baldi-Chauvin algorithm in the same situations.,arx0067
+FP,note,NOUN,0.812,The aim of this note is to introduce a compound basis for the space of symmetric functions.,arx0022
+FP,structure-based,NOUN,0.803,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds.",arx0062
+FP,motion,NOUN,0.796,"Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined.",arx0006
+FP,advected,VERB,0.793,Transport and mixing properties of passive particles advected by an array of vortices are investigated.,arx0019
+FN,hierarchy,NOUN,0.255,"Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined.",arx0006
+FP,interactions,NOUN,0.725,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds.",arx0062
+FP,take,VERB,0.696,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership.",arx0061
+FP,illustrates,VERB,0.668,A software agent autonomous with regard to the mobility illustrates a possible implementation of this model.,arx0045
+FP,computed,VERB,0.563,"In the companion paper, we measured homology classes and computed the optimal homology basis.",arx0011
+FP,domination,NOUN,0.527,We find the asymptotic distribution of the domination number and use it for testing spatial point patterns of segregation and association.,arx0072

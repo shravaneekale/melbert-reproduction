@@ -1,0 +1,25 @@
+type,word,POS,p_metaphor,sentence,index
+FN,school,NOUN,0.002,Any fan of old school Angra needs this.,rev0053
+FP,make,VERB,0.990,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.,rev0008
+FP,made,VERB,0.986,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand...",rev0061
+FP,riffs,NOUN,0.977,Melodies and atonal riffs pop up in the best of places.,rev0026
+FP,half,NOUN,0.974,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.,rev0008
+FP,casting,VERB,0.973,"I would not buy this again - it teaches a non-standard supposedly ""new"" methof of casting",rev0025
+FP,have,VERB,0.970,They have absolutely no talent and they act really afeminite.,rev0024
+FN,hand...,NOUN,0.034,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand...",rev0061
+FP,have,VERB,0.964,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player.",rev0060
+FP,that,ADV,0.963,"If I really want to read this book, I'll find a used copy because you've annoyed me that much.",rev0019
+FN,places.,NOUN,0.038,Melodies and atonal riffs pop up in the best of places.,rev0026
+FP,great,ADJ,0.943,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.,rev0008
+FN,burning,VERB,0.059,Your probably better off downloading the best MP3s and then burning them onto CD.,rev0005
+FP,box?,NOUN,0.938,Nirvana released a best of cd and then a best of the box?,rev0013
+FP,teaches,VERB,0.905,"I would not buy this again - it teaches a non-standard supposedly ""new"" methof of casting",rev0025
+FP,package,NOUN,0.900,"As others have written, the package it comes in sucks.",rev0014
+FP,baitfeeding,VERB,0.865,It cranked smoothly and the baitfeeding lever tripped effortlessly.,rev0054
+FN,sucks.,NOUN,0.206,"As others have written, the package it comes in sucks.",rev0014
+FP,fan,NOUN,0.790,Any fan of old school Angra needs this.,rev0053
+FP,couple,NOUN,0.778,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.,rev0008
+FP,bits,NOUN,0.595,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand...",rev0061
+FP,handles.,NOUN,0.574,"It is colorful and handy, folding up in to object about the size of a large book with handles.",rev0044
+FN,"smooth,",ADJ,0.460,"It's smooth, jazzy, and bluesy all at the same time.",rev0012
+FP,Great,ADJ,0.540,Great for all those oversize boks and magazines.,rev0029

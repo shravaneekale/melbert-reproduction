@@ -1,0 +1,25 @@
+type,word,POS,p_metaphor,sentence,index
+FP,make,VERB,0.991,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.,rev0008
+FP,half,NOUN,0.984,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.,rev0008
+FP,made,VERB,0.979,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand...",rev0061
+FP,have,VERB,0.975,They have absolutely no talent and they act really afeminite.,rev0024
+FN,burning,VERB,0.025,Your probably better off downloading the best MP3s and then burning them onto CD.,rev0005
+FP,that,ADV,0.971,"If I really want to read this book, I'll find a used copy because you've annoyed me that much.",rev0019
+FP,teaches,VERB,0.963,"I would not buy this again - it teaches a non-standard supposedly ""new"" methof of casting",rev0025
+FP,have,VERB,0.963,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player.",rev0060
+FP,casting,VERB,0.962,"I would not buy this again - it teaches a non-standard supposedly ""new"" methof of casting",rev0025
+FN,hand...,NOUN,0.043,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand...",rev0061
+FN,places.,NOUN,0.044,Melodies and atonal riffs pop up in the best of places.,rev0026
+FP,fan,NOUN,0.944,Any fan of old school Angra needs this.,rev0053
+FP,riffs,NOUN,0.827,Melodies and atonal riffs pop up in the best of places.,rev0026
+FN,school,NOUN,0.179,Any fan of old school Angra needs this.,rev0053
+FP,"handy,",ADJ,0.814,"It is colorful and handy, folding up in to object about the size of a large book with handles.",rev0044
+FP,little,ADJ,0.800,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand...",rev0061
+FP,box?,NOUN,0.775,Nirvana released a best of cd and then a best of the box?,rev0013
+FP,great,ADJ,0.748,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.,rev0008
+FP,baitfeeding,VERB,0.721,It cranked smoothly and the baitfeeding lever tripped effortlessly.,rev0054
+FP,cranked,VERB,0.715,It cranked smoothly and the baitfeeding lever tripped effortlessly.,rev0054
+FP,handles.,NOUN,0.712,"It is colorful and handy, folding up in to object about the size of a large book with handles.",rev0044
+FN,comes,VERB,0.292,"As others have written, the package it comes in sucks.",rev0014
+FP,"""new""",ADJ,0.608,"I would not buy this again - it teaches a non-standard supposedly ""new"" methof of casting",rev0025
+FP,couple,NOUN,0.570,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.,rev0008

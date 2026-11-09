@@ -1,0 +1,60 @@
+type,word,POS,p_metaphor,sentence,index
+FN,environments.,NOUN,0.001,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments.",arx0038
+FP,application,NOUN,0.993,As an application we obtain a direct computation of the cryptographic exponent of the Jacobians of these curves.,arx0037
+FP,aim,NOUN,0.991,The aim of this note is to introduce a compound basis for the space of symmetric functions.,arx0022
+FP,take,VERB,0.990,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership.",arx0061
+FP,direct,ADJ,0.989,As an application we obtain a direct computation of the cryptographic exponent of the Jacobians of these curves.,arx0037
+FP,situations.,NOUN,0.989,The performance for learning drifting concepts of one of the presented algorithms is analysed and compared with the Baldi-Chauvin algorithm in the same situations.,arx0067
+FP,account,NOUN,0.987,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership.",arx0061
+FP,force,NOUN,0.984,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds.",arx0062
+FP,show,VERB,0.983,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0,arx0026
+FP,note,NOUN,0.982,The aim of this note is to introduce a compound basis for the space of symmetric functions.,arx0022
+FP,model.,NOUN,0.982,A software agent autonomous with regard to the mobility illustrates a possible implementation of this model.,arx0045
+FP,presented,VERB,0.981,The performance for learning drifting concepts of one of the presented algorithms is analysed and compared with the Baldi-Chauvin algorithm in the same situations.,arx0067
+FP,reduce,VERB,0.981,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds.",arx0062
+FN,agreement,NOUN,0.020,Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions.,arx0017
+FP,matrix.,NOUN,0.979,Many statistical techniques based on M-estimates have been proposed for estimating the mixing matrix.,arx0074
+FP,find,VERB,0.978,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli.",arx0051
+FP,obtained,VERB,0.974,"Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined.",arx0006
+FP,has,VERB,0.974,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0,arx0026
+FP,loop,VERB,0.974,"A new `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to loop order 8.",arx0015
+FP,illustrates,VERB,0.967,A software agent autonomous with regard to the mobility illustrates a possible implementation of this model.,arx0045
+FP,mixing,VERB,0.962,Many statistical techniques based on M-estimates have been proposed for estimating the mixing matrix.,arx0074
+FP,weak,ADJ,0.960,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli.",arx0051
+FP,illustration,NOUN,0.959,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership.",arx0061
+FP,measured,VERB,0.959,"In the companion paper, we measured homology classes and computed the optimal homology basis.",arx0011
+FN,census),NOUN,0.045,"A new `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to loop order 8.",arx0015
+FP,implies,VERB,0.954,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0,arx0026
+FP,model,NOUN,0.948,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds.",arx0062
+FP,have,VERB,0.942,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli.",arx0051
+FP,response,NOUN,0.931,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli.",arx0051
+FN,agent,NOUN,0.078,A software agent autonomous with regard to the mobility illustrates a possible implementation of this model.,arx0045
+FN,passive,ADJ,0.079,Transport and mixing properties of passive particles advected by an array of vortices are investigated.,arx0019
+FP,positive,ADJ,0.920,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0,arx0026
+FP,expressions,NOUN,0.915,"Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined.",arx0006
+FP,obtain,VERB,0.914,As an application we obtain a direct computation of the cryptographic exponent of the Jacobians of these curves.,arx0037
+FP,introduce,VERB,0.907,The aim of this note is to introduce a compound basis for the space of symmetric functions.,arx0022
+FP,mobility,NOUN,0.891,A software agent autonomous with regard to the mobility illustrates a possible implementation of this model.,arx0045
+FP,Transport,NOUN,0.886,Transport and mixing properties of passive particles advected by an array of vortices are investigated.,arx0019
+FP,Here,ADV,0.870,Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions.,arx0017
+FP,array,NOUN,0.862,Transport and mixing properties of passive particles advected by an array of vortices are investigated.,arx0019
+FP,advected,VERB,0.844,Transport and mixing properties of passive particles advected by an array of vortices are investigated.,arx0019
+FP,curves.,NOUN,0.841,As an application we obtain a direct computation of the cryptographic exponent of the Jacobians of these curves.,arx0037
+FP,find,VERB,0.830,We find the asymptotic distribution of the domination number and use it for testing spatial point patterns of segregation and association.,arx0072
+FP,profiles,NOUN,0.823,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership.",arx0061
+FP,structure-based,NOUN,0.820,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds.",arx0062
+FP,incorporate,VERB,0.809,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds.",arx0062
+FP,"attractors,",NOUN,0.808,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli.",arx0051
+FP,larger,ADJ,0.780,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds.",arx0062
+FP,bound,NOUN,0.749,In this paper we present an upper bound for the decay of correlation for the stationary stochastic process associated with the Entropy Penalized Method.,arx0023
+FN,companion,NOUN,0.256,"In the companion paper, we measured homology classes and computed the optimal homology basis.",arx0011
+FP,space,NOUN,0.712,The aim of this note is to introduce a compound basis for the space of symmetric functions.,arx0022
+FP,shows,VERB,0.705,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments.",arx0038
+FP,present,VERB,0.699,In this paper we present an upper bound for the decay of correlation for the stationary stochastic process associated with the Entropy Penalized Method.,arx0023
+FP,action,NOUN,0.681,"The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues.",arx0055
+FP,functions.,NOUN,0.662,The aim of this note is to introduce a compound basis for the space of symmetric functions.,arx0022
+FN,visits,VERB,0.358,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli.",arx0051
+FP,uniruled,ADJ,0.629,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0,arx0026
+FN,regime,NOUN,0.417,Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions.,arx0017
+FP,uniruled,ADJ,0.520,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0,arx0026
+FP,"domain-static,",NOUN,0.511,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments.",arx0038

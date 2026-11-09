@@ -1,0 +1,142 @@
+guid,index,w_index,word,POS,gold,pred,p_metaphor,sentence
+test-rev0005 1,rev0005,1,probably,ADV,0,0,0.00145,Your probably better off downloading the best MP3s and then burning them onto CD.
+test-rev0005 2,rev0005,2,better,ADV,0,0,0.00129,Your probably better off downloading the best MP3s and then burning them onto CD.
+test-rev0005 4,rev0005,4,downloading,VERB,0,0,0.00240,Your probably better off downloading the best MP3s and then burning them onto CD.
+test-rev0005 6,rev0005,6,best,ADJ,0,0,0.00196,Your probably better off downloading the best MP3s and then burning them onto CD.
+test-rev0005 7,rev0005,7,MP3s,NOUN,0,0,0.00000,Your probably better off downloading the best MP3s and then burning them onto CD.
+test-rev0005 9,rev0005,9,then,ADV,0,0,0.00785,Your probably better off downloading the best MP3s and then burning them onto CD.
+test-rev0005 10,rev0005,10,burning,VERB,1,0,0.05927,Your probably better off downloading the best MP3s and then burning them onto CD.
+test-rev0008 1,rev0008,1,couple,NOUN,0,1,0.77850,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.
+test-rev0008 3,rev0008,3,great,ADJ,0,1,0.94325,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.
+test-rev0008 4,rev0008,4,action,NOUN,0,0,0.01024,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.
+test-rev0008 5,rev0008,5,sequences,NOUN,0,0,0.02511,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.
+test-rev0008 7,rev0008,7,make,VERB,0,1,0.99047,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.
+test-rev0008 10,rev0008,10,almost,ADV,0,0,0.00315,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.
+test-rev0008 15,rev0008,15,half,NOUN,0,1,0.97415,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.
+test-rev0008 16,rev0008,16,hours,NOUN,0,0,0.00318,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.
+test-rev0008 18,rev0008,18,boredom.,NOUN,0,0,0.00924,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.
+test-rev0012 1,rev0012,1,"smooth,",ADJ,1,0,0.45962,"It's smooth, jazzy, and bluesy all at the same time."
+test-rev0012 4,rev0012,4,bluesy,VERB,0,0,0.00624,"It's smooth, jazzy, and bluesy all at the same time."
+test-rev0012 8,rev0012,8,same,ADJ,0,0,0.00255,"It's smooth, jazzy, and bluesy all at the same time."
+test-rev0012 9,rev0012,9,time.,NOUN,0,0,0.00363,"It's smooth, jazzy, and bluesy all at the same time."
+test-rev0013 1,rev0013,1,released,VERB,1,1,0.56045,Nirvana released a best of cd and then a best of the box?
+test-rev0013 3,rev0013,3,best,ADJ,0,0,0.01056,Nirvana released a best of cd and then a best of the box?
+test-rev0013 7,rev0013,7,then,ADV,0,0,0.01872,Nirvana released a best of cd and then a best of the box?
+test-rev0013 9,rev0013,9,best,ADJ,0,0,0.00989,Nirvana released a best of cd and then a best of the box?
+test-rev0013 12,rev0013,12,box?,NOUN,0,1,0.93822,Nirvana released a best of cd and then a best of the box?
+test-rev0014 1,rev0014,1,others,NOUN,0,0,0.00243,"As others have written, the package it comes in sucks."
+test-rev0014 3,rev0014,3,"written,",VERB,0,0,0.01540,"As others have written, the package it comes in sucks."
+test-rev0014 5,rev0014,5,package,NOUN,0,1,0.90016,"As others have written, the package it comes in sucks."
+test-rev0014 7,rev0014,7,comes,VERB,1,1,0.56082,"As others have written, the package it comes in sucks."
+test-rev0014 9,rev0014,9,sucks.,NOUN,1,0,0.20609,"As others have written, the package it comes in sucks."
+test-rev0019 2,rev0019,2,really,ADV,0,0,0.00188,"If I really want to read this book, I'll find a used copy because you've annoyed me that much."
+test-rev0019 3,rev0019,3,want,VERB,0,0,0.00389,"If I really want to read this book, I'll find a used copy because you've annoyed me that much."
+test-rev0019 5,rev0019,5,read,VERB,0,0,0.00761,"If I really want to read this book, I'll find a used copy because you've annoyed me that much."
+test-rev0019 7,rev0019,7,"book,",NOUN,0,0,0.00221,"If I really want to read this book, I'll find a used copy because you've annoyed me that much."
+test-rev0019 9,rev0019,9,find,VERB,0,0,0.04504,"If I really want to read this book, I'll find a used copy because you've annoyed me that much."
+test-rev0019 11,rev0019,11,used,VERB,0,0,0.00251,"If I really want to read this book, I'll find a used copy because you've annoyed me that much."
+test-rev0019 12,rev0019,12,copy,NOUN,0,0,0.00237,"If I really want to read this book, I'll find a used copy because you've annoyed me that much."
+test-rev0019 15,rev0019,15,annoyed,VERB,0,0,0.01870,"If I really want to read this book, I'll find a used copy because you've annoyed me that much."
+test-rev0019 17,rev0019,17,that,ADV,0,1,0.96312,"If I really want to read this book, I'll find a used copy because you've annoyed me that much."
+test-rev0019 18,rev0019,18,much.,ADV,0,0,0.00457,"If I really want to read this book, I'll find a used copy because you've annoyed me that much."
+test-rev0022 4,rev0022,4,other,ADJ,0,0,0.00456,"Cop this and his other 2 albums especially ""Postcards From The Third Rock."""
+test-rev0022 6,rev0022,6,albums,NOUN,0,0,0.00395,"Cop this and his other 2 albums especially ""Postcards From The Third Rock."""
+test-rev0022 7,rev0022,7,especially,ADV,0,0,0.00419,"Cop this and his other 2 albums especially ""Postcards From The Third Rock."""
+test-rev0022 8,rev0022,8,"""Postcards",NOUN,0,0,0.34078,"Cop this and his other 2 albums especially ""Postcards From The Third Rock."""
+test-rev0023 2,rev0023,2,love,VERB,0,0,0.00209,"If you love Transformers, if you want to enjoy the Cartoon that defined a generation, BUY THIS SET!!!!!!"
+test-rev0023 3,rev0023,3,"Transformers,",NOUN,0,0,0.00135,"If you love Transformers, if you want to enjoy the Cartoon that defined a generation, BUY THIS SET!!!!!!"
+test-rev0023 6,rev0023,6,want,VERB,0,0,0.00246,"If you love Transformers, if you want to enjoy the Cartoon that defined a generation, BUY THIS SET!!!!!!"
+test-rev0023 8,rev0023,8,enjoy,VERB,0,0,0.00970,"If you love Transformers, if you want to enjoy the Cartoon that defined a generation, BUY THIS SET!!!!!!"
+test-rev0023 12,rev0023,12,defined,VERB,1,1,0.73562,"If you love Transformers, if you want to enjoy the Cartoon that defined a generation, BUY THIS SET!!!!!!"
+test-rev0023 14,rev0023,14,"generation,",NOUN,0,0,0.19951,"If you love Transformers, if you want to enjoy the Cartoon that defined a generation, BUY THIS SET!!!!!!"
+test-rev0024 1,rev0024,1,have,VERB,0,1,0.96975,They have absolutely no talent and they act really afeminite.
+test-rev0024 2,rev0024,2,absolutely,ADV,0,0,0.00264,They have absolutely no talent and they act really afeminite.
+test-rev0024 4,rev0024,4,talent,NOUN,0,0,0.01474,They have absolutely no talent and they act really afeminite.
+test-rev0024 7,rev0024,7,act,VERB,0,0,0.00334,They have absolutely no talent and they act really afeminite.
+test-rev0024 8,rev0024,8,really,ADV,0,0,0.00245,They have absolutely no talent and they act really afeminite.
+test-rev0024 9,rev0024,9,afeminite.,VERB,0,0,0.01570,They have absolutely no talent and they act really afeminite.
+test-rev0025 3,rev0025,3,buy,VERB,0,0,0.00441,"I would not buy this again - it teaches a non-standard supposedly ""new"" methof of casting"
+test-rev0025 5,rev0025,5,again,ADV,0,0,0.00360,"I would not buy this again - it teaches a non-standard supposedly ""new"" methof of casting"
+test-rev0025 8,rev0025,8,teaches,VERB,0,1,0.90539,"I would not buy this again - it teaches a non-standard supposedly ""new"" methof of casting"
+test-rev0025 10,rev0025,10,non-standard,ADJ,0,0,0.00860,"I would not buy this again - it teaches a non-standard supposedly ""new"" methof of casting"
+test-rev0025 11,rev0025,11,supposedly,ADV,0,0,0.00284,"I would not buy this again - it teaches a non-standard supposedly ""new"" methof of casting"
+test-rev0025 12,rev0025,12,"""new""",ADJ,0,0,0.02068,"I would not buy this again - it teaches a non-standard supposedly ""new"" methof of casting"
+test-rev0025 13,rev0025,13,methof,NOUN,0,0,0.41726,"I would not buy this again - it teaches a non-standard supposedly ""new"" methof of casting"
+test-rev0025 15,rev0025,15,casting,VERB,0,1,0.97276,"I would not buy this again - it teaches a non-standard supposedly ""new"" methof of casting"
+test-rev0026 0,rev0026,0,Melodies,NOUN,0,0,0.04974,Melodies and atonal riffs pop up in the best of places.
+test-rev0026 2,rev0026,2,atonal,ADJ,0,0,0.33769,Melodies and atonal riffs pop up in the best of places.
+test-rev0026 3,rev0026,3,riffs,NOUN,0,1,0.97703,Melodies and atonal riffs pop up in the best of places.
+test-rev0026 4,rev0026,4,pop,VERB,1,1,0.99053,Melodies and atonal riffs pop up in the best of places.
+test-rev0026 8,rev0026,8,best,ADJ,0,0,0.00415,Melodies and atonal riffs pop up in the best of places.
+test-rev0026 10,rev0026,10,places.,NOUN,1,0,0.03846,Melodies and atonal riffs pop up in the best of places.
+test-rev0029 0,rev0029,0,Great,ADJ,0,1,0.53984,Great for all those oversize boks and magazines.
+test-rev0029 4,rev0029,4,oversize,ADJ,0,0,0.00230,Great for all those oversize boks and magazines.
+test-rev0029 5,rev0029,5,boks,NOUN,0,0,0.00033,Great for all those oversize boks and magazines.
+test-rev0029 7,rev0029,7,magazines.,NOUN,0,0,0.00240,Great for all those oversize boks and magazines.
+test-rev0044 2,rev0044,2,colorful,ADJ,0,0,0.01617,"It is colorful and handy, folding up in to object about the size of a large book with handles."
+test-rev0044 4,rev0044,4,"handy,",ADJ,0,0,0.39403,"It is colorful and handy, folding up in to object about the size of a large book with handles."
+test-rev0044 5,rev0044,5,folding,VERB,0,0,0.03239,"It is colorful and handy, folding up in to object about the size of a large book with handles."
+test-rev0044 9,rev0044,9,object,VERB,0,0,0.06783,"It is colorful and handy, folding up in to object about the size of a large book with handles."
+test-rev0044 12,rev0044,12,size,NOUN,0,0,0.01262,"It is colorful and handy, folding up in to object about the size of a large book with handles."
+test-rev0044 15,rev0044,15,large,ADJ,0,0,0.02435,"It is colorful and handy, folding up in to object about the size of a large book with handles."
+test-rev0044 16,rev0044,16,book,NOUN,0,0,0.00274,"It is colorful and handy, folding up in to object about the size of a large book with handles."
+test-rev0044 18,rev0044,18,handles.,NOUN,0,1,0.57357,"It is colorful and handy, folding up in to object about the size of a large book with handles."
+test-rev0052 2,rev0052,2,smell,VERB,0,0,0.00772,It does smell like dirt or onions not totally gross but not fresh and clean smelling.
+test-rev0052 4,rev0052,4,dirt,NOUN,0,0,0.00909,It does smell like dirt or onions not totally gross but not fresh and clean smelling.
+test-rev0052 6,rev0052,6,onions,NOUN,0,0,0.00243,It does smell like dirt or onions not totally gross but not fresh and clean smelling.
+test-rev0052 8,rev0052,8,totally,ADV,0,0,0.00168,It does smell like dirt or onions not totally gross but not fresh and clean smelling.
+test-rev0052 9,rev0052,9,gross,ADJ,0,0,0.02941,It does smell like dirt or onions not totally gross but not fresh and clean smelling.
+test-rev0052 12,rev0052,12,fresh,ADJ,0,0,0.04641,It does smell like dirt or onions not totally gross but not fresh and clean smelling.
+test-rev0052 14,rev0052,14,clean,ADJ,0,0,0.02220,It does smell like dirt or onions not totally gross but not fresh and clean smelling.
+test-rev0052 15,rev0052,15,smelling.,NOUN,0,0,0.00468,It does smell like dirt or onions not totally gross but not fresh and clean smelling.
+test-rev0053 1,rev0053,1,fan,NOUN,0,1,0.78970,Any fan of old school Angra needs this.
+test-rev0053 3,rev0053,3,old,ADJ,0,0,0.17034,Any fan of old school Angra needs this.
+test-rev0053 4,rev0053,4,school,NOUN,1,0,0.00192,Any fan of old school Angra needs this.
+test-rev0053 6,rev0053,6,needs,VERB,0,0,0.00189,Any fan of old school Angra needs this.
+test-rev0054 1,rev0054,1,cranked,VERB,0,0,0.10159,It cranked smoothly and the baitfeeding lever tripped effortlessly.
+test-rev0054 2,rev0054,2,smoothly,ADV,0,0,0.01034,It cranked smoothly and the baitfeeding lever tripped effortlessly.
+test-rev0054 5,rev0054,5,baitfeeding,VERB,0,1,0.86507,It cranked smoothly and the baitfeeding lever tripped effortlessly.
+test-rev0054 6,rev0054,6,lever,NOUN,0,0,0.04974,It cranked smoothly and the baitfeeding lever tripped effortlessly.
+test-rev0054 7,rev0054,7,tripped,VERB,1,1,0.72167,It cranked smoothly and the baitfeeding lever tripped effortlessly.
+test-rev0054 8,rev0054,8,effortlessly.,ADV,0,0,0.01031,It cranked smoothly and the baitfeeding lever tripped effortlessly.
+test-rev0055 0,rev0055,0,Overall,ADJ,0,0,0.00616,Overall everything went perfect and from now on this is the only tape I'm gonna buy.
+test-rev0055 2,rev0055,2,went,VERB,1,1,0.98026,Overall everything went perfect and from now on this is the only tape I'm gonna buy.
+test-rev0055 3,rev0055,3,perfect,ADJ,0,0,0.00626,Overall everything went perfect and from now on this is the only tape I'm gonna buy.
+test-rev0055 6,rev0055,6,now,ADV,0,0,0.02015,Overall everything went perfect and from now on this is the only tape I'm gonna buy.
+test-rev0055 11,rev0055,11,only,ADJ,0,0,0.00183,Overall everything went perfect and from now on this is the only tape I'm gonna buy.
+test-rev0055 12,rev0055,12,tape,NOUN,0,0,0.00407,Overall everything went perfect and from now on this is the only tape I'm gonna buy.
+test-rev0055 14,rev0055,14,gonna,VERB,0,0,0.00232,Overall everything went perfect and from now on this is the only tape I'm gonna buy.
+test-rev0055 15,rev0055,15,buy.,VERB,0,0,0.00297,Overall everything went perfect and from now on this is the only tape I'm gonna buy.
+test-rev0060 3,rev0060,3,have,VERB,0,1,0.96407,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player."
+test-rev0060 4,rev0060,4,very,ADV,0,0,0.00200,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player."
+test-rev0060 5,rev0060,5,limited,ADJ,0,0,0.01229,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player."
+test-rev0060 6,rev0060,6,gameplay,NOUN,0,0,0.00576,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player."
+test-rev0060 9,rev0060,9,first,ADJ,0,0,0.01956,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player."
+test-rev0060 10,rev0060,10,person,NOUN,0,0,0.04680,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player."
+test-rev0060 11,rev0060,11,mode,NOUN,0,0,0.03929,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player."
+test-rev0060 17,rev0060,17,online,ADJ,0,0,0.00439,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player."
+test-rev0060 18,rev0060,18,game,NOUN,0,0,0.01173,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player."
+test-rev0060 20,rev0060,20,single,ADJ,0,0,0.01012,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player."
+test-rev0060 21,rev0060,21,player.,NOUN,0,0,0.01302,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player."
+test-rev0061 1,rev0061,1,never,ADV,0,0,0.00200,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+test-rev0061 2,rev0061,2,thought,VERB,0,0,0.00272,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+test-rev0061 5,rev0061,5,use,VERB,0,0,0.00400,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+test-rev0061 7,rev0061,7,as,ADV,0,0,0.00187,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+test-rev0061 8,rev0061,8,much,ADV,0,0,0.00272,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+test-rev0061 11,rev0061,11,"do,",VERB,0,0,0.00355,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+test-rev0061 13,rev0061,13,job,NOUN,0,0,0.49873,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+test-rev0061 15,rev0061,15,made,VERB,0,1,0.98619,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+test-rev0061 16,rev0061,16,just,ADV,0,0,0.00213,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+test-rev0061 18,rev0061,18,little,ADJ,0,0,0.36076,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+test-rev0061 19,rev0061,19,bit,NOUN,0,0,0.18593,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+test-rev0061 20,rev0061,20,easier,ADJ,0,0,0.01074,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+test-rev0061 23,rev0061,23,bits,NOUN,0,1,0.59452,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+test-rev0061 25,rev0061,25,hand...,NOUN,1,0,0.03397,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+test-rev0074 0,rev0074,0,"However,",ADV,0,0,0.00110,"However, I have this installed on my storage room in the kitchen, so the noise is not an issue."
+test-rev0074 2,rev0074,2,have,VERB,0,0,0.15661,"However, I have this installed on my storage room in the kitchen, so the noise is not an issue."
+test-rev0074 4,rev0074,4,installed,VERB,0,0,0.01173,"However, I have this installed on my storage room in the kitchen, so the noise is not an issue."
+test-rev0074 7,rev0074,7,storage,NOUN,0,0,0.01242,"However, I have this installed on my storage room in the kitchen, so the noise is not an issue."
+test-rev0074 8,rev0074,8,room,NOUN,0,0,0.00466,"However, I have this installed on my storage room in the kitchen, so the noise is not an issue."
+test-rev0074 11,rev0074,11,"kitchen,",NOUN,0,0,0.00591,"However, I have this installed on my storage room in the kitchen, so the noise is not an issue."
+test-rev0074 14,rev0074,14,noise,NOUN,0,0,0.00371,"However, I have this installed on my storage room in the kitchen, so the noise is not an issue."
+test-rev0074 18,rev0074,18,issue.,NOUN,0,0,0.00674,"However, I have this installed on my storage room in the kitchen, so the noise is not an issue."

@@ -1,0 +1,12 @@
+checkpoints/
+external/
+data/VUA18*/
+data/VUA20/
+data/VUAverb/
+data/MOH-X*/
+data/TroFi*/
+*.bin
+*.zip
+__pycache__/
+*.pyc
+.DS_Store

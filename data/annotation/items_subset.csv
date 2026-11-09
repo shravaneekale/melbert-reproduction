@@ -1,0 +1,389 @@
+item_id,sent_id,domain,subdomain,double,w_index,word,lemma,POS,sentence
+rev0005_01,rev0005,reviews,neg,0,1,probably,probably,ADV,Your probably better off downloading the best MP3s and then burning them onto CD.
+rev0005_02,rev0005,reviews,neg,0,2,better,well,ADV,Your probably better off downloading the best MP3s and then burning them onto CD.
+rev0005_04,rev0005,reviews,neg,0,4,downloading,download,VERB,Your probably better off downloading the best MP3s and then burning them onto CD.
+rev0005_06,rev0005,reviews,neg,0,6,best,good,ADJ,Your probably better off downloading the best MP3s and then burning them onto CD.
+rev0005_07,rev0005,reviews,neg,0,7,MP3s,mp3s,NOUN,Your probably better off downloading the best MP3s and then burning them onto CD.
+rev0005_09,rev0005,reviews,neg,0,9,then,then,ADV,Your probably better off downloading the best MP3s and then burning them onto CD.
+rev0005_10,rev0005,reviews,neg,0,10,burning,burn,VERB,Your probably better off downloading the best MP3s and then burning them onto CD.
+rev0008_01,rev0008,reviews,neg,0,1,couple,couple,NOUN,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.
+rev0008_03,rev0008,reviews,neg,0,3,great,great,ADJ,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.
+rev0008_04,rev0008,reviews,neg,0,4,action,action,NOUN,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.
+rev0008_05,rev0008,reviews,neg,0,5,sequences,sequence,NOUN,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.
+rev0008_07,rev0008,reviews,neg,0,7,make,make,VERB,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.
+rev0008_10,rev0008,reviews,neg,0,10,almost,almost,ADV,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.
+rev0008_15,rev0008,reviews,neg,0,15,half,half,NOUN,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.
+rev0008_16,rev0008,reviews,neg,0,16,hours,hour,NOUN,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.
+rev0008_18,rev0008,reviews,neg,0,18,boredom.,boredom,NOUN,A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.
+rev0012_01,rev0012,reviews,pos,0,1,"smooth,",smooth,ADJ,"It's smooth, jazzy, and bluesy all at the same time."
+rev0012_04,rev0012,reviews,pos,0,4,bluesy,bluesy,VERB,"It's smooth, jazzy, and bluesy all at the same time."
+rev0012_08,rev0012,reviews,pos,0,8,same,same,ADJ,"It's smooth, jazzy, and bluesy all at the same time."
+rev0012_09,rev0012,reviews,pos,0,9,time.,time,NOUN,"It's smooth, jazzy, and bluesy all at the same time."
+rev0013_01,rev0013,reviews,neg,0,1,released,release,VERB,Nirvana released a best of cd and then a best of the box?
+rev0013_03,rev0013,reviews,neg,0,3,best,good,ADJ,Nirvana released a best of cd and then a best of the box?
+rev0013_07,rev0013,reviews,neg,0,7,then,then,ADV,Nirvana released a best of cd and then a best of the box?
+rev0013_09,rev0013,reviews,neg,0,9,best,good,ADJ,Nirvana released a best of cd and then a best of the box?
+rev0013_12,rev0013,reviews,neg,0,12,box?,box,NOUN,Nirvana released a best of cd and then a best of the box?
+rev0014_01,rev0014,reviews,neg,0,1,others,other,NOUN,"As others have written, the package it comes in sucks."
+rev0014_03,rev0014,reviews,neg,0,3,"written,",write,VERB,"As others have written, the package it comes in sucks."
+rev0014_05,rev0014,reviews,neg,0,5,package,package,NOUN,"As others have written, the package it comes in sucks."
+rev0014_07,rev0014,reviews,neg,0,7,comes,come,VERB,"As others have written, the package it comes in sucks."
+rev0014_09,rev0014,reviews,neg,0,9,sucks.,suck,NOUN,"As others have written, the package it comes in sucks."
+rev0019_02,rev0019,reviews,neg,1,2,really,really,ADV,"If I really want to read this book, I'll find a used copy because you've annoyed me that much."
+rev0019_03,rev0019,reviews,neg,1,3,want,want,VERB,"If I really want to read this book, I'll find a used copy because you've annoyed me that much."
+rev0019_05,rev0019,reviews,neg,1,5,read,read,VERB,"If I really want to read this book, I'll find a used copy because you've annoyed me that much."
+rev0019_07,rev0019,reviews,neg,1,7,"book,",book,NOUN,"If I really want to read this book, I'll find a used copy because you've annoyed me that much."
+rev0019_09,rev0019,reviews,neg,1,9,find,find,VERB,"If I really want to read this book, I'll find a used copy because you've annoyed me that much."
+rev0019_11,rev0019,reviews,neg,1,11,used,use,VERB,"If I really want to read this book, I'll find a used copy because you've annoyed me that much."
+rev0019_12,rev0019,reviews,neg,1,12,copy,copy,NOUN,"If I really want to read this book, I'll find a used copy because you've annoyed me that much."
+rev0019_15,rev0019,reviews,neg,1,15,annoyed,annoy,VERB,"If I really want to read this book, I'll find a used copy because you've annoyed me that much."
+rev0019_17,rev0019,reviews,neg,1,17,that,that,ADV,"If I really want to read this book, I'll find a used copy because you've annoyed me that much."
+rev0019_18,rev0019,reviews,neg,1,18,much.,much,ADV,"If I really want to read this book, I'll find a used copy because you've annoyed me that much."
+rev0022_04,rev0022,reviews,pos,1,4,other,other,ADJ,"Cop this and his other 2 albums especially ""Postcards From The Third Rock."""
+rev0022_06,rev0022,reviews,pos,1,6,albums,album,NOUN,"Cop this and his other 2 albums especially ""Postcards From The Third Rock."""
+rev0022_07,rev0022,reviews,pos,1,7,especially,especially,ADV,"Cop this and his other 2 albums especially ""Postcards From The Third Rock."""
+rev0022_08,rev0022,reviews,pos,1,8,"""Postcards",postcard,NOUN,"Cop this and his other 2 albums especially ""Postcards From The Third Rock."""
+rev0023_02,rev0023,reviews,pos,1,2,love,love,VERB,"If you love Transformers, if you want to enjoy the Cartoon that defined a generation, BUY THIS SET!!!!!!"
+rev0023_03,rev0023,reviews,pos,1,3,"Transformers,",transformer,NOUN,"If you love Transformers, if you want to enjoy the Cartoon that defined a generation, BUY THIS SET!!!!!!"
+rev0023_06,rev0023,reviews,pos,1,6,want,want,VERB,"If you love Transformers, if you want to enjoy the Cartoon that defined a generation, BUY THIS SET!!!!!!"
+rev0023_08,rev0023,reviews,pos,1,8,enjoy,enjoy,VERB,"If you love Transformers, if you want to enjoy the Cartoon that defined a generation, BUY THIS SET!!!!!!"
+rev0023_12,rev0023,reviews,pos,1,12,defined,define,VERB,"If you love Transformers, if you want to enjoy the Cartoon that defined a generation, BUY THIS SET!!!!!!"
+rev0023_14,rev0023,reviews,pos,1,14,"generation,",generation,NOUN,"If you love Transformers, if you want to enjoy the Cartoon that defined a generation, BUY THIS SET!!!!!!"
+rev0024_01,rev0024,reviews,neg,0,1,have,have,VERB,They have absolutely no talent and they act really afeminite.
+rev0024_02,rev0024,reviews,neg,0,2,absolutely,absolutely,ADV,They have absolutely no talent and they act really afeminite.
+rev0024_04,rev0024,reviews,neg,0,4,talent,talent,NOUN,They have absolutely no talent and they act really afeminite.
+rev0024_07,rev0024,reviews,neg,0,7,act,act,VERB,They have absolutely no talent and they act really afeminite.
+rev0024_08,rev0024,reviews,neg,0,8,really,really,ADV,They have absolutely no talent and they act really afeminite.
+rev0024_09,rev0024,reviews,neg,0,9,afeminite.,afeminite,VERB,They have absolutely no talent and they act really afeminite.
+rev0025_03,rev0025,reviews,neg,0,3,buy,buy,VERB,"I would not buy this again - it teaches a non-standard supposedly ""new"" methof of casting"
+rev0025_05,rev0025,reviews,neg,0,5,again,again,ADV,"I would not buy this again - it teaches a non-standard supposedly ""new"" methof of casting"
+rev0025_08,rev0025,reviews,neg,0,8,teaches,teach,VERB,"I would not buy this again - it teaches a non-standard supposedly ""new"" methof of casting"
+rev0025_10,rev0025,reviews,neg,0,10,non-standard,non,ADJ,"I would not buy this again - it teaches a non-standard supposedly ""new"" methof of casting"
+rev0025_11,rev0025,reviews,neg,0,11,supposedly,supposedly,ADV,"I would not buy this again - it teaches a non-standard supposedly ""new"" methof of casting"
+rev0025_12,rev0025,reviews,neg,0,12,"""new""",new,ADJ,"I would not buy this again - it teaches a non-standard supposedly ""new"" methof of casting"
+rev0025_13,rev0025,reviews,neg,0,13,methof,methof,NOUN,"I would not buy this again - it teaches a non-standard supposedly ""new"" methof of casting"
+rev0025_15,rev0025,reviews,neg,0,15,casting,cast,VERB,"I would not buy this again - it teaches a non-standard supposedly ""new"" methof of casting"
+rev0026_00,rev0026,reviews,neg,1,0,Melodies,melody,NOUN,Melodies and atonal riffs pop up in the best of places.
+rev0026_02,rev0026,reviews,neg,1,2,atonal,atonal,ADJ,Melodies and atonal riffs pop up in the best of places.
+rev0026_03,rev0026,reviews,neg,1,3,riffs,riff,NOUN,Melodies and atonal riffs pop up in the best of places.
+rev0026_04,rev0026,reviews,neg,1,4,pop,pop,VERB,Melodies and atonal riffs pop up in the best of places.
+rev0026_08,rev0026,reviews,neg,1,8,best,good,ADJ,Melodies and atonal riffs pop up in the best of places.
+rev0026_10,rev0026,reviews,neg,1,10,places.,place,NOUN,Melodies and atonal riffs pop up in the best of places.
+rev0029_00,rev0029,reviews,pos,0,0,Great,great,ADJ,Great for all those oversize boks and magazines.
+rev0029_04,rev0029,reviews,pos,0,4,oversize,oversize,ADJ,Great for all those oversize boks and magazines.
+rev0029_05,rev0029,reviews,pos,0,5,boks,bok,NOUN,Great for all those oversize boks and magazines.
+rev0029_07,rev0029,reviews,pos,0,7,magazines.,magazine,NOUN,Great for all those oversize boks and magazines.
+rev0044_02,rev0044,reviews,neg,1,2,colorful,colorful,ADJ,"It is colorful and handy, folding up in to object about the size of a large book with handles."
+rev0044_04,rev0044,reviews,neg,1,4,"handy,",handy,ADJ,"It is colorful and handy, folding up in to object about the size of a large book with handles."
+rev0044_05,rev0044,reviews,neg,1,5,folding,fold,VERB,"It is colorful and handy, folding up in to object about the size of a large book with handles."
+rev0044_09,rev0044,reviews,neg,1,9,object,object,VERB,"It is colorful and handy, folding up in to object about the size of a large book with handles."
+rev0044_12,rev0044,reviews,neg,1,12,size,size,NOUN,"It is colorful and handy, folding up in to object about the size of a large book with handles."
+rev0044_15,rev0044,reviews,neg,1,15,large,large,ADJ,"It is colorful and handy, folding up in to object about the size of a large book with handles."
+rev0044_16,rev0044,reviews,neg,1,16,book,book,NOUN,"It is colorful and handy, folding up in to object about the size of a large book with handles."
+rev0044_18,rev0044,reviews,neg,1,18,handles.,handle,NOUN,"It is colorful and handy, folding up in to object about the size of a large book with handles."
+rev0052_02,rev0052,reviews,pos,1,2,smell,smell,VERB,It does smell like dirt or onions not totally gross but not fresh and clean smelling.
+rev0052_04,rev0052,reviews,pos,1,4,dirt,dirt,NOUN,It does smell like dirt or onions not totally gross but not fresh and clean smelling.
+rev0052_06,rev0052,reviews,pos,1,6,onions,onion,NOUN,It does smell like dirt or onions not totally gross but not fresh and clean smelling.
+rev0052_08,rev0052,reviews,pos,1,8,totally,totally,ADV,It does smell like dirt or onions not totally gross but not fresh and clean smelling.
+rev0052_09,rev0052,reviews,pos,1,9,gross,gross,ADJ,It does smell like dirt or onions not totally gross but not fresh and clean smelling.
+rev0052_12,rev0052,reviews,pos,1,12,fresh,fresh,ADJ,It does smell like dirt or onions not totally gross but not fresh and clean smelling.
+rev0052_14,rev0052,reviews,pos,1,14,clean,clean,ADJ,It does smell like dirt or onions not totally gross but not fresh and clean smelling.
+rev0052_15,rev0052,reviews,pos,1,15,smelling.,smelling,NOUN,It does smell like dirt or onions not totally gross but not fresh and clean smelling.
+rev0053_01,rev0053,reviews,pos,0,1,fan,fan,NOUN,Any fan of old school Angra needs this.
+rev0053_03,rev0053,reviews,pos,0,3,old,old,ADJ,Any fan of old school Angra needs this.
+rev0053_04,rev0053,reviews,pos,0,4,school,school,NOUN,Any fan of old school Angra needs this.
+rev0053_06,rev0053,reviews,pos,0,6,needs,need,VERB,Any fan of old school Angra needs this.
+rev0054_01,rev0054,reviews,pos,0,1,cranked,crank,VERB,It cranked smoothly and the baitfeeding lever tripped effortlessly.
+rev0054_02,rev0054,reviews,pos,0,2,smoothly,smoothly,ADV,It cranked smoothly and the baitfeeding lever tripped effortlessly.
+rev0054_05,rev0054,reviews,pos,0,5,baitfeeding,baitfeede,VERB,It cranked smoothly and the baitfeeding lever tripped effortlessly.
+rev0054_06,rev0054,reviews,pos,0,6,lever,lever,NOUN,It cranked smoothly and the baitfeeding lever tripped effortlessly.
+rev0054_07,rev0054,reviews,pos,0,7,tripped,trip,VERB,It cranked smoothly and the baitfeeding lever tripped effortlessly.
+rev0054_08,rev0054,reviews,pos,0,8,effortlessly.,effortlessly,ADV,It cranked smoothly and the baitfeeding lever tripped effortlessly.
+rev0055_00,rev0055,reviews,pos,1,0,Overall,overall,ADJ,Overall everything went perfect and from now on this is the only tape I'm gonna buy.
+rev0055_02,rev0055,reviews,pos,1,2,went,go,VERB,Overall everything went perfect and from now on this is the only tape I'm gonna buy.
+rev0055_03,rev0055,reviews,pos,1,3,perfect,perfect,ADJ,Overall everything went perfect and from now on this is the only tape I'm gonna buy.
+rev0055_06,rev0055,reviews,pos,1,6,now,now,ADV,Overall everything went perfect and from now on this is the only tape I'm gonna buy.
+rev0055_11,rev0055,reviews,pos,1,11,only,only,ADJ,Overall everything went perfect and from now on this is the only tape I'm gonna buy.
+rev0055_12,rev0055,reviews,pos,1,12,tape,tape,NOUN,Overall everything went perfect and from now on this is the only tape I'm gonna buy.
+rev0055_14,rev0055,reviews,pos,1,14,gonna,go,VERB,Overall everything went perfect and from now on this is the only tape I'm gonna buy.
+rev0055_15,rev0055,reviews,pos,1,15,buy.,buy,VERB,Overall everything went perfect and from now on this is the only tape I'm gonna buy.
+rev0060_03,rev0060,reviews,pos,0,3,have,have,VERB,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player."
+rev0060_04,rev0060,reviews,pos,0,4,very,very,ADV,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player."
+rev0060_05,rev0060,reviews,pos,0,5,limited,limited,ADJ,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player."
+rev0060_06,rev0060,reviews,pos,0,6,gameplay,gameplay,NOUN,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player."
+rev0060_09,rev0060,reviews,pos,0,9,first,first,ADJ,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player."
+rev0060_10,rev0060,reviews,pos,0,10,person,person,NOUN,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player."
+rev0060_11,rev0060,reviews,pos,0,11,mode,mode,NOUN,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player."
+rev0060_17,rev0060,reviews,pos,0,17,online,online,ADJ,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player."
+rev0060_18,rev0060,reviews,pos,0,18,game,game,NOUN,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player."
+rev0060_20,rev0060,reviews,pos,0,20,single,single,ADJ,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player."
+rev0060_21,rev0060,reviews,pos,0,21,player.,player,NOUN,"Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player."
+rev0061_01,rev0061,reviews,pos,1,1,never,never,ADV,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+rev0061_02,rev0061,reviews,pos,1,2,thought,think,VERB,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+rev0061_05,rev0061,reviews,pos,1,5,use,use,VERB,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+rev0061_07,rev0061,reviews,pos,1,7,as,as,ADV,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+rev0061_08,rev0061,reviews,pos,1,8,much,much,ADV,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+rev0061_11,rev0061,reviews,pos,1,11,"do,",do,VERB,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+rev0061_13,rev0061,reviews,pos,1,13,job,job,NOUN,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+rev0061_15,rev0061,reviews,pos,1,15,made,make,VERB,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+rev0061_16,rev0061,reviews,pos,1,16,just,just,ADV,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+rev0061_18,rev0061,reviews,pos,1,18,little,little,ADJ,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+rev0061_19,rev0061,reviews,pos,1,19,bit,bit,NOUN,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+rev0061_20,rev0061,reviews,pos,1,20,easier,easy,ADJ,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+rev0061_23,rev0061,reviews,pos,1,23,bits,bit,NOUN,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+rev0061_25,rev0061,reviews,pos,1,25,hand...,hand,NOUN,"I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand..."
+rev0074_00,rev0074,reviews,pos,1,0,"However,",however,ADV,"However, I have this installed on my storage room in the kitchen, so the noise is not an issue."
+rev0074_02,rev0074,reviews,pos,1,2,have,have,VERB,"However, I have this installed on my storage room in the kitchen, so the noise is not an issue."
+rev0074_04,rev0074,reviews,pos,1,4,installed,instal,VERB,"However, I have this installed on my storage room in the kitchen, so the noise is not an issue."
+rev0074_07,rev0074,reviews,pos,1,7,storage,storage,NOUN,"However, I have this installed on my storage room in the kitchen, so the noise is not an issue."
+rev0074_08,rev0074,reviews,pos,1,8,room,room,NOUN,"However, I have this installed on my storage room in the kitchen, so the noise is not an issue."
+rev0074_11,rev0074,reviews,pos,1,11,"kitchen,",kitchen,NOUN,"However, I have this installed on my storage room in the kitchen, so the noise is not an issue."
+rev0074_14,rev0074,reviews,pos,1,14,noise,noise,NOUN,"However, I have this installed on my storage room in the kitchen, so the noise is not an issue."
+rev0074_18,rev0074,reviews,pos,1,18,issue.,issue,NOUN,"However, I have this installed on my storage room in the kitchen, so the noise is not an issue."
+arx0006_00,arx0006,arxiv,physics,1,0,"Then,",then,ADV,"Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined."
+arx0006_02,arx0006,arxiv,physics,1,2,hierarchy,hierarchy,NOUN,"Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined."
+arx0006_05,arx0006,arxiv,physics,1,5,equations,equation,NOUN,"Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined."
+arx0006_07,arx0006,arxiv,physics,1,7,motion,motion,NOUN,"Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined."
+arx0006_08,arx0006,arxiv,physics,1,8,closes,close,NOUN,"Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined."
+arx0006_10,arx0006,arxiv,physics,1,10,analytical,analytical,ADJ,"Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined."
+arx0006_11,arx0006,arxiv,physics,1,11,expressions,expression,NOUN,"Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined."
+arx0006_15,arx0006,arxiv,physics,1,15,functions,function,NOUN,"Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined."
+arx0006_17,arx0006,arxiv,physics,1,17,obtained,obtain,VERB,"Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined."
+arx0006_19,arx0006,arxiv,physics,1,19,terms,term,NOUN,"Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined."
+arx0006_22,arx0006,arxiv,physics,1,22,finite,finite,ADJ,"Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined."
+arx0006_23,arx0006,arxiv,physics,1,23,number,number,NOUN,"Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined."
+arx0006_25,arx0006,arxiv,physics,1,25,"parameters,",parameter,NOUN,"Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined."
+arx0006_28,arx0006,arxiv,physics,1,28,self-consistently,self,NOUN,"Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined."
+arx0006_29,arx0006,arxiv,physics,1,29,determined.,determine,VERB,"Then, the hierarchy of the equations of motion closes and analytical expressions for the Green's functions are obtained in terms of a finite number of parameters, to be self-consistently determined."
+arx0011_02,arx0011,arxiv,cs,0,2,companion,companion,NOUN,"In the companion paper, we measured homology classes and computed the optimal homology basis."
+arx0011_03,arx0011,arxiv,cs,0,3,"paper,",paper,NOUN,"In the companion paper, we measured homology classes and computed the optimal homology basis."
+arx0011_05,arx0011,arxiv,cs,0,5,measured,measure,VERB,"In the companion paper, we measured homology classes and computed the optimal homology basis."
+arx0011_06,arx0011,arxiv,cs,0,6,homology,homology,NOUN,"In the companion paper, we measured homology classes and computed the optimal homology basis."
+arx0011_07,arx0011,arxiv,cs,0,7,classes,class,NOUN,"In the companion paper, we measured homology classes and computed the optimal homology basis."
+arx0011_09,arx0011,arxiv,cs,0,9,computed,compute,VERB,"In the companion paper, we measured homology classes and computed the optimal homology basis."
+arx0011_11,arx0011,arxiv,cs,0,11,optimal,optimal,ADJ,"In the companion paper, we measured homology classes and computed the optimal homology basis."
+arx0011_12,arx0011,arxiv,cs,0,12,homology,homology,NOUN,"In the companion paper, we measured homology classes and computed the optimal homology basis."
+arx0011_13,arx0011,arxiv,cs,0,13,basis.,basis,NOUN,"In the companion paper, we measured homology classes and computed the optimal homology basis."
+arx0015_01,arx0015,arxiv,physics,0,1,new,new,ADJ,"A new `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to loop order 8."
+arx0015_02,arx0015,arxiv,physics,0,2,`twist',twist,NOUN,"A new `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to loop order 8."
+arx0015_03,arx0015,arxiv,physics,0,3,identity,identity,NOUN,"A new `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to loop order 8."
+arx0015_05,arx0015,arxiv,physics,0,5,periods,period,NOUN,"A new `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to loop order 8."
+arx0015_07,arx0015,arxiv,physics,0,7,proved,prove,VERB,"A new `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to loop order 8."
+arx0015_10,arx0015,arxiv,physics,0,10,list,list,NOUN,"A new `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to loop order 8."
+arx0015_12,arx0015,arxiv,physics,0,12,graphs,graph,NOUN,"A new `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to loop order 8."
+arx0015_14,arx0015,arxiv,physics,0,14,census),census,NOUN,"A new `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to loop order 8."
+arx0015_17,arx0015,arxiv,physics,0,17,"periods,",period,NOUN,"A new `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to loop order 8."
+arx0015_19,arx0015,arxiv,physics,0,19,"available,",available,ADJ,"A new `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to loop order 8."
+arx0015_21,arx0015,arxiv,physics,0,21,given,give,VERB,"A new `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to loop order 8."
+arx0015_24,arx0015,arxiv,physics,0,24,loop,loop,VERB,"A new `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to loop order 8."
+arx0015_25,arx0015,arxiv,physics,0,25,order,order,NOUN,"A new `twist' identity amongst periods is proved and a list of graphs (the census) with their periods, if available, is given up to loop order 8."
+arx0017_00,arx0017,arxiv,physics,0,0,Here,here,ADV,Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions.
+arx0017_02,arx0017,arxiv,physics,0,2,test,test,VERB,Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions.
+arx0017_04,arx0017,arxiv,physics,0,4,constraints,constraint,NOUN,Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions.
+arx0017_05,arx0017,arxiv,physics,0,5,numerically,numerically,ADV,Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions.
+arx0017_08,arx0017,arxiv,physics,0,8,framework,framework,NOUN,Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions.
+arx0017_12,arx0017,arxiv,physics,0,12,model,model,NOUN,Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions.
+arx0017_16,arx0017,arxiv,physics,0,16,regime,regime,NOUN,Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions.
+arx0017_18,arx0017,arxiv,physics,0,18,report,report,NOUN,Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions.
+arx0017_20,arx0017,arxiv,physics,0,20,good,good,ADJ,Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions.
+arx0017_21,arx0017,arxiv,physics,0,21,agreement,agreement,NOUN,Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions.
+arx0017_24,arx0017,arxiv,physics,0,24,analytical,analytical,ADJ,Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions.
+arx0017_25,arx0017,arxiv,physics,0,25,predictions.,prediction,NOUN,Here we test these constraints numerically in the framework of the Abelian-Higgs model in the Type-I regime and report on good agreement with the analytical predictions.
+arx0019_00,arx0019,arxiv,physics,1,0,Transport,transport,NOUN,Transport and mixing properties of passive particles advected by an array of vortices are investigated.
+arx0019_02,arx0019,arxiv,physics,1,2,mixing,mix,VERB,Transport and mixing properties of passive particles advected by an array of vortices are investigated.
+arx0019_03,arx0019,arxiv,physics,1,3,properties,property,NOUN,Transport and mixing properties of passive particles advected by an array of vortices are investigated.
+arx0019_05,arx0019,arxiv,physics,1,5,passive,passive,ADJ,Transport and mixing properties of passive particles advected by an array of vortices are investigated.
+arx0019_06,arx0019,arxiv,physics,1,6,particles,particle,NOUN,Transport and mixing properties of passive particles advected by an array of vortices are investigated.
+arx0019_07,arx0019,arxiv,physics,1,7,advected,advect,VERB,Transport and mixing properties of passive particles advected by an array of vortices are investigated.
+arx0019_10,arx0019,arxiv,physics,1,10,array,array,NOUN,Transport and mixing properties of passive particles advected by an array of vortices are investigated.
+arx0019_12,arx0019,arxiv,physics,1,12,vortices,vortex,NOUN,Transport and mixing properties of passive particles advected by an array of vortices are investigated.
+arx0019_14,arx0019,arxiv,physics,1,14,investigated.,investigate,VERB,Transport and mixing properties of passive particles advected by an array of vortices are investigated.
+arx0022_01,arx0022,arxiv,math,1,1,aim,aim,NOUN,The aim of this note is to introduce a compound basis for the space of symmetric functions.
+arx0022_04,arx0022,arxiv,math,1,4,note,note,NOUN,The aim of this note is to introduce a compound basis for the space of symmetric functions.
+arx0022_07,arx0022,arxiv,math,1,7,introduce,introduce,VERB,The aim of this note is to introduce a compound basis for the space of symmetric functions.
+arx0022_09,arx0022,arxiv,math,1,9,compound,compound,NOUN,The aim of this note is to introduce a compound basis for the space of symmetric functions.
+arx0022_10,arx0022,arxiv,math,1,10,basis,basis,NOUN,The aim of this note is to introduce a compound basis for the space of symmetric functions.
+arx0022_13,arx0022,arxiv,math,1,13,space,space,NOUN,The aim of this note is to introduce a compound basis for the space of symmetric functions.
+arx0022_15,arx0022,arxiv,math,1,15,symmetric,symmetric,ADJ,The aim of this note is to introduce a compound basis for the space of symmetric functions.
+arx0022_16,arx0022,arxiv,math,1,16,functions.,function,NOUN,The aim of this note is to introduce a compound basis for the space of symmetric functions.
+arx0023_02,arx0023,arxiv,math,1,2,paper,paper,NOUN,In this paper we present an upper bound for the decay of correlation for the stationary stochastic process associated with the Entropy Penalized Method.
+arx0023_04,arx0023,arxiv,math,1,4,present,present,VERB,In this paper we present an upper bound for the decay of correlation for the stationary stochastic process associated with the Entropy Penalized Method.
+arx0023_06,arx0023,arxiv,math,1,6,upper,upper,ADJ,In this paper we present an upper bound for the decay of correlation for the stationary stochastic process associated with the Entropy Penalized Method.
+arx0023_07,arx0023,arxiv,math,1,7,bound,bound,NOUN,In this paper we present an upper bound for the decay of correlation for the stationary stochastic process associated with the Entropy Penalized Method.
+arx0023_10,arx0023,arxiv,math,1,10,decay,decay,NOUN,In this paper we present an upper bound for the decay of correlation for the stationary stochastic process associated with the Entropy Penalized Method.
+arx0023_12,arx0023,arxiv,math,1,12,correlation,correlation,NOUN,In this paper we present an upper bound for the decay of correlation for the stationary stochastic process associated with the Entropy Penalized Method.
+arx0023_15,arx0023,arxiv,math,1,15,stationary,stationary,ADJ,In this paper we present an upper bound for the decay of correlation for the stationary stochastic process associated with the Entropy Penalized Method.
+arx0023_16,arx0023,arxiv,math,1,16,stochastic,stochastic,ADJ,In this paper we present an upper bound for the decay of correlation for the stationary stochastic process associated with the Entropy Penalized Method.
+arx0023_17,arx0023,arxiv,math,1,17,process,process,NOUN,In this paper we present an upper bound for the decay of correlation for the stationary stochastic process associated with the Entropy Penalized Method.
+arx0023_18,arx0023,arxiv,math,1,18,associated,associate,VERB,In this paper we present an upper bound for the decay of correlation for the stationary stochastic process associated with the Entropy Penalized Method.
+arx0026_01,arx0026,arxiv,math,1,1,show,show,VERB,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0
+arx0026_04,arx0026,arxiv,math,1,4,existence,existence,NOUN,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0
+arx0026_07,arx0026,arxiv,math,1,7,positive,positive,ADJ,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0
+arx0026_08,arx0026,arxiv,math,1,8,uniruled,uniruled,ADJ,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0
+arx0026_09,arx0026,arxiv,math,1,9,symplectic,symplectic,ADJ,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0
+arx0026_10,arx0026,arxiv,math,1,10,divisor,divisor,NOUN,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0
+arx0026_11,arx0026,arxiv,math,1,11,often,often,ADV,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0
+arx0026_12,arx0026,arxiv,math,1,12,implies,imply,VERB,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0
+arx0026_15,arx0026,arxiv,math,1,15,ambient,ambient,ADJ,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0
+arx0026_16,arx0026,arxiv,math,1,16,manifold,manifold,NOUN,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0
+arx0026_17,arx0026,arxiv,math,1,17,has,have,VERB,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0
+arx0026_19,arx0026,arxiv,math,1,19,nonzero,nonzero,NOUN,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0
+arx0026_20,arx0026,arxiv,math,1,20,uniruled,uniruled,ADJ,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0
+arx0026_21,arx0026,arxiv,math,1,21,genus,genus,NOUN,We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0
+arx0037_02,arx0037,arxiv,math,0,2,application,application,NOUN,As an application we obtain a direct computation of the cryptographic exponent of the Jacobians of these curves.
+arx0037_04,arx0037,arxiv,math,0,4,obtain,obtain,VERB,As an application we obtain a direct computation of the cryptographic exponent of the Jacobians of these curves.
+arx0037_06,arx0037,arxiv,math,0,6,direct,direct,ADJ,As an application we obtain a direct computation of the cryptographic exponent of the Jacobians of these curves.
+arx0037_07,arx0037,arxiv,math,0,7,computation,computation,NOUN,As an application we obtain a direct computation of the cryptographic exponent of the Jacobians of these curves.
+arx0037_10,arx0037,arxiv,math,0,10,cryptographic,cryptographic,ADJ,As an application we obtain a direct computation of the cryptographic exponent of the Jacobians of these curves.
+arx0037_11,arx0037,arxiv,math,0,11,exponent,exponent,NOUN,As an application we obtain a direct computation of the cryptographic exponent of the Jacobians of these curves.
+arx0037_17,arx0037,arxiv,math,0,17,curves.,curve,NOUN,As an application we obtain a direct computation of the cryptographic exponent of the Jacobians of these curves.
+arx0038_00,arx0038,arxiv,cs,0,0,Observing,observe,VERB,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments."
+arx0038_02,arx0038,arxiv,cs,0,2,fact,fact,NOUN,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments."
+arx0038_04,arx0038,arxiv,cs,0,4,traditional,traditional,ADJ,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments."
+arx0038_05,arx0038,arxiv,cs,0,5,tutoring,tutoring,NOUN,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments."
+arx0038_06,arx0038,arxiv,cs,0,6,systems,system,NOUN,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments."
+arx0038_07,arx0038,arxiv,cs,0,7,normally,normally,ADV,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments."
+arx0038_09,arx0038,arxiv,cs,0,9,"domain-static,",domain,NOUN,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments."
+arx0038_11,arx0038,arxiv,cs,0,11,paper,paper,NOUN,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments."
+arx0038_12,arx0038,arxiv,cs,0,12,shows,show,VERB,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments."
+arx0038_13,arx0038,arxiv,cs,0,13,investigations,investigation,NOUN,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments."
+arx0038_16,arx0038,arxiv,cs,0,16,generic,generic,ADJ,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments."
+arx0038_17,arx0038,arxiv,cs,0,17,domain-independent,domain,NOUN,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments."
+arx0038_18,arx0038,arxiv,cs,0,18,tutoring,tutoring,NOUN,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments."
+arx0038_19,arx0038,arxiv,cs,0,19,system,system,NOUN,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments."
+arx0038_21,arx0038,arxiv,cs,0,21,utilizing,utilize,VERB,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments."
+arx0038_22,arx0038,arxiv,cs,0,22,test,test,NOUN,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments."
+arx0038_23,arx0038,arxiv,cs,0,23,scenarios,scenario,NOUN,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments."
+arx0038_25,arx0038,arxiv,cs,0,25,computer-based,computer,NOUN,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments."
+arx0038_27,arx0038,arxiv,cs,0,27,web-based,web,NOUN,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments."
+arx0038_28,arx0038,arxiv,cs,0,28,environments.,environment,NOUN,"Observing the fact that traditional tutoring systems normally are domain-static, this paper shows investigations for a generic domain-independent tutoring system for utilizing test scenarios in computer-based and web-based environments."
+arx0045_01,arx0045,arxiv,cs,0,1,software,software,NOUN,A software agent autonomous with regard to the mobility illustrates a possible implementation of this model.
+arx0045_02,arx0045,arxiv,cs,0,2,agent,agent,NOUN,A software agent autonomous with regard to the mobility illustrates a possible implementation of this model.
+arx0045_03,arx0045,arxiv,cs,0,3,autonomous,autonomous,ADJ,A software agent autonomous with regard to the mobility illustrates a possible implementation of this model.
+arx0045_05,arx0045,arxiv,cs,0,5,regard,regard,NOUN,A software agent autonomous with regard to the mobility illustrates a possible implementation of this model.
+arx0045_08,arx0045,arxiv,cs,0,8,mobility,mobility,NOUN,A software agent autonomous with regard to the mobility illustrates a possible implementation of this model.
+arx0045_09,arx0045,arxiv,cs,0,9,illustrates,illustrate,VERB,A software agent autonomous with regard to the mobility illustrates a possible implementation of this model.
+arx0045_11,arx0045,arxiv,cs,0,11,possible,possible,ADJ,A software agent autonomous with regard to the mobility illustrates a possible implementation of this model.
+arx0045_12,arx0045,arxiv,cs,0,12,implementation,implementation,NOUN,A software agent autonomous with regard to the mobility illustrates a possible implementation of this model.
+arx0045_15,arx0045,arxiv,cs,0,15,model.,model,NOUN,A software agent autonomous with regard to the mobility illustrates a possible implementation of this model.
+arx0051_01,arx0051,arxiv,q-bio,0,1,dynamics,dynamic,NOUN,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli."
+arx0051_02,arx0051,arxiv,q-bio,0,2,have,have,VERB,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli."
+arx0051_03,arx0051,arxiv,q-bio,0,3,multiple,multiple,ADJ,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli."
+arx0051_04,arx0051,arxiv,q-bio,0,4,"attractors,",attractor,NOUN,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli."
+arx0051_07,arx0051,arxiv,q-bio,0,7,find,find,VERB,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli."
+arx0051_10,arx0051,arxiv,q-bio,0,10,worm,worm,NOUN,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli."
+arx0051_11,arx0051,arxiv,q-bio,0,11,visits,visit,VERB,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli."
+arx0051_15,arx0051,arxiv,q-bio,0,15,rapid,rapid,ADJ,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli."
+arx0051_17,arx0051,arxiv,q-bio,0,17,almost,almost,ADV,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli."
+arx0051_18,arx0051,arxiv,q-bio,0,18,completely,completely,ADV,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli."
+arx0051_19,arx0051,arxiv,q-bio,0,19,deterministic,deterministic,ADJ,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli."
+arx0051_20,arx0051,arxiv,q-bio,0,20,response,response,NOUN,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli."
+arx0051_22,arx0051,arxiv,q-bio,0,22,weak,weak,ADJ,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli."
+arx0051_23,arx0051,arxiv,q-bio,0,23,thermal,thermal,ADJ,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli."
+arx0051_24,arx0051,arxiv,q-bio,0,24,stimuli.,stimulus,NOUN,"These dynamics have multiple attractors, and we find that the worm visits these in a rapid and almost completely deterministic response to weak thermal stimuli."
+arx0052_00,arx0052,arxiv,q-bio,1,0,"Interestingly,",interestingly,ADV,"Interestingly, we observe numerous small scale rearrangement events, such as local inversions, duplications and translocations, which are not observable in the whole genome alignments currently available."
+arx0052_02,arx0052,arxiv,q-bio,1,2,observe,observe,VERB,"Interestingly, we observe numerous small scale rearrangement events, such as local inversions, duplications and translocations, which are not observable in the whole genome alignments currently available."
+arx0052_03,arx0052,arxiv,q-bio,1,3,numerous,numerous,ADJ,"Interestingly, we observe numerous small scale rearrangement events, such as local inversions, duplications and translocations, which are not observable in the whole genome alignments currently available."
+arx0052_04,arx0052,arxiv,q-bio,1,4,small,small,ADJ,"Interestingly, we observe numerous small scale rearrangement events, such as local inversions, duplications and translocations, which are not observable in the whole genome alignments currently available."
+arx0052_05,arx0052,arxiv,q-bio,1,5,scale,scale,NOUN,"Interestingly, we observe numerous small scale rearrangement events, such as local inversions, duplications and translocations, which are not observable in the whole genome alignments currently available."
+arx0052_06,arx0052,arxiv,q-bio,1,6,rearrangement,rearrangement,NOUN,"Interestingly, we observe numerous small scale rearrangement events, such as local inversions, duplications and translocations, which are not observable in the whole genome alignments currently available."
+arx0052_07,arx0052,arxiv,q-bio,1,7,"events,",event,NOUN,"Interestingly, we observe numerous small scale rearrangement events, such as local inversions, duplications and translocations, which are not observable in the whole genome alignments currently available."
+arx0052_08,arx0052,arxiv,q-bio,1,8,such,such,ADJ,"Interestingly, we observe numerous small scale rearrangement events, such as local inversions, duplications and translocations, which are not observable in the whole genome alignments currently available."
+arx0052_10,arx0052,arxiv,q-bio,1,10,local,local,ADJ,"Interestingly, we observe numerous small scale rearrangement events, such as local inversions, duplications and translocations, which are not observable in the whole genome alignments currently available."
+arx0052_11,arx0052,arxiv,q-bio,1,11,"inversions,",inversion,NOUN,"Interestingly, we observe numerous small scale rearrangement events, such as local inversions, duplications and translocations, which are not observable in the whole genome alignments currently available."
+arx0052_12,arx0052,arxiv,q-bio,1,12,duplications,duplication,NOUN,"Interestingly, we observe numerous small scale rearrangement events, such as local inversions, duplications and translocations, which are not observable in the whole genome alignments currently available."
+arx0052_14,arx0052,arxiv,q-bio,1,14,"translocations,",translocation,NOUN,"Interestingly, we observe numerous small scale rearrangement events, such as local inversions, duplications and translocations, which are not observable in the whole genome alignments currently available."
+arx0052_18,arx0052,arxiv,q-bio,1,18,observable,observable,ADJ,"Interestingly, we observe numerous small scale rearrangement events, such as local inversions, duplications and translocations, which are not observable in the whole genome alignments currently available."
+arx0052_21,arx0052,arxiv,q-bio,1,21,whole,whole,ADJ,"Interestingly, we observe numerous small scale rearrangement events, such as local inversions, duplications and translocations, which are not observable in the whole genome alignments currently available."
+arx0052_22,arx0052,arxiv,q-bio,1,22,genome,genome,NOUN,"Interestingly, we observe numerous small scale rearrangement events, such as local inversions, duplications and translocations, which are not observable in the whole genome alignments currently available."
+arx0052_23,arx0052,arxiv,q-bio,1,23,alignments,alignment,NOUN,"Interestingly, we observe numerous small scale rearrangement events, such as local inversions, duplications and translocations, which are not observable in the whole genome alignments currently available."
+arx0052_24,arx0052,arxiv,q-bio,1,24,currently,currently,ADV,"Interestingly, we observe numerous small scale rearrangement events, such as local inversions, duplications and translocations, which are not observable in the whole genome alignments currently available."
+arx0052_25,arx0052,arxiv,q-bio,1,25,available.,available,ADJ,"Interestingly, we observe numerous small scale rearrangement events, such as local inversions, duplications and translocations, which are not observable in the whole genome alignments currently available."
+arx0055_01,arx0055,arxiv,q-bio,1,1,entropy,entropy,NOUN,"The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues."
+arx0055_02,arx0055,arxiv,q-bio,1,2,flow,flow,NOUN,"The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues."
+arx0055_04,arx0055,arxiv,q-bio,1,4,cancer,cancer,NOUN,"The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues."
+arx0055_06,arx0055,arxiv,q-bio,1,6,healthy,healthy,ADJ,"The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues."
+arx0055_07,arx0055,arxiv,q-bio,1,7,cell,cell,NOUN,"The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues."
+arx0055_08,arx0055,arxiv,q-bio,1,8,takes,take,VERB,"The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues."
+arx0055_11,arx0055,arxiv,q-bio,1,11,harmful,harmful,ADJ,"The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues."
+arx0055_12,arx0055,arxiv,q-bio,1,12,information,information,NOUN,"The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues."
+arx0055_14,arx0055,arxiv,q-bio,1,14,cancerous,cancerous,ADJ,"The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues."
+arx0055_15,arx0055,arxiv,q-bio,1,15,"cell,",cell,NOUN,"The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues."
+arx0055_16,arx0055,arxiv,q-bio,1,16,propagating,propagate,VERB,"The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues."
+arx0055_18,arx0055,arxiv,q-bio,1,18,toxic,toxic,ADJ,"The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues."
+arx0055_19,arx0055,arxiv,q-bio,1,19,action,action,NOUN,"The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues."
+arx0055_21,arx0055,arxiv,q-bio,1,21,healthy,healthy,ADJ,"The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues."
+arx0055_22,arx0055,arxiv,q-bio,1,22,tissues.,tissue,NOUN,"The entropy flow from cancer to healthy cell takes along the harmful information of cancerous cell, propagating its toxic action to healthy tissues."
+arx0061_02,arx0061,arxiv,stat,1,2,first,first,ADJ,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership."
+arx0061_03,arx0061,arxiv,stat,1,3,place,place,NOUN,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership."
+arx0061_06,arx0061,arxiv,stat,1,6,just,just,ADV,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership."
+arx0061_08,arx0061,arxiv,stat,1,8,illustration,illustration,NOUN,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership."
+arx0061_11,arx0061,arxiv,stat,1,11,birthday,birthday,NOUN,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership."
+arx0061_12,arx0061,arxiv,stat,1,12,"problem,",problem,NOUN,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership."
+arx0061_15,arx0061,arxiv,stat,1,15,deeper,deep,ADJ,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership."
+arx0061_16,arx0061,arxiv,stat,1,16,analysis,analysis,NOUN,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership."
+arx0061_18,arx0061,arxiv,stat,1,18,take,take,VERB,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership."
+arx0061_20,arx0061,arxiv,stat,1,20,account,account,NOUN,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership."
+arx0061_21,arx0061,arxiv,stat,1,21,dependencies,dependency,NOUN,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership."
+arx0061_23,arx0061,arxiv,stat,1,23,profiles,profile,NOUN,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership."
+arx0061_24,arx0061,arxiv,stat,1,24,caused,cause,VERB,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership."
+arx0061_26,arx0061,arxiv,stat,1,26,family,family,NOUN,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership."
+arx0061_28,arx0061,arxiv,stat,1,28,population,population,NOUN,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership."
+arx0061_29,arx0061,arxiv,stat,1,29,membership.,membership,NOUN,"In the first place this is just an illustration of the birthday problem, but a deeper analysis must take into account dependencies among profiles caused by family or population membership."
+arx0062_01,arx0062,arxiv,q-bio,0,1,incorporate,incorporate,VERB,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds."
+arx0062_02,arx0062,arxiv,q-bio,0,2,hydrodynamic,hydrodynamic,ADJ,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds."
+arx0062_03,arx0062,arxiv,q-bio,0,3,interactions,interaction,NOUN,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds."
+arx0062_06,arx0062,arxiv,q-bio,0,6,structure-based,structure,NOUN,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds."
+arx0062_07,arx0062,arxiv,q-bio,0,7,model,model,NOUN,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds."
+arx0062_09,arx0062,arxiv,q-bio,0,9,ubiquitin,ubiquitin,ADJ,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds."
+arx0062_11,arx0062,arxiv,q-bio,0,11,demonstrate,demonstrate,VERB,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds."
+arx0062_14,arx0062,arxiv,q-bio,0,14,hydrodynamic,hydrodynamic,ADJ,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds."
+arx0062_15,arx0062,arxiv,q-bio,0,15,coupling,coupling,NOUN,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds."
+arx0062_17,arx0062,arxiv,q-bio,0,17,reduce,reduce,VERB,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds."
+arx0062_19,arx0062,arxiv,q-bio,0,19,peak,peak,NOUN,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds."
+arx0062_20,arx0062,arxiv,q-bio,0,20,force,force,NOUN,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds."
+arx0062_22,arx0062,arxiv,q-bio,0,22,stretching,stretch,VERB,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds."
+arx0062_24,arx0062,arxiv,q-bio,0,24,protein,protein,NOUN,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds."
+arx0062_26,arx0062,arxiv,q-bio,0,26,constant,constant,ADJ,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds."
+arx0062_27,arx0062,arxiv,q-bio,0,27,"speed,",speed,NOUN,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds."
+arx0062_28,arx0062,arxiv,q-bio,0,28,especially,especially,ADV,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds."
+arx0062_30,arx0062,arxiv,q-bio,0,30,larger,large,ADJ,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds."
+arx0062_31,arx0062,arxiv,q-bio,0,31,speeds.,speed,NOUN,"We incorporate hydrodynamic interactions in a structure-based model of ubiquitin and demonstrate that the hydrodynamic coupling may reduce the peak force when stretching the protein at constant speed, especially at larger speeds."
+arx0067_01,arx0067,arxiv,stat,0,1,performance,performance,NOUN,The performance for learning drifting concepts of one of the presented algorithms is analysed and compared with the Baldi-Chauvin algorithm in the same situations.
+arx0067_03,arx0067,arxiv,stat,0,3,learning,learn,VERB,The performance for learning drifting concepts of one of the presented algorithms is analysed and compared with the Baldi-Chauvin algorithm in the same situations.
+arx0067_04,arx0067,arxiv,stat,0,4,drifting,drift,VERB,The performance for learning drifting concepts of one of the presented algorithms is analysed and compared with the Baldi-Chauvin algorithm in the same situations.
+arx0067_05,arx0067,arxiv,stat,0,5,concepts,concept,NOUN,The performance for learning drifting concepts of one of the presented algorithms is analysed and compared with the Baldi-Chauvin algorithm in the same situations.
+arx0067_10,arx0067,arxiv,stat,0,10,presented,present,VERB,The performance for learning drifting concepts of one of the presented algorithms is analysed and compared with the Baldi-Chauvin algorithm in the same situations.
+arx0067_11,arx0067,arxiv,stat,0,11,algorithms,algorithm,NOUN,The performance for learning drifting concepts of one of the presented algorithms is analysed and compared with the Baldi-Chauvin algorithm in the same situations.
+arx0067_13,arx0067,arxiv,stat,0,13,analysed,analyse,VERB,The performance for learning drifting concepts of one of the presented algorithms is analysed and compared with the Baldi-Chauvin algorithm in the same situations.
+arx0067_15,arx0067,arxiv,stat,0,15,compared,compare,VERB,The performance for learning drifting concepts of one of the presented algorithms is analysed and compared with the Baldi-Chauvin algorithm in the same situations.
+arx0067_22,arx0067,arxiv,stat,0,22,same,same,ADJ,The performance for learning drifting concepts of one of the presented algorithms is analysed and compared with the Baldi-Chauvin algorithm in the same situations.
+arx0067_23,arx0067,arxiv,stat,0,23,situations.,situation,NOUN,The performance for learning drifting concepts of one of the presented algorithms is analysed and compared with the Baldi-Chauvin algorithm in the same situations.
+arx0072_01,arx0072,arxiv,stat,0,1,find,find,VERB,We find the asymptotic distribution of the domination number and use it for testing spatial point patterns of segregation and association.
+arx0072_03,arx0072,arxiv,stat,0,3,asymptotic,asymptotic,ADJ,We find the asymptotic distribution of the domination number and use it for testing spatial point patterns of segregation and association.
+arx0072_04,arx0072,arxiv,stat,0,4,distribution,distribution,NOUN,We find the asymptotic distribution of the domination number and use it for testing spatial point patterns of segregation and association.
+arx0072_07,arx0072,arxiv,stat,0,7,domination,domination,NOUN,We find the asymptotic distribution of the domination number and use it for testing spatial point patterns of segregation and association.
+arx0072_08,arx0072,arxiv,stat,0,8,number,number,NOUN,We find the asymptotic distribution of the domination number and use it for testing spatial point patterns of segregation and association.
+arx0072_10,arx0072,arxiv,stat,0,10,use,use,VERB,We find the asymptotic distribution of the domination number and use it for testing spatial point patterns of segregation and association.
+arx0072_13,arx0072,arxiv,stat,0,13,testing,test,VERB,We find the asymptotic distribution of the domination number and use it for testing spatial point patterns of segregation and association.
+arx0072_14,arx0072,arxiv,stat,0,14,spatial,spatial,ADJ,We find the asymptotic distribution of the domination number and use it for testing spatial point patterns of segregation and association.
+arx0072_15,arx0072,arxiv,stat,0,15,point,point,NOUN,We find the asymptotic distribution of the domination number and use it for testing spatial point patterns of segregation and association.
+arx0072_16,arx0072,arxiv,stat,0,16,patterns,pattern,NOUN,We find the asymptotic distribution of the domination number and use it for testing spatial point patterns of segregation and association.
+arx0072_18,arx0072,arxiv,stat,0,18,segregation,segregation,NOUN,We find the asymptotic distribution of the domination number and use it for testing spatial point patterns of segregation and association.
+arx0072_20,arx0072,arxiv,stat,0,20,association.,association,NOUN,We find the asymptotic distribution of the domination number and use it for testing spatial point patterns of segregation and association.
+arx0073_03,arx0073,arxiv,stat,0,3,counter-factual,counter,ADJ,How would the counter-factual mortality of these 18 year olds have compared to their actual observed mortality through 2007?
+arx0073_04,arx0073,arxiv,stat,0,4,mortality,mortality,NOUN,How would the counter-factual mortality of these 18 year olds have compared to their actual observed mortality through 2007?
+arx0073_08,arx0073,arxiv,stat,0,8,year,year,NOUN,How would the counter-factual mortality of these 18 year olds have compared to their actual observed mortality through 2007?
+arx0073_09,arx0073,arxiv,stat,0,9,olds,old,NOUN,How would the counter-factual mortality of these 18 year olds have compared to their actual observed mortality through 2007?
+arx0073_11,arx0073,arxiv,stat,0,11,compared,compare,VERB,How would the counter-factual mortality of these 18 year olds have compared to their actual observed mortality through 2007?
+arx0073_14,arx0073,arxiv,stat,0,14,actual,actual,ADJ,How would the counter-factual mortality of these 18 year olds have compared to their actual observed mortality through 2007?
+arx0073_15,arx0073,arxiv,stat,0,15,observed,observe,VERB,How would the counter-factual mortality of these 18 year olds have compared to their actual observed mortality through 2007?
+arx0073_16,arx0073,arxiv,stat,0,16,mortality,mortality,NOUN,How would the counter-factual mortality of these 18 year olds have compared to their actual observed mortality through 2007?
+arx0074_00,arx0074,arxiv,stat,1,0,Many,many,ADJ,Many statistical techniques based on M-estimates have been proposed for estimating the mixing matrix.
+arx0074_01,arx0074,arxiv,stat,1,1,statistical,statistical,ADJ,Many statistical techniques based on M-estimates have been proposed for estimating the mixing matrix.
+arx0074_02,arx0074,arxiv,stat,1,2,techniques,technique,NOUN,Many statistical techniques based on M-estimates have been proposed for estimating the mixing matrix.
+arx0074_03,arx0074,arxiv,stat,1,3,based,base,VERB,Many statistical techniques based on M-estimates have been proposed for estimating the mixing matrix.
+arx0074_08,arx0074,arxiv,stat,1,8,proposed,propose,VERB,Many statistical techniques based on M-estimates have been proposed for estimating the mixing matrix.
+arx0074_10,arx0074,arxiv,stat,1,10,estimating,estimate,VERB,Many statistical techniques based on M-estimates have been proposed for estimating the mixing matrix.
+arx0074_12,arx0074,arxiv,stat,1,12,mixing,mix,VERB,Many statistical techniques based on M-estimates have been proposed for estimating the mixing matrix.
+arx0074_13,arx0074,arxiv,stat,1,13,matrix.,matrix,NOUN,Many statistical techniques based on M-estimates have been proposed for estimating the mixing matrix.

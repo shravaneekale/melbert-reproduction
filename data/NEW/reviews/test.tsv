@@ -1,0 +1,142 @@
+index	label	sentence	POS	w_index
+rev0005	0	Your probably better off downloading the best MP3s and then burning them onto CD.	ADV	1
+rev0005	0	Your probably better off downloading the best MP3s and then burning them onto CD.	ADV	2
+rev0005	0	Your probably better off downloading the best MP3s and then burning them onto CD.	VERB	4
+rev0005	0	Your probably better off downloading the best MP3s and then burning them onto CD.	ADJ	6
+rev0005	0	Your probably better off downloading the best MP3s and then burning them onto CD.	NOUN	7
+rev0005	0	Your probably better off downloading the best MP3s and then burning them onto CD.	ADV	9
+rev0005	1	Your probably better off downloading the best MP3s and then burning them onto CD.	VERB	10
+rev0008	0	A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.	NOUN	1
+rev0008	0	A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.	ADJ	3
+rev0008	0	A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.	NOUN	4
+rev0008	0	A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.	NOUN	5
+rev0008	0	A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.	VERB	7
+rev0008	0	A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.	ADV	10
+rev0008	0	A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.	NOUN	15
+rev0008	0	A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.	NOUN	16
+rev0008	0	A couple of great action sequences doesn't make up for almost an 2 and a half hours of boredom.	NOUN	18
+rev0012	1	It's smooth, jazzy, and bluesy all at the same time.	ADJ	1
+rev0012	0	It's smooth, jazzy, and bluesy all at the same time.	VERB	4
+rev0012	0	It's smooth, jazzy, and bluesy all at the same time.	ADJ	8
+rev0012	0	It's smooth, jazzy, and bluesy all at the same time.	NOUN	9
+rev0013	1	Nirvana released a best of cd and then a best of the box?	VERB	1
+rev0013	0	Nirvana released a best of cd and then a best of the box?	ADJ	3
+rev0013	0	Nirvana released a best of cd and then a best of the box?	ADV	7
+rev0013	0	Nirvana released a best of cd and then a best of the box?	ADJ	9
+rev0013	0	Nirvana released a best of cd and then a best of the box?	NOUN	12
+rev0014	0	As others have written, the package it comes in sucks.	NOUN	1
+rev0014	0	As others have written, the package it comes in sucks.	VERB	3
+rev0014	0	As others have written, the package it comes in sucks.	NOUN	5
+rev0014	1	As others have written, the package it comes in sucks.	VERB	7
+rev0014	1	As others have written, the package it comes in sucks.	NOUN	9
+rev0019	0	If I really want to read this book, I'll find a used copy because you've annoyed me that much.	ADV	2
+rev0019	0	If I really want to read this book, I'll find a used copy because you've annoyed me that much.	VERB	3
+rev0019	0	If I really want to read this book, I'll find a used copy because you've annoyed me that much.	VERB	5
+rev0019	0	If I really want to read this book, I'll find a used copy because you've annoyed me that much.	NOUN	7
+rev0019	0	If I really want to read this book, I'll find a used copy because you've annoyed me that much.	VERB	9
+rev0019	0	If I really want to read this book, I'll find a used copy because you've annoyed me that much.	VERB	11
+rev0019	0	If I really want to read this book, I'll find a used copy because you've annoyed me that much.	NOUN	12
+rev0019	0	If I really want to read this book, I'll find a used copy because you've annoyed me that much.	VERB	15
+rev0019	0	If I really want to read this book, I'll find a used copy because you've annoyed me that much.	ADV	17
+rev0019	0	If I really want to read this book, I'll find a used copy because you've annoyed me that much.	ADV	18
+rev0022	0	Cop this and his other 2 albums especially "Postcards From The Third Rock."	ADJ	4
+rev0022	0	Cop this and his other 2 albums especially "Postcards From The Third Rock."	NOUN	6
+rev0022	0	Cop this and his other 2 albums especially "Postcards From The Third Rock."	ADV	7
+rev0022	0	Cop this and his other 2 albums especially "Postcards From The Third Rock."	NOUN	8
+rev0023	0	If you love Transformers, if you want to enjoy the Cartoon that defined a generation, BUY THIS SET!!!!!!	VERB	2
+rev0023	0	If you love Transformers, if you want to enjoy the Cartoon that defined a generation, BUY THIS SET!!!!!!	NOUN	3
+rev0023	0	If you love Transformers, if you want to enjoy the Cartoon that defined a generation, BUY THIS SET!!!!!!	VERB	6
+rev0023	0	If you love Transformers, if you want to enjoy the Cartoon that defined a generation, BUY THIS SET!!!!!!	VERB	8
+rev0023	1	If you love Transformers, if you want to enjoy the Cartoon that defined a generation, BUY THIS SET!!!!!!	VERB	12
+rev0023	0	If you love Transformers, if you want to enjoy the Cartoon that defined a generation, BUY THIS SET!!!!!!	NOUN	14
+rev0024	0	They have absolutely no talent and they act really afeminite.	VERB	1
+rev0024	0	They have absolutely no talent and they act really afeminite.	ADV	2
+rev0024	0	They have absolutely no talent and they act really afeminite.	NOUN	4
+rev0024	0	They have absolutely no talent and they act really afeminite.	VERB	7
+rev0024	0	They have absolutely no talent and they act really afeminite.	ADV	8
+rev0024	0	They have absolutely no talent and they act really afeminite.	VERB	9
+rev0025	0	I would not buy this again - it teaches a non-standard supposedly "new" methof of casting	VERB	3
+rev0025	0	I would not buy this again - it teaches a non-standard supposedly "new" methof of casting	ADV	5
+rev0025	0	I would not buy this again - it teaches a non-standard supposedly "new" methof of casting	VERB	8
+rev0025	0	I would not buy this again - it teaches a non-standard supposedly "new" methof of casting	ADJ	10
+rev0025	0	I would not buy this again - it teaches a non-standard supposedly "new" methof of casting	ADV	11
+rev0025	0	I would not buy this again - it teaches a non-standard supposedly "new" methof of casting	ADJ	12
+rev0025	0	I would not buy this again - it teaches a non-standard supposedly "new" methof of casting	NOUN	13
+rev0025	0	I would not buy this again - it teaches a non-standard supposedly "new" methof of casting	VERB	15
+rev0026	0	Melodies and atonal riffs pop up in the best of places.	NOUN	0
+rev0026	0	Melodies and atonal riffs pop up in the best of places.	ADJ	2
+rev0026	0	Melodies and atonal riffs pop up in the best of places.	NOUN	3
+rev0026	1	Melodies and atonal riffs pop up in the best of places.	VERB	4
+rev0026	0	Melodies and atonal riffs pop up in the best of places.	ADJ	8
+rev0026	1	Melodies and atonal riffs pop up in the best of places.	NOUN	10
+rev0029	0	Great for all those oversize boks and magazines.	ADJ	0
+rev0029	0	Great for all those oversize boks and magazines.	ADJ	4
+rev0029	0	Great for all those oversize boks and magazines.	NOUN	5
+rev0029	0	Great for all those oversize boks and magazines.	NOUN	7
+rev0044	0	It is colorful and handy, folding up in to object about the size of a large book with handles.	ADJ	2
+rev0044	0	It is colorful and handy, folding up in to object about the size of a large book with handles.	ADJ	4
+rev0044	0	It is colorful and handy, folding up in to object about the size of a large book with handles.	VERB	5
+rev0044	0	It is colorful and handy, folding up in to object about the size of a large book with handles.	VERB	9
+rev0044	0	It is colorful and handy, folding up in to object about the size of a large book with handles.	NOUN	12
+rev0044	0	It is colorful and handy, folding up in to object about the size of a large book with handles.	ADJ	15
+rev0044	0	It is colorful and handy, folding up in to object about the size of a large book with handles.	NOUN	16
+rev0044	0	It is colorful and handy, folding up in to object about the size of a large book with handles.	NOUN	18
+rev0052	0	It does smell like dirt or onions not totally gross but not fresh and clean smelling.	VERB	2
+rev0052	0	It does smell like dirt or onions not totally gross but not fresh and clean smelling.	NOUN	4
+rev0052	0	It does smell like dirt or onions not totally gross but not fresh and clean smelling.	NOUN	6
+rev0052	0	It does smell like dirt or onions not totally gross but not fresh and clean smelling.	ADV	8
+rev0052	0	It does smell like dirt or onions not totally gross but not fresh and clean smelling.	ADJ	9
+rev0052	0	It does smell like dirt or onions not totally gross but not fresh and clean smelling.	ADJ	12
+rev0052	0	It does smell like dirt or onions not totally gross but not fresh and clean smelling.	ADJ	14
+rev0052	0	It does smell like dirt or onions not totally gross but not fresh and clean smelling.	NOUN	15
+rev0053	0	Any fan of old school Angra needs this.	NOUN	1
+rev0053	0	Any fan of old school Angra needs this.	ADJ	3
+rev0053	1	Any fan of old school Angra needs this.	NOUN	4
+rev0053	0	Any fan of old school Angra needs this.	VERB	6
+rev0054	0	It cranked smoothly and the baitfeeding lever tripped effortlessly.	VERB	1
+rev0054	0	It cranked smoothly and the baitfeeding lever tripped effortlessly.	ADV	2
+rev0054	0	It cranked smoothly and the baitfeeding lever tripped effortlessly.	VERB	5
+rev0054	0	It cranked smoothly and the baitfeeding lever tripped effortlessly.	NOUN	6
+rev0054	1	It cranked smoothly and the baitfeeding lever tripped effortlessly.	VERB	7
+rev0054	0	It cranked smoothly and the baitfeeding lever tripped effortlessly.	ADV	8
+rev0055	0	Overall everything went perfect and from now on this is the only tape I'm gonna buy.	ADJ	0
+rev0055	1	Overall everything went perfect and from now on this is the only tape I'm gonna buy.	VERB	2
+rev0055	0	Overall everything went perfect and from now on this is the only tape I'm gonna buy.	ADJ	3
+rev0055	0	Overall everything went perfect and from now on this is the only tape I'm gonna buy.	ADV	6
+rev0055	0	Overall everything went perfect and from now on this is the only tape I'm gonna buy.	ADJ	11
+rev0055	0	Overall everything went perfect and from now on this is the only tape I'm gonna buy.	NOUN	12
+rev0055	0	Overall everything went perfect and from now on this is the only tape I'm gonna buy.	VERB	14
+rev0055	0	Overall everything went perfect and from now on this is the only tape I'm gonna buy.	VERB	15
+rev0060	0	Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player.	VERB	3
+rev0060	0	Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player.	ADV	4
+rev0060	0	Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player.	ADJ	5
+rev0060	0	Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player.	NOUN	6
+rev0060	0	Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player.	ADJ	9
+rev0060	0	Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player.	NOUN	10
+rev0060	0	Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player.	NOUN	11
+rev0060	0	Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player.	ADJ	17
+rev0060	0	Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player.	NOUN	18
+rev0060	0	Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player.	ADJ	20
+rev0060	0	Okay sure you have very limited gameplay in the first person mode but hey, CS is a online game not single player.	NOUN	21
+rev0061	0	I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand...	ADV	1
+rev0061	0	I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand...	VERB	2
+rev0061	0	I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand...	VERB	5
+rev0061	0	I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand...	ADV	7
+rev0061	0	I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand...	ADV	8
+rev0061	0	I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand...	VERB	11
+rev0061	0	I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand...	NOUN	13
+rev0061	0	I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand...	VERB	15
+rev0061	0	I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand...	ADV	16
+rev0061	0	I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand...	ADJ	18
+rev0061	0	I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand...	NOUN	19
+rev0061	0	I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand...	ADJ	20
+rev0061	0	I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand...	NOUN	23
+rev0061	1	I never thought I would use these as much as I do, any job is made just a little bit easier with these bits on hand...	NOUN	25
+rev0074	0	However, I have this installed on my storage room in the kitchen, so the noise is not an issue.	ADV	0
+rev0074	0	However, I have this installed on my storage room in the kitchen, so the noise is not an issue.	VERB	2
+rev0074	0	However, I have this installed on my storage room in the kitchen, so the noise is not an issue.	VERB	4
+rev0074	0	However, I have this installed on my storage room in the kitchen, so the noise is not an issue.	NOUN	7
+rev0074	0	However, I have this installed on my storage room in the kitchen, so the noise is not an issue.	NOUN	8
+rev0074	0	However, I have this installed on my storage room in the kitchen, so the noise is not an issue.	NOUN	11
+rev0074	0	However, I have this installed on my storage room in the kitchen, so the noise is not an issue.	NOUN	14
+rev0074	0	However, I have this installed on my storage room in the kitchen, so the noise is not an issue.	NOUN	18
