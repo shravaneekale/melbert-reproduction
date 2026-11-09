@@ -47,12 +47,18 @@ If the word has only one sense in the dictionary, or the contextual sense *is* t
 * Use the **note** field for anything surprising (e.g. "basic sense of *drive* = control a vehicle").
 * Take a break every ~150 items. Fatigue lowers agreement.
 
-## Agreement and adjudication
+## Agreement and adjudication (as carried out)
 
-* A1 (primary annotator) labels **every** item.
-* A2 independently labels the **double-annotated subset** (30% of sentences, stratified by domain).
-* We report Cohen's κ (overall, per domain, per POS). For comparison, the VUAMC reliability tests report Fleiss' κ of about 0.85 between four trained annotators (Steen et al., 2010). Non-expert annotators typically reach lower agreement (κ ≈ 0.65–0.72 when MIPVU has been applied to other languages).
-* Disagreements are listed in `data/annotation/adjudication.csv`. Both annotators discuss each one, re-check the dictionary, and record the final label and a short reason. The adjudicated label becomes gold.
+* **Hand-annotated subset:** 40 sentences (20 reviews, 20 arXiv; random, seed 8240), giving 388 targets (`data/annotation/items_subset.csv`).
+* **A1 (author):** labelled every subset target with `src/annotate.py`. A first pilot pass treated conventional metaphors as literal and was discarded; it is kept as `labels_A1_pilot.csv`.
+* **A2 (second human, volunteer):** labelled the same 388 targets blind, in a different random order (`--seed 2`).
+* **LLM1 (Claude) and LLM2 (ChatGPT):** labelled all targets blind with the MIPVU prompt in `src/llm_judge.py`.
+* **Agreement:** Cohen's κ, computed with `src/agreement.py`.
+  * A1 vs A2 = 0.44.
+  * A1 vs LLM1 = 0.15.
+  * A2 vs LLM1 = 0.07.
+* **Adjudication:** every A1–LLM1 disagreement (45) was resolved by A1, who reviewed an LLM-suggested MIPVU analysis for each one. The decision and a reason are recorded in `data/annotation/adjudication.csv`, and the adjudicated label became gold.
+* **Comparison point:** the VUAMC reliability tests report Fleiss' κ of about 0.85 between four trained annotators (Steen et al., 2010).
 
 ## Reference
 
